@@ -68,13 +68,13 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
-}
+    color: whitesmoke;
+   }
 
 #hero-image {
-    height: 600px;
+    height: 650px;
     width: 100%;
-    background: url(/workspace/Cockapoo-Club/assets/css/images/hero-image1.jpg) no-repeat center center;
+    background: url(../css/images/hero-image2) no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -93,7 +93,7 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -101,15 +101,21 @@ h1, h2 {
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 70px;
+    padding-left: 70px;
 
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(113, 18, 238, 50);
 
     bottom: 30px;
     right: 150px;
 
     position: absolute;
+    border-radius: 50%;
+}
+
+.mapouter {
+    border:rgb(113, 18, 238)
+
 }
 
 /* footer */
@@ -130,5 +136,5 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: rgb(113, 18, 238);
 }
