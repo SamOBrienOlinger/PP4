@@ -113,6 +113,10 @@ h1, h2 {
     border-radius: 50%;
 }
 
+.main-sections {
+    font-size: 50px;
+}
+
 .mapouter {
     border:rgb(113, 18, 238)
 
