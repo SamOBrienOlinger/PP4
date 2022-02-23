@@ -1,6 +1,6 @@
 # Cockapoo-Club
 
-This website provides a local 1-stop-shop for all kinds of inromation about Cockapoos, one of Ireland's most popular dogs. 
+This website provides a local 1-stop-shop for all kinds of information about Cockapoos, one of Ireland's most popular dogs. 
 The site targets people who have or are thinking about getting a cockapoo. 
 For people who will become cockapoo owners for the first time the 'New Cockaparents' section provides a set of FAQs and links to other relevant evidence-based websites.
 For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. This section consists of relevant information and and links to other relevant evidence-based websites.
