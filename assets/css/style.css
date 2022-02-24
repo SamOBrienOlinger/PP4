@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-}
+ }
 
 body {
     font-family: Lato, sans-serif;
@@ -17,7 +17,7 @@ body {
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
 }
 
@@ -50,7 +50,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;
 }
 
 .active {
@@ -96,7 +96,7 @@ h1, h2 {
     font-size: 100%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 
     width: 300px;
     height: 200px;
@@ -118,6 +118,17 @@ h1, h2 {
     text-align: center;
     margin: 20px 0;
     font-size: 180%;
+    letter-spacing: 2px;
+}
+
+#new-page-intro {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    margin: 20px;
+    font-size: 180%;
+    text-align: center;
 }
 
 .main-sections {
@@ -130,9 +141,10 @@ h1, h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    font-size: large;
+    font-size: 30px;
     font-weight: bold;
-    }
+    }      
+
 #new-cockaparents {
     background-image: url('../css/images/new-new-cockaparents.jfif');
     background-repeat: no-repeat;
@@ -160,8 +172,10 @@ h1, h2 {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    color: rgb(113, 18, 238);
-}
+    text-align: left;
+    font-size: 40px;
+    text-decoration-color: whitesmoke
+  }
 
 #map {
     display: inline-block;
@@ -170,7 +184,17 @@ h1, h2 {
 }
 .mapouter {
     border:rgb(113, 18, 238)
+    padding-top: 30px;
 
+}
+
+#clubhouse-map {
+    display: inline-block;
+    position: relative;
+    padding: 25px 0 25px 33%;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(113, 18, 238)
 }
 
 /* footer */
@@ -181,6 +205,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    font-size: larger;
 }
 
 .social-networks > li {
