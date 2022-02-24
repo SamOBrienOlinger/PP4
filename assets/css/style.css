@@ -31,7 +31,7 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #menu, #logo {
@@ -130,6 +130,8 @@ h1, h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
     }
 #new-cockaparents {
     background-image: url('../css/images/new-new-cockaparents.jfif');
@@ -139,6 +141,7 @@ h1, h2 {
     width: 50%;
     overflow: hidden;
     float: left;
+    color: rgb(113, 18, 238);
 }
 
 #keep-your-poo-healthy {
@@ -157,6 +160,7 @@ h1, h2 {
     background-position: center;
     width: 100%;
     overflow: hidden;
+    color: rgb(113, 18, 238);
 }
 
 #map {
