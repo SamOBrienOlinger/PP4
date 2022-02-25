@@ -186,9 +186,8 @@ h1, h2 {
     padding-left: 35%;
 }
 .mapouter {
-    border:rgb(113, 18, 238)
+    border:rgb(113, 18, 238);
     padding-top: 30px;
-
 }
 
 #clubhouse-map {
