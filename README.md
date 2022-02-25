@@ -16,3 +16,5 @@ Hero image: https://unsplash.com/photos/KVeogBZzl4M
 new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
 Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
 Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
+girl running with dog on beach: https://pixabay.com/photos/girl-child-young-reflection-sand-2430745/
+girl playing with dog on grass: https://pixabay.com/photos/girl-smiling-happy-young-smile-1647566/ 
