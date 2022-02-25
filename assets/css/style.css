@@ -182,6 +182,16 @@ h1, h2 {
     text-decoration-color: whitesmoke
   }
 
+#join-cockapoo-club {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    margin: 20px;
+    font-size: 180%;
+    text-align: center;
+}
+
 #map {
     display: inline-block;
     position: relative;
