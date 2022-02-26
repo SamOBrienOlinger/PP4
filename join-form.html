@@ -57,43 +57,56 @@
 
     <div>
         <span>
-            <h1>Join Cockapoo Club now to win a year's supply of treats for your furry freind</h1>
-            <p>Complete our survey for your chance to win!</p>
+            <h1>Join Cockapoo Club now and you could win a year's supply of treats for your furry freind</h1>
+            <p>To join and have a chance to win, simply complete our survey!</p>
 
   <hr>
 
-	<form action="https://formdump.codeinstitute.net" method="POST">
-	
-		<label for="Name">Name</label>
-				<input id="name-field" type="text">
-
-		<label for="email-field">Email</label>
-		
-		    <input id="email-field" type="email">
-	
-		<input type="submit">
-	</form>
-        </span>
-    </div>
-
-<section>
-    <form method="post" action="https://formdump.codeinstitute.net/">
-        <input type="text" name="postdata">
-    </form> 
-    <form method="get" target="_blank" action="https://formdump.codeinstitute.net/">
-        <input type="text" name="getdata">
+  <section class="form-section">
+    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <h2>Join us here!</h2>
+            <label for="fname">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+             <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" type="text"  name="last_name" required />
+            <label for="email">Email Address</label>
+            <input id="email" class="text-input" type="email" name="email_address" required/>
+            
+        <label for="road">Road</label>
+            <input id="road" type="radio" name ="running_preference" value="road" required/>
+        <label for="trail">Trail</label>
+            <input id="trail" type="radio" name="running_preference" value="trail"/>
+        <label for="both">Both</label>
+            <input id="both" type="radio" name="running_preference" value="both"/>
+            <input class="join-button"  type="submit" value="Let's Run!"/>
+        
     </form>
-</section>
-<form>
-    <label for="name">Name</label>
-    <input id="name" type="text">
-    <input type="text">
-    <input type="checkbox">
-    <input type="radio">
-    <input type="submit">
-</form>
+        
 </section>
 </body>
 </main>
+<footer>
+    <ul class="social-networks">
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        </li>
+        <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </li>
+    </ul>
+</footer>
+
+<!-- font awesome script  -->
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
 </html>
