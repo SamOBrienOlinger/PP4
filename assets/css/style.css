@@ -163,6 +163,14 @@ h1, h2 {
     color: rgb(113, 18, 238);
 }
 
+.new-cockaparents-text {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
 #keep-your-poo-healthy {
     background-image: url('../css/images/healthy-boy.jpg');
     background-repeat: no-repeat;
