@@ -238,22 +238,40 @@ footer {
     color: rgb(113, 18, 238);
 }
 
+#join-text {
+    text-align: center;
+}
 .form-section {
     clear: left;
-    background: url("#");
+    background-image: url("../css/images/benji-couch.jfif");
     background-size: cover;
     background-position: center;
     height: 900px;
-}
+   }
+
+.choose {
+        line-height: 2;
+        font-size: large;
+ }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 50px 0 30% 28%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    text-align: center;
+}
+
+#simply {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+p#simply {
+    font-size: 25px;
 }
 
 .signup-form > h2 {
@@ -277,10 +295,11 @@ footer {
 
 .join-button {
     margin-top: 20px;
+    margin-left: 55px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
     background-color: rgb(113, 18, 238);
     color: #fafafa;
     display: block;

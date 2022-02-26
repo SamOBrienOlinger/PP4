@@ -56,29 +56,38 @@
     </div>
 
     <div>
-        <span>
+        <span id="join-text">
             <h1>Join Cockapoo Club now and you could win a year's supply of treats for your furry freind</h1>
-            <p>To join and have a chance to win, simply complete our survey!</p>
-
+            
+        </span>
   <hr>
 
   <section class="form-section">
     <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-        <h2>Join us here!</h2>
+        <h2>Complete your contact details!</h2>
+            
+           
             <label for="fname">First Name</label>
                 <input id="fname" class="text-input" type="text" name="first_name" required />
              <label for="lname">Last Name</label>
                 <input id="lname" class="text-input" type="text"  name="last_name" required />
             <label for="email">Email Address</label>
-            <input id="email" class="text-input" type="email" name="email_address" required/>
+            <input id="email" class="text-input" type="email" name="email_address" required/><hr>
             
-        <label for="road">Road</label>
-            <input id="road" type="radio" name ="running_preference" value="road" required/>
-        <label for="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail"/>
-        <label for="both">Both</label>
-            <input id="both" type="radio" name="running_preference" value="both"/>
-            <input class="join-button"  type="submit" value="Let's Run!"/>
+       <p id="simply">To join and have a chance to win, simply complete our survey!</p><hr>
+        <div class="choose">
+        <h3>Choose one of the following answers</h3>
+        <label for="one-cockapoo">I have 1 Cockapoo at home</label>
+            <input id="one-cockapoo" type="radio" name ="running_preference" value="one" required/><hr>
+        
+        <label for="two-cockapoo">I have 2 Cockapoos at home</label>
+            <input id="two-cockapoo" type="radio" name="running_preference" value="two"/><hr>
+        
+        <label for="both">I have 3 or more Cockapoos at home</label>
+            <input id="three-cockapoos" type="radio" name="running_preference" value="three"/><hr>
+        </div>
+
+        <input class="join-button"  type="submit" value="Join Cockapoo Club!"/>
         
     </form>
         
