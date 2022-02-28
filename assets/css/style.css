@@ -322,3 +322,20 @@ p#simply {
     background-color: #fafafa;
     color: rgb(113, 18, 238);
 }
+
+.signup-form #fname {
+    text-align: center;
+    color: rgb(113, 18, 238);
+}
+
+.signup-form #lname {
+    text-align: center;
+    color: rgb(113, 18, 238);
+}
+
+.signup-form #email {
+    text-align: center;}
+
+::placeholder {
+color: #fafafa;
+}
