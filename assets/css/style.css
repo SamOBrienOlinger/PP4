@@ -19,7 +19,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-}
+    }
 
 #logo {
     position: relative;
@@ -195,8 +195,6 @@ h1, h2 {
     overflow: hidden;
 }
 
-
-
 #join-cockapoo-club {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -251,9 +249,16 @@ footer {
     color: rgb(113, 18, 238);
 }
 
+p#join-text {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #join-text {
     text-align: center;
-}
+    }
+
 .form-section {
     clear: left;
     background-image: url("../css/images/benji-couch2.jfif");
@@ -285,6 +290,8 @@ footer {
 
 p#simply {
     font-size: 25px;
+    padding: 30px;
+    margin: 0;
 }
 
 .signup-form > h2 {
