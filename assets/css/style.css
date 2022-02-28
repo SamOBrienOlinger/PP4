@@ -323,19 +323,30 @@ p#simply {
     color: rgb(113, 18, 238);
 }
 
-.signup-form #fname {
-    text-align: center;
-    color: rgb(113, 18, 238);
-}
-
-.signup-form #lname {
-    text-align: center;
-    color: rgb(113, 18, 238);
-}
-
-.signup-form #email {
-    text-align: center;}
-
 ::placeholder {
-color: #fafafa;
+color: rgb(113, 18, 238);;
+text-align: center;
 }
+
+.signup-form label {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#fun-fotos {
+        clear: both;
+        line-height: 0;
+        column-count: 3;
+        column-gap: 0;
+    }
+    
+    #fun-fotos > img {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1200px) {
+        #club-ethos {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
