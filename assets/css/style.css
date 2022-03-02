@@ -134,7 +134,7 @@ h1, h2 {
     letter-spacing: 2px;
     color: #252525;
     margin: 20px;
-    font-size: 180%;
+    font-size: 280%;
     text-align: center;
 }
 
@@ -287,7 +287,13 @@ p#join-text {
 
 #join-text {
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
     }
+
+#furry-fun-fotos-join {
+    margin-bottom: 25px;
+}
 
 .form-section {
     clear: left;
