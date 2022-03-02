@@ -147,8 +147,8 @@ h1, h2 {
     overflow: hidden;
     text-align: left;
     font-size: 55px;
-    padding-left: 30px;
-    padding-top: 275px;
+    padding-left: 85px;
+    padding-top: 225px;
     text-decoration-color: whitesmoke
     
   }
@@ -180,11 +180,11 @@ h1, h2 {
 
 .new-cockaparents-text {
     font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-weight: 800;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-}
+   }
 
 #keep-your-poo-healthy {
     background-image: url('../css/images/healthy-boy.jpg');
@@ -194,6 +194,14 @@ h1, h2 {
     width: 50%;
     overflow: hidden;
 }
+
+.keep-your-poo-healthy-text {
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+   }
 
 #join-cockapoo-club {
     font-family: Oswald, sans-serif;
@@ -205,15 +213,37 @@ h1, h2 {
     text-align: center;
 }
 
+
 #map {
     display: inline-block;
     position: relative;
     padding-left: 35%;
 }
-.mapouter {
-    border:rgb(113, 18, 238);
-    padding-top: 30px;
-}
+
+..gmap_canvas {
+        overflow:hidden;
+    
+        padding-bottom:56.25%;
+    
+        position:relative;
+    
+        height:0;
+    
+    }
+    
+    .mapouter iframe{
+    
+        left:0;
+    
+        top:0;
+    
+        height:100%;
+    
+        width:100%;
+    
+        position:absolute;
+    
+    }
 
 #clubhouse-map {
     display: inline-block;
