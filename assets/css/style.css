@@ -213,18 +213,6 @@ h1, h2 {
     text-align: center;
 }
 
-
-#map {
-    display: inline-block;
-    position: relative;
-    padding-left: 35%;
-}
- 
-.mapouter {
-    text-align: center;
-    height: 600px;
-    width: 600px;
-}
 #clubhouse-map {
     display: inline-block;
     position: relative;
@@ -236,6 +224,12 @@ h1, h2 {
     letter-spacing: 2px;
     color: #252525;
     text-align: center;
+}
+
+.mapouter {
+    text-align: center;
+    height: 600px;
+    width: 600px;
 }
 
 /* footer */
