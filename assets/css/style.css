@@ -219,31 +219,7 @@ h1, h2 {
     position: relative;
     padding-left: 35%;
 }
-
-..gmap_canvas {
-        overflow:hidden;
-    
-        padding-bottom:56.25%;
-    
-        position:relative;
-    
-        height:0;
-    
-    }
-    
-    .mapouter iframe{
-    
-        left:0;
-    
-        top:0;
-    
-        height:100%;
-    
-        width:100%;
-    
-        position:absolute;
-    
-    }
+ 
 
 #clubhouse-map {
     display: inline-block;
@@ -383,9 +359,9 @@ text-align: center;
         column-gap: 0;
     }
     
-    #fun-fotos > img {
+#fun-fotos > img {
         width: 100%;
-    }
+}
 
     @media screen and (max-width: 1200px) {
         #club-ethos {
@@ -393,3 +369,4 @@ text-align: center;
             height: 1200px;
             margin: 0 auto;
         }
+    }
