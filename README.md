@@ -2,9 +2,9 @@
 
 This website provides a local 1-stop-shop for all kinds of information about Cockapoos, one of Ireland's most popular dogs. 
 The site targets people who have or are thinking about getting a cockapoo. 
-For people who will become cockapoo owners for the first time the 'New Cockaparents' section provides a set of FAQs and links to other relevant evidence-based websites.
-For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. This section consists of relevant information and and links to other relevant evidence-based websites.
-The 'Furry Fun' section is for users to peruse and upload images of their pet, providing a gallery of images. 
+For people who will become cockapoo owners for the first time the 'New Cockaparents' section provides a set of FAQs and links to other relevant evidence-based websites that will help new owners plan and adjust to their new member of the family.
+For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. This section consists of relevant information and and links to other relevant evidence-based websites to help owners take care of the health needs of their pet.
+The 'Furry Fun' section is for users to peruse and upload images of their pet. This section provides a gallery of shared images. 
 
 
 
