@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     border: none;
  }
@@ -178,13 +178,30 @@ h1, h2 {
     color: rgb(113, 18, 238);
 }
 
-.new-cockaparents-text {
+#new-cockaparents-text {
     font-family: Lato, sans-serif;
     font-weight: 800;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-   }
+    height: 100vh;
+
+    background-color: aqua;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-items: center;
+}
+
+.ncpt-1 {
+    display: flex;
+    background-color: chocolate;
+
+}
+
+/*Keep Your Poo Healthy page*/
 
 #keep-your-poo-healthy {
     background-image: url('../css/images/healthy-boy.jpg');
@@ -351,28 +368,34 @@ text-align: center;
     font-weight: 800;
 }
 
-#fun-fotos {
-        clear: both;
-        line-height: 1;
-        column-count: 3;
-        column-gap: 1;
-}
-    
-#fun-fotos > img {
-    width: 100%;
-}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
 
-.img {
-        float: left;
-        width:  100px;
-        height: 100px;
-        background-size: cover;
+.fun-fotos {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    display: flex;
+}
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
     }
-
-    @media screen and (max-width: 1200px) {
-        #club-ethos {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
     }
+}
