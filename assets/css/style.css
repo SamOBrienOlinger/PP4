@@ -185,20 +185,21 @@ h1, h2 {
     line-height: 25px;
     font-size: 20px;
     height: 100vh;
-
-    background-color: aqua;
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-bottom: 25px;
     justify-items: center;
 }
 
 .ncpt-1 {
-    display: flex;
+    flex: 1;
     background-color: chocolate;
+}
 
+.ncpt-1:first-child {
+    margin-right: 20px;
 }
 
 /*Keep Your Poo Healthy page*/
