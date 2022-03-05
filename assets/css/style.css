@@ -57,6 +57,7 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+    background-color: rgb(113, 18, 238, 0.1);
 }
 
 /* hero image and cover text */
@@ -200,6 +201,11 @@ h1, h2 {
 
 .ncpt-1:first-child {
     margin-right: 20px;
+}
+
+.ncpt-2 ul {
+    list-style-type: none;
+    font-weight: 800;
 }
 
 /*Keep Your Poo Healthy page*/
