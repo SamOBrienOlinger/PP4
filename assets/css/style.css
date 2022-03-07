@@ -177,6 +177,7 @@ h1, h2 {
     overflow: hidden;
     float: left;
     color: rgb(113, 18, 238);
+    height: 600px;
 }
 
 #new-cockaparents-text {
@@ -217,6 +218,7 @@ h1, h2 {
     background-position: center;
     width: 50%;
     overflow: hidden;
+    height: 600px;
 }
 
 .keep-your-poo-healthy-text {
@@ -235,6 +237,7 @@ h1, h2 {
     margin: 20px;
     font-size: 180%;
     text-align: center;
+    float: none;
 }
 
 /*map*/
@@ -268,6 +271,14 @@ h1, h2 {
 
 table {
     border-spacing: 2;
+    padding-bottom: 20px;
+}
+
+h5 {line-height: 10px;}
+
+#or {
+    line-height: 2.5em;
+    font-size: small;
 }
 
 /* footer */
@@ -410,13 +421,5 @@ text-align: center;
     .column {
       flex: 50%;
       max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
     }
 }
