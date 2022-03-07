@@ -383,13 +383,13 @@ text-align: center;
 */
 
 .fun-fotos {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
-    display: flex;
 }
+
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
