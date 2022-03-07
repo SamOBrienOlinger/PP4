@@ -242,8 +242,8 @@ h1, h2 {
 #clubhouse-map {
     display: inline-block;
     position: relative;
-    padding: 25px 0 25px 35%;
-    font-size: 25px;
+    padding: 25px 0 25px 38%;
+    font-size: 20px;
     font-weight: bold;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -261,9 +261,13 @@ h1, h2 {
 
 .text-center {
     color: #252525;
-    line-height: 2;
+    line-height: 1;
     inline-size: -webkit-fill-available;
     font-weight: 100;
+}
+
+table {
+    border-spacing: 2;
 }
 
 /* footer */
