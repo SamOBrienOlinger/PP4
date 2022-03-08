@@ -246,10 +246,10 @@ flex-shrink: 1;
 
 /*map*/
 
-#clubhouse-map {
+.clubhouse-map {
     display: inline-block;
     position: relative;
-    padding: 25px 0 25px 38%;
+    padding: 25px 0 25px 28%;
     font-size: 20px;
     font-weight: bold;
     font-family: Oswald, sans-serif;
