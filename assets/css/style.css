@@ -92,7 +92,7 @@ flex-shrink: 1;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 9s;
     animation-fill-mode: forwards;
 }
 
@@ -102,7 +102,7 @@ flex-shrink: 1;
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(2);
     }
 }
 
@@ -117,7 +117,7 @@ flex-shrink: 1;
     padding-top: 100px;
     background-color: rgba(113, 18, 238, 50);
     bottom: 30px;
-    right: 150px;
+    right: 200px;
     position: absolute;
     border-radius: 50%;
     line-height: 90px;
@@ -182,27 +182,23 @@ flex-shrink: 1;
         background-position: center;
         width: 50%;
         overflow: hidden;
-        float: left;
+        float: center;
         color: rgb(113, 18, 238);
         height: 600px;
 }
 
 .container-new-cockaparents {
     display: flex;
-    gap: 2rem
     margin: 0;
     padding: 0;
+    flex-direction: row;
 }
 
 .new-cockaparents-text {
-    font-family: Lato, sans-serif;
-    font-weight: 800;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-    height: 100vh;
-    
-    flex-direction: column;
+           
     align-items: center;
     margin-bottom: 25px;
     justify-items: center;
