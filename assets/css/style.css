@@ -39,6 +39,7 @@ h1, h2 {
     padding: 0;
     list-style: none;
     text-align: center;
+    font-size: 150%;
 }
 
 .menu, #logo {
@@ -172,19 +173,28 @@ flex-shrink: 1;
     font-weight: bold;
     }      
 
+    /* new cockaparents page*/
+
 #new-cockaparents {
-    background-image: url('../css/images/new-new-cockaparents.jfif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-    overflow: hidden;
-    float: left;
-    color: rgb(113, 18, 238);
-    height: 600px;
+        background-image: url('../css/images/new-new-cockaparents.jfif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        overflow: hidden;
+        float: left;
+        color: rgb(113, 18, 238);
+        height: 600px;
 }
 
-#new-cockaparents-text {
+.container-new-cockaparents {
+    display: flex;
+    gap: 2rem
+    margin: 0;
+    padding: 0;
+}
+
+.new-cockaparents-text {
     font-family: Lato, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -192,25 +202,14 @@ flex-shrink: 1;
     font-size: 20px;
     height: 100vh;
     
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
     justify-items: center;
-}
 
-.ncpt-1 {
-    flex: 1;
-    background-color: chocolate;
-}
-
-.ncpt-1:first-child {
-    margin-right: 20px;
-}
-
-.ncpt-2 ul {
-    list-style-type: none;
-    font-weight: 800;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 /*Keep Your Poo Healthy page*/
@@ -286,7 +285,7 @@ h5 {line-height: 10px;}
 
 #or {
     line-height: 2.5em;
-    font-size: small;
+    font-size: 85%;
 }
 
 /* footer */
