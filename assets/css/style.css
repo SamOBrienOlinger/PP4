@@ -185,13 +185,14 @@ flex-shrink: 1;
         float: center;
         color: rgb(113, 18, 238);
         height: 600px;
+        outline: solid;
 }
 
 .container-new-cockaparents {
     display: flex;
     margin: 0;
     padding: 0;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .new-cockaparents-text {
@@ -206,6 +207,11 @@ flex-shrink: 1;
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 1;
+    padding: 0 100px;
+}
+
+.new-cockaparents-text ul {
+    list-style: none;
 }
 
 /*Keep Your Poo Healthy page*/
@@ -218,15 +224,24 @@ flex-shrink: 1;
     width: 50%;
     overflow: hidden;
     height: 600px;
+    outline-color: rgb(113, 18, 238);
+    outline: solid;
 }
 
 .keep-your-poo-healthy-text {
-    font-family: Lato, sans-serif;
-    font-weight: 800;
     text-align: center;
     line-height: 25px;
     font-size: 20px;
-   }
+           
+    align-items: center;
+    margin-bottom: 25px;
+    justify-items: center;
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0 100px;
+}
 
 #join-cockapoo-club {
     font-family: Oswald, sans-serif;
