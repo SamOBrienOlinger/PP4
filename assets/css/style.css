@@ -30,28 +30,32 @@ h1, h2 {
 
 /* navigation links */
 
-#menu {
-    font-size: 125%;
-    letter-spacing: 2px;
-    margin-right: 350px;
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
-#menu, #logo {
+.menu, #logo {
     line-height: 100px;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 75px;
+.menu li {
+flex-grow: 1;
+flex-shrink: 1;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 2px solid #3a3a3a;
 }
 
@@ -250,7 +254,7 @@ h1, h2 {
     font-weight: bold;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #252525;
     text-align: center;
     line-height: 2;
@@ -267,6 +271,10 @@ h1, h2 {
     line-height: 1;
     inline-size: -webkit-fill-available;
     font-weight: 100;
+}
+
+#free-supports {
+    font-size: large; outline-style:groove ; outline-width: .5em; outline-color: blueviolet;
 }
 
 table {
