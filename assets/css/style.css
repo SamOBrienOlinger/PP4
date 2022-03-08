@@ -284,7 +284,11 @@ flex-shrink: 1;
 }
 
 #free-supports {
-    font-size: large; outline-style:groove ; outline-width: .5em; outline-color: blueviolet;
+    font-size: large; 
+    outline-style:groove; 
+    outline-width: thin;
+    width: 450px; 
+    outline-color: blueviolet;
 }
 
 table {
