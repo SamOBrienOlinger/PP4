@@ -9,7 +9,6 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
 }
 
 /* headings and logo */
@@ -226,6 +225,15 @@ flex-shrink: 1;
     height: 600px;
     outline-color: rgb(113, 18, 238);
     outline: solid;
+    color: #fafafa;
+    outline-color: #3a3a3a;
+}
+
+.container-keep-your-cockapoo-healthy {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
 }
 
 .keep-your-poo-healthy-text {
@@ -324,6 +332,8 @@ footer {
     padding: 5%;
     color: rgb(113, 18, 238);
 }
+
+/*Join page*/
 
 p#join-text {
     color: #fafafa;
