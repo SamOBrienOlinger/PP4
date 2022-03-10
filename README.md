@@ -3,9 +3,14 @@
 This website provides users with a 1-stop-shop for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. 
 The site targets people in Ireland 
 
-*Who already have a Cockapoo and need more information about taking care of their dog. 
-*Who are thinking about getting one and require more information to make their decision. 
-*Who are Cockapoo owners and want to connect with and learn from other Cockapoo owners, by creating their own community.  
+* Who already have a Cockapoo and need more information about taking care of their dog. 
+
+* Who are thinking about getting one and require more information to make their decision. 
+
+* Who are Cockapoo owners and want to connect with and learn from other Cockapoo owners, by creating their own community.  
+
+![Alt text](assets/css/images/README.md-Hero-Image.jpg?raw=true "hero image with nav bar on homepage")
+
 
 
 
