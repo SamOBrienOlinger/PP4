@@ -1,10 +1,12 @@
-# Cockapoo-Club
+# Cockapoo Club
 
-This website provides a local 1-stop-shop for all kinds of information about Cockapoos, one of Ireland's most popular dogs. 
-The site targets people who have or are thinking about getting a cockapoo. 
-For people who will become cockapoo owners for the first time the 'New Cockaparents' section provides a set of FAQs and links to other relevant evidence-based websites.
-For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. This section consists of relevant information and and links to other relevant evidence-based websites.
-The 'Furry Fun' section is for users to peruse and upload images of their pet, providing a gallery of images. 
+This website provides users with a 1-stop-shop for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. 
+The site targets people in Ireland 
+
+*Who already have a Cockapoo and need more information about taking care of their dog. 
+*Who are thinking about getting one and require more information to make their decision. 
+*Who are Cockapoo owners and want to connect with and learn from other Cockapoo owners, by creating their own community.  
+
 
 
 

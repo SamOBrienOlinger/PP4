@@ -117,7 +117,7 @@ flex-shrink: 1;
     padding-top: 100px;
     background-color: rgba(113, 18, 238, 50);
     bottom: 30px;
-    right: 200px;
+    right: 100px;
     position: absolute;
     border-radius: 50%;
     line-height: 90px;
@@ -336,7 +336,7 @@ footer {
 
 /*Join page*/
 
-p#join-text {
+p #join-text {
     color: #fafafa;
     font-size: 30px;
     font-weight: 600;
@@ -381,7 +381,7 @@ p#join-text {
     text-align: center;
 }
 
-p#simply {
+p #simply {
     font-size: 25px;
     padding: 30px;
     margin: 0;
