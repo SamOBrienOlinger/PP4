@@ -29,7 +29,17 @@ The hero image and also has cover text of >JOIN COKCAPOO CLUB with an immediate 
 
 ![Alt text](assets/css/images/README.md-Join-Cockapoo-Club-Cover-Text.jpg?raw=true "cover text with internal link to Join page")  
 
+To avoid the illusion of completeness there are images visible above the fold area:
+
+![Alt text](assets/css/images/Above-the-fold.jpg?raw=true "homepage and visible images above the fold area")
+
+**Content on Home**
+
 The main element is divided into three sections with different purposes and value for the user, depending on what kind of inforamtion they are looking for. Free to use background images were used for each of the [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc), [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) and [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg) options to choose from.     
+
+After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The area about the clubhouse lists some of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this community:
+
+![Alt text](assets/css/images/README.md-clubhouse-training-centre-map.jpg?raw=true "clubhouse map")
 
 
 **New Cockaparents**
