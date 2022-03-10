@@ -159,6 +159,10 @@ flex-shrink: 1;
     
   }
 
+  span #keep-your-poo-healthy.main-sections {
+      outline: none;
+  }
+
 .main-sections {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -170,7 +174,7 @@ flex-shrink: 1;
     border: 2px solid white;
     box-sizing: border-box;
     font-size: 55px;
-    font-weight: bold;
+    font-weight: 1000;
     }      
 
     /* new cockaparents page*/
@@ -220,7 +224,7 @@ flex-shrink: 1;
     background-image: url('../css/images/healthy-boy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-y: bottom 10px;
     width: 50%;
     overflow: hidden;
     height: 600px;
@@ -336,20 +340,16 @@ footer {
 
 /*Join page*/
 
-p #join-text {
-    color: #fafafa;
-    font-size: 30px;
-    font-weight: 600;
-}
-
 #join-text {
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
+    color: white;
     }
 
 #furry-fun-fotos-join {
     margin-bottom: 25px;
+    color: #252525;
 }
 
 .form-section {
@@ -379,9 +379,6 @@ p #join-text {
 #simply {
     margin-bottom: 35px;
     text-align: center;
-}
-
-p #simply {
     font-size: 25px;
     padding: 30px;
     margin: 0;
