@@ -148,20 +148,6 @@ flex-shrink: 1;
     text-align: center;
 }
 
-#furry-fun {
-    background-image: url('../css/images/furry-fun.jfif');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 45%;
-    width: 100%;
-    overflow: hidden;
-    text-align: left;
-    font-size: 55px;
-    padding-left: 85px;
-    padding-top: 225px;
-    text-decoration-color: whitesmoke
-}
-
 .main-sections {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
@@ -176,6 +162,27 @@ flex-shrink: 1;
     font-weight: 1000;
 }      
 
+.homepage-container {
+    display: flex;
+    margin: 2em;
+    padding: 0;
+    flex-direction: row;
+    text-align: center;
+}
+
+.homepage-anchors-row {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.homepage-anchors-column {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1;
+}
+
     /* new cockaparents page*/
 
 #new-cockaparents {
@@ -183,7 +190,7 @@ flex-shrink: 1;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 50%;
+        width: 750px;
         overflow: hidden;
         float: center;
         color: rgb(113, 18, 238);
@@ -254,7 +261,7 @@ article.new-cockaparents-text-3 {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 50%;
+    width: 750px;
     overflow: hidden;
     height: 600px;
     outline: solid;
@@ -297,17 +304,7 @@ article.new-cockaparents-text-3 {
 
 /*map*/
 
-.clubhouse-map {
-    position: relative;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #252525;
-    text-align: center;
-    line-height: 2;
-}
+
 
 .mapouter {
     text-align: center;
@@ -472,6 +469,8 @@ text-align: center;
 * Browsers: last 4 version
 */
 
+/*furry-fun-fotos-gallery page*/
+
 .fun-fotos {
     min-height: 100vh;
     display: flex;
@@ -480,7 +479,19 @@ text-align: center;
     margin-bottom: 25px;
 }
 
-  
+#furry-fun {
+    background-image: url('../css/images/furry-fun.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 750px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 55px;
+
+    text-decoration-color: whitesmoke;
+    outline-color: rgb(113, 18, 238);
+    outline-style: solid;
+} 
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
