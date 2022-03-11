@@ -21,6 +21,10 @@ h1, h2 {
     text-align: center;
     }
 
+h3 {
+    text-align: center;
+}
+
 #logo {
     position: relative;
     font-size: 280%;
@@ -39,7 +43,7 @@ h1, h2 {
     padding: 0;
     list-style: none;
     text-align: center;
-    font-size: 150%;
+    font-size: 225%;
 }
 
 .menu, #logo {
@@ -156,9 +160,7 @@ flex-shrink: 1;
     padding-left: 85px;
     padding-top: 225px;
     text-decoration-color: whitesmoke
-    
-  }
-
+}
 
 .main-sections {
     color: #fafafa;
@@ -172,7 +174,7 @@ flex-shrink: 1;
     box-sizing: border-box;
     font-size: 55px;
     font-weight: 1000;
-    }      
+}      
 
     /* new cockaparents page*/
 
@@ -295,10 +297,6 @@ article.new-cockaparents-text-3 {
 
 /*map*/
 
-h3 {
-    text-align: center;
-}
-
 .clubhouse-map {
     position: relative;
     font-size: 20px;
@@ -322,6 +320,7 @@ h3 {
     line-height: 1;
     inline-size: -webkit-fill-available;
     font-weight: 100;
+    margin-top: 20px;
 }
 
 #free-supports {
@@ -331,25 +330,26 @@ h3 {
     width: 650px; 
     outline-color: blueviolet;
     text-align: center;
+    margin-top: 20px;
 }
 
 ul {
     list-style: none;
+    font-size: 30px;
 }
 
 table {
-    border-spacing: 2;
     padding-bottom: 20px;
-    overflow-x:auto; border-spacing: 20px;
-}
-
-h5 {line-height: 10px;
+    overflow-x:auto; 
+    border-spacing: 20px;
 }
 
 #or {
-    line-height: 2.5em;
-    font-size: 85%;
-}
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+    }
 
 /* footer */
 
