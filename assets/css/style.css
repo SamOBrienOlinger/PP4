@@ -291,6 +291,13 @@ article.new-cockaparents-text-3 {
     padding: 0 100px;
 }
 
+#video iframe {
+    width: 650px; 
+    height: 400px; 
+    outline-style: solid;
+    outline-color: rgb(113, 18, 238);
+}
+
 #join-cockapoo-club {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -313,14 +320,15 @@ article.new-cockaparents-text-3 {
 
 .gmap_canvas {overflow: hidden; 
               padding-top: 10px; 
-              background-color: rgb(113, 18, 238); 
-              height: 410px; 
-              width: 415px;
+              outline-color: #252525; 
+              outline-style: solid;
+              height: 500px; 
+              width: 650px;
 } 
 
 iframe {
-    width: 400px;
-    height: 400px;
+    width: 650px;
+    height: 600px;
 }
 
 .text-center {
@@ -375,7 +383,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 260%;
     margin: 1%;
     padding: 5%;
     color: rgb(113, 18, 238);
@@ -482,6 +490,7 @@ text-align: center;
 
 /*furry-fun-fotos-gallery page*/
 
+
 .fun-fotos {
     min-height: 100vh;
     display: flex;
@@ -505,6 +514,7 @@ text-align: center;
     outline-color: rgb(113, 18, 238);
     outline-style: solid;
 } 
+
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
