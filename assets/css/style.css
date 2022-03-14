@@ -192,10 +192,10 @@ flex-shrink: 1;
         background-position: center;
         width: 750px;
         overflow: hidden;
-        float: center;
         color: rgb(113, 18, 238);
         height: 600px;
         outline: solid;
+        font-weight: 1000;
 }
 
 article.new-cockaparents-text {
@@ -304,12 +304,23 @@ article.new-cockaparents-text-3 {
 
 /*map*/
 
-
-
 .mapouter {
     text-align: center;
     height: 600px;
     width: 600px;
+    position: relative; 
+}
+
+.gmap_canvas {overflow: hidden; 
+              padding-top: 10px; 
+              background-color: rgb(113, 18, 238); 
+              height: 410px; 
+              width: 415px;
+} 
+
+iframe {
+    width: 400px;
+    height: 400px;
 }
 
 .text-center {
@@ -485,8 +496,10 @@ text-align: center;
     background-position: center;
     width: 750px;
     overflow: hidden;
-    text-align: left;
+    text-align: center;
     font-size: 55px;
+    background-position-y: 27%;
+    background-position-x: right;
 
     text-decoration-color: whitesmoke;
     outline-color: rgb(113, 18, 238);

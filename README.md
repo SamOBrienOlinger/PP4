@@ -126,21 +126,31 @@ The webiste consists of five webapges:
 
 ### **Deployment**
 
+- The site was deployed to GitHub pages using the following steps:
+
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here: /*   */
 
 
 
 ### **Credits**
 
-  
+ - __Content__
 
 
+   - Technologies used include: 
+   
+     - Font-awesome ("Font Awesome 5 Brands")    
+     - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
+     - @keyframes hero-zoom 
+     - @media screen and (max-width: 800px)   
 
+ - __Images__
 
-
-
-Links:
-
-Hero image: https://unsplash.com/photos/KVeogBZzl4M 
-new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
-Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
-Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
+   - Hero image: https://unsplash.com/photos/KVeogBZzl4M 
+   - new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
+   - Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
+   - Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
