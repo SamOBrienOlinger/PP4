@@ -398,14 +398,14 @@ footer {
  }
 
 .signup-form {
-    margin: 50px 0 30% 28%;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: sticky;
     left: 10%;
     padding: 30px;
     text-align: center;
+    margin-top: 30px;
 }
 
 #simply {
