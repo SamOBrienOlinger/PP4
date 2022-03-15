@@ -23,6 +23,7 @@ h1, h2 {
 
 h3 {
     text-align: center;
+    padding-top: 25px;
 }
 
 #logo {
@@ -233,6 +234,7 @@ article.new-cockaparents-text-2 {
 article.new-cockaparents-text-2 ul {
     list-style: none;
 }
+
 .new-cockaparents-text-2 {
     text-align: center;
     line-height: 45px;
@@ -278,7 +280,7 @@ article.new-cockaparents-text-3 {
 
 .keep-your-poo-healthy-text {
     text-align: center;
-    line-height: 40px;
+    line-height: 55px;
     font-size: 30px;
            
     align-items: center;
@@ -352,6 +354,7 @@ iframe {
 ul {
     list-style: none;
     font-size: 30px;
+    line-height: 45px;
 }
 
 table {

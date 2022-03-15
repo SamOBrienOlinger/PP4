@@ -140,13 +140,23 @@ The live link can be found here: /*   */
 
  - __Content__
 
+   - information was gathered from the following websites:
+
+      - https://zigzag.dog/guide-how-to-train-cockapoo-puppy/ 
+      - https://www.hillspet.com/new-pet-parent/dog#faqs
+      - https://en.wikipedia.org/wiki/Cockapoo 
+      - https://youtu.be/Fe-sa9mHcxI 
 
    - Technologies used include: 
    
      - Font-awesome ("Font Awesome 5 Brands")    
      - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
      - @keyframes hero-zoom 
-     - @media screen and (max-width: 800px)   
+     - @media screen and (max-width: 800px)
+     - Prefixed by https://autoprefixer.github.io
+        * PostCSS: v8.3.6,
+        * Autoprefixer: v10.3.1
+        * Browsers: last 4 version   
 
  - __Images__
 
@@ -154,3 +164,15 @@ The live link can be found here: /*   */
    - new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
    - Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
    - Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
+
+ - __Video__
+
+    - https://youtu.be/Fe-sa9mHcxI 
+
+ - __Acknowledgements__
+
+   - The README template provided y Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
+
+   - A number of Code Institute Tutors and students were very suportive via slack: 
+
+     - 
