@@ -39,7 +39,6 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
     margin: 0;
     padding: 0;
     list-style: none;
@@ -76,7 +75,6 @@ flex-shrink: 1;
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -191,7 +189,7 @@ flex-shrink: 1;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 750px;
+        width: 600px;
         overflow: hidden;
         color: rgb(113, 18, 238);
         height: 600px;
@@ -263,7 +261,7 @@ article.new-cockaparents-text-3 {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 750px;
+    width: 600px;
     overflow: hidden;
     height: 600px;
     outline: solid;
@@ -506,22 +504,32 @@ text-align: center;
     background-image: url('../css/images/furry-fun.jfif');
     background-repeat: no-repeat;
     background-position: center;
-    width: 750px;
+    width: 600px;
     overflow: hidden;
     text-align: center;
     font-size: 55px;
-    background-position-y: 27%;
-    background-position-x: right;
+    background-position-y: 30%;
+    background-position-x: 75%;
 
     text-decoration-color: whitesmoke;
     outline-color: rgb(113, 18, 238);
     outline-style: solid;
 } 
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
       max-width: 50%;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 950px) {
+
+    }

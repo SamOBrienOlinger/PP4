@@ -47,7 +47,21 @@ The webiste consists of five webapges:
 
 - __Content on Home page__
 
-  - The main element is divided into three sections with different purposes and value for the user, depending on what kind of information they are looking for. Free to use background images were used for each of the three main options that bring the user to a new page within the website: [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc), [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) and [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg).     
+  - The main element is divided into three sections with different purposes and value for the user, depending on what kind of information they are looking for. 
+  
+   - Free to use background images were used for each of the three main options that bring the user to a new page within the website: 
+  
+     - [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc)
+
+        ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
+   
+      - [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) 
+
+        ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)  
+    
+       - [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg).     
+
+          ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
@@ -56,7 +70,7 @@ The webiste consists of five webapges:
 
 - __New Cockaparents page__
 
-    ![New Cockaparents page image](assets/css/images/new-new-cockaparents.jfif)
+    ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc) webapge provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
@@ -64,7 +78,7 @@ The webiste consists of five webapges:
 
 - __Keep Your Poo Health page__
 
-    ![Keep your poo healthy page image](assets/css/images/healthy-boy.jpg)
+    ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)
 
   - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) provdes the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
 
@@ -73,7 +87,7 @@ The webiste consists of five webapges:
 
 - __Furry Fun Foto Gallery page__
 
-    ![Furry Fun Foto Gallery page image](assets/css/images/furry-fun.jfif)
+    ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
 
   - The 'Furry Fun' section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
@@ -91,11 +105,13 @@ The webiste consists of five webapges:
 
 - __The Footer__ 
 
-    ![Footer](assets/css/images/Footer.jpg)
+    ![Footer](assets/css/images/Footer.jpg) 
 
-  - The footer section includes links to the relevant social media sites for Cockapoo Club. The links will open to a new tab to allow easy navigation for the user.
+  - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user.
 
-  - The footer is valuable to the user as it encourages them to stay connected within their community via social media
+  - The footer is valuable to the user as it encourages them to stay connected with their community and fellow Cokcapoo Club members via social media.
+
+   - The footoer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
 
 
 ### **Features Left to Implement**
@@ -173,6 +189,9 @@ The live link can be found here: /*   */
 
    - The README template provided y Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
 
-   - A number of Code Institute Tutors and students were very suportive via slack: 
+   - A number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat: 
 
+     - Ionut Ciobanu
+     - DavidK_5P
+     - David Bowers_5p_lead
      - 
