@@ -189,10 +189,10 @@ flex-shrink: 1;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        width: 600px;
+        width: 37rem;
         overflow: hidden;
         color: rgb(113, 18, 238);
-        height: 600px;
+        height: 37rem;
         outline: solid;
         font-weight: 1000;
 }
@@ -261,9 +261,9 @@ article.new-cockaparents-text-3 {
     background-repeat: no-repeat;
     background-size: cover;
     
-    width: 600px;
+    width: 37rem;
     overflow: hidden;
-    height: 600px;
+    height: 37rem;
     outline: solid;
     color: #3a3a3a;
     outline-color: #3a3a3a;
@@ -290,6 +290,23 @@ article.new-cockaparents-text-3 {
     flex-shrink: 1;
     padding: 0 100px;
 }
+
+#furry-fun {
+    background-image: url('../css/images/furry-fun.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 37rem;
+    height: 37rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: 55px;
+    background-position-y: 30%;
+    background-position-x: 75%;
+
+    text-decoration-color: whitesmoke;
+    outline-color: rgb(113, 18, 238);
+    outline-style: solid;
+} 
 
 #video iframe {
     width: 650px; 
@@ -319,7 +336,6 @@ article.new-cockaparents-text-3 {
 }
 
 .gmap_canvas {overflow: hidden; 
-              padding-top: 10px; 
               outline-color: #252525; 
               outline-style: solid;
               height: 500px; 
@@ -328,7 +344,7 @@ article.new-cockaparents-text-3 {
 
 iframe {
     width: 650px;
-    height: 600px;
+    height: 500px;
 }
 
 .text-center {
@@ -500,36 +516,37 @@ text-align: center;
     margin-bottom: 25px;
 }
 
-#furry-fun {
-    background-image: url('../css/images/furry-fun.jfif');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 600px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 55px;
-    background-position-y: 30%;
-    background-position-x: 75%;
-
-    text-decoration-color: whitesmoke;
-    outline-color: rgb(113, 18, 238);
-    outline-style: solid;
-} 
+/*Responsiveness*/
 
   @media screen and (max-width: 800px) {
+    #body-home {
+        max-width: -webkit-fill-available;
+    }
+    
     .column {
       flex: 50%;
       max-width: 50%;
     }
 }
 
+@media screen and (max-width: 950px) {
+        #body-home {
+            max-width: -webkit-fill-available;
+        }
+
+    }
+
 @media screen and (max-width: 1200px) {
+    
+    #body-home {
+        max-width: -webkit-fill-available;
+
+    }
+    
     #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    @media screen and (max-width: 950px) {
-
-    }
+}
