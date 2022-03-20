@@ -519,92 +519,14 @@ text-align: center;
 
 /*Media Query for Mobile Devices */
 
-@media screen and (max-width: 480px) {
+@media (min-width: 320px) {
 
-    html {
-        font-size: 8px;
+    head {
+        margin: 0;
     }
 
-    section {
-        font-size: 60%;
-        margin-right: 1.5rem;
+    body {
+        margin: 0;
     }
 
-    ul.menu {
-        gap: 1rem;
-        text-align: center;
-        font-size: 1.5rem;
-        margin-left: 2rem;
-    }
-
-    .menu {
-         margin: 0;
-         padding: 0;
-         list-style: none;
-         text-align: center;
-         display: block;
-    }
-
-    .menu, #logo {
-        line-height: 5rem;
-    }
-
-    #hero-image {
-        height: 55vh;
-        width: 45%;
-        background: url(../css/images/new-hero.jfif) no-repeat center center;
-        animation-name: hero-zoom;
-        animation-duration: 9s;
-        background-size: contain;
-        animation-fill-mode: forwards;
-    }
-
-    #hero-outer {
-        height: 30vh;
-        width: 100%;
-        position: relative;
-        display: inline-block;
-        overflow: visible;
-    }
-
-    #cover-text {
-        font-size: 85%;
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        width: 20%;
-        height: 20%;
-        padding-left: 6rem;
-        padding-top: 6rem;
-        background-color: rgba(113, 18, 238, 50);
-        bottom: 6rem;
-        right: 12rem;
-        position: absolute;
-        border-radius: 50%;
-    }
-
-    #join {
-        text-align: center;
-        line-height: 1rem;
-        margin-left: -4rem;
-    }
-
-    main {
-        margin-top: -12rem;
-    }
-
-    #new-page-intro {
-        font-family: Oswald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #252525;
-        /* margin: 35%; */
-        margin-top: 30%;
-        font-size: 90%;
-        text-align: center;
-        width: fit-content;
-        margin-left: 45%;
-        margin-right: 45%;
-        margin-bottom: 5%;
-    }
 }
