@@ -47,12 +47,14 @@ h3 {
 }
 
 .menu, #logo {
-    line-height: 100px;
+    line-height: unset;
 }
 
 .menu li {
-flex-grow: 1;
-flex-shrink: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 1.2rem;
+    padding: 10px;
 }
 
 .menu a {
@@ -525,7 +527,7 @@ text-align: center;
     .menu li {
         flex-grow: 1;
         flex-shrink: 1;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         padding: 10px;
     }
 
@@ -537,10 +539,7 @@ text-align: center;
 @media (max-width: 800px) {
     
     .menu li {
-        flex-grow: 1;
-        flex-shrink: 1;
-        font-size: 1.2rem;
-        padding: 10px;
+        display: block;
     }
 
     .menu, #logo {
@@ -552,10 +551,7 @@ text-align: center;
 @media (max-width: 500px) {
     
     .menu li {
-        flex-grow: 1;
-        flex-shrink: 1;
-        font-size: 1.2rem;
-        padding: 10px;
+        display: block;
     }
 
     .menu, #logo {
@@ -565,6 +561,7 @@ text-align: center;
     .homepage-container {
         flex-direction: column;
         width: 30vw;
+        margin: 1rem;
     }
 
     .homepage-anchors-row {
@@ -572,6 +569,7 @@ text-align: center;
         width: 30vw;
         object-fit: cover;
         display: block;
+        margin: 1rem;
     }
 
     .homepage-anchors-column {
@@ -580,5 +578,6 @@ text-align: center;
         width: 30vw;
         object-fit: cover;
         display: block;
+        margin: 1rem;
     }
 }
