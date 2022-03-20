@@ -156,12 +156,23 @@ The live link can be found here: /*   */
 
  - __Content__
 
-   - information was gathered from the following websites:
+   - information and text was gathered from the following websites:
 
       - https://zigzag.dog/guide-how-to-train-cockapoo-puppy/ 
       - https://www.hillspet.com/new-pet-parent/dog#faqs
       - https://en.wikipedia.org/wiki/Cockapoo 
       - https://youtu.be/Fe-sa9mHcxI 
+
+
+    - Instructions on how to construct form validation on the join-form.html page was taken from the Code Institute Love Running Project module. 
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
 
    - Technologies used include: 
    
@@ -183,15 +194,15 @@ The live link can be found here: /*   */
 
  - __Video__
 
-    - https://youtu.be/Fe-sa9mHcxI 
+    - The YouTube video embedded in keep-your-poo-healthy.html was taken from https://www.hillspet.com: https://youtu.be/Fe-sa9mHcxI 
 
  - __Acknowledgements__
 
    - The README template provided y Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
 
    - A number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat: 
-
-     - Ionut Ciobanu
+     
      - DavidK_5P
      - David Bowers_5p_lead
      - Eventyret_mentor
+     - Ionut Ciobanu
