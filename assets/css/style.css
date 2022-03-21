@@ -546,6 +546,14 @@ text-align: center;
 
 @media (max-width: 400px) {
 
+    main {
+        width: 335px;
+    }
+
+    #logo {
+        margin: 0;
+    }
+
     #hero-outer {
         height: 350px;
         width: 335px;
@@ -561,6 +569,7 @@ text-align: center;
     }
     
     #cover-text {
+        /*position of text is off
             font-size: 10%;
             font-family: Oswald, sans-serif;
             text-transform: uppercase;
@@ -574,18 +583,27 @@ text-align: center;
             right: 25px;
             position: sticky;
             border-radius: 50%;
-        }
+            */
+            display: none;
+    }
 
+    #new-page-intro {
+        font-size: 80%;
+    }
     .menu li {
         display: block;
     }
 
     .homepage-container {
           flex-wrap: wrap;
+          margin: 0;
     }
 
     #new-cockaparents {
         width: 335px;
+        font-size: 30px;
+        background-position-x: left;
+        background-size: cover;
     }
 
     .new-cockaparents-text {
@@ -596,15 +614,22 @@ text-align: center;
 
     #keep-your-poo-healthy {
         width: 335px;
+        background-position-x: center;
+        background-position-y: center;
+        font-size: 30px;
+        background-size: cover;
     }
 
     #furry-fun {
         width: 335px;
+        font-size: 30px;
+        background-position-x: 70%;
     }
 
     .clubhouse-map {
             width: 300px;
-            margin: 2rem;
+            padding-top: 25px;
+            font-size: 70%;
     }
 
     .gmap_canvas {
