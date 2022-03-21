@@ -87,6 +87,8 @@ The webiste consists of five webapges:
 
 - __Furry Fun Foto Gallery page__
 
+    IN MD This feature is currently hidden 
+
     ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
 
   - The 'Furry Fun' section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
@@ -136,6 +138,8 @@ The webiste consists of five webapges:
     Y
 
 - __Unfixed Bugs__
+
+                       Gallery hidden 
 
 
 Cedits:

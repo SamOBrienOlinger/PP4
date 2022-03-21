@@ -36,8 +36,8 @@ h3 {
 /* navigation links */
 
 .menu {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     gap: 1rem;
     margin: 0;
     padding: 0;
@@ -51,10 +51,11 @@ h3 {
 }
 
 .menu li {
-    flex-grow: 1;
-    flex-shrink: 1;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
     font-size: 1.2rem;
     padding: 10px;
+    display: inline-block;
 }
 
 .menu a {
@@ -170,10 +171,11 @@ h3 {
 
 .homepage-container {
     display: flex;
-    margin: 2em;
+    margin: 1.3rem;
     padding: 0;
     flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .homepage-anchors-row {
@@ -218,12 +220,15 @@ article.new-cockaparents-text-2 {
     padding: 0;
     flex-direction: column;
     text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .new-cockaparents-text {
     text-align: center;
     line-height: 40px;
     font-size: 30px;
+    width: 100%;
            
     align-items: center;
     margin-bottom: 25px;
@@ -539,25 +544,70 @@ text-align: center;
 
 /*Media Query for Mobile Devices */
 
-@media (max-screen-width: 400px) {
+@media (max-width: 400px) {
 
-    main#main-home {
-            
-            margin: 1rem;
-            display: flex;
-            flex-direction: column;
-            width: 80vw
-        }
-    
-        .new-cockaparents-text-2 {
-            text-align: center;
-            font-size: 10vw;
-            align-items: center;
-            margin-bottom: 3%;
-            justify-items: center;
-            flex-wrap: wrap;
-            flex-grow: 1;
-            flex-shrink: 1;
-            margin-left: 3.5rem;
-        }
+    .menu li {
+        display: block;
     }
+
+    .homepage-container {
+          flex-wrap: wrap;
+    }
+
+    #new-cockaparents {
+        width: 335px;
+    }
+
+    .new-cockaparents-text {
+
+        padding: 0;
+        width: 335px;
+
+    }
+
+    #keep-your-poo-healthy {
+        width: 335px;
+    }
+
+
+    #furry-fun {
+        width: 335px;
+    }
+
+    .clubhouse-map {
+            width: 300px;
+            margin: 2rem;
+        }
+
+    .gmap_canvas {
+        width: 315px;
+        margin-right: 10px;
+    }
+
+    #free-supports {
+        width: 315px;
+    }
+
+    ul {
+        font-size: 18px;
+    }
+
+    article.new-cockaparents-text-2 {
+        font-size: 20px;
+        width: 335px;
+    }
+ 
+    footer { 
+        width: 335px;
+        font-size: 10px;
+    }
+
+    #or {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        width: 320px;
+    }
+}
