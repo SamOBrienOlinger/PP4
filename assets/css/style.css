@@ -546,6 +546,36 @@ text-align: center;
 
 @media (max-width: 400px) {
 
+    #hero-outer {
+        height: 350px;
+        width: 335px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #hero-image {
+        background-size: contain;
+        height: 600px;
+        width: 100%;
+        background-position-y: 100px;
+    }
+    
+    #cover-text {
+            font-size: 10%;
+            font-family: Oswald, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            width: 80%;
+            height: 17px;
+            padding-left: 20px;
+            padding-top: 100px;
+            background-color: rgba(113, 18, 238, 50);
+            bottom: 2px;
+            right: 25px;
+            position: sticky;
+            border-radius: 50%;
+        }
+
     .menu li {
         display: block;
     }
@@ -562,13 +592,11 @@ text-align: center;
 
         padding: 0;
         width: 335px;
-
     }
 
     #keep-your-poo-healthy {
         width: 335px;
     }
-
 
     #furry-fun {
         width: 335px;
@@ -577,7 +605,7 @@ text-align: center;
     .clubhouse-map {
             width: 300px;
             margin: 2rem;
-        }
+    }
 
     .gmap_canvas {
         width: 315px;
