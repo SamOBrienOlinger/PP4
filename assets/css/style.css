@@ -227,8 +227,8 @@ article.new-cockaparents-text-2 {
 
 .new-cockaparents-text {
     text-align: center;
-    line-height: 40px;
-    font-size: 30px;
+    line-height: 30px;
+    font-size: 20px;
     width: 100%;
            
     align-items: center;
@@ -244,27 +244,14 @@ article.new-cockaparents-text-2 {
 
 article.new-cockaparents-text-2 ul {
     list-style: none;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .new-cockaparents-text-2 {
-
-    /*origninal style
-    text-align: center;
-    line-height: 45px;
-    font-size: 30px;
-   
-    align-items: center;
-    margin-bottom: 25px;
-    justify-items: center;
-   
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    padding: 0 100px;
-    margin: inherit */
-
         text-align: center;
-        font-size: 2vw;
+        font-size: 20px;
+        line-height: 30px;
         align-items: center;
         margin-bottom: 3%;
         justify-items: center;
@@ -585,9 +572,11 @@ text-align: center;
     }
 
     #new-page-intro {
-        font-size: 80%;
-        width: 90%;
-    }
+            font-size: 20px;
+            width: 90%;
+            line-height: 1.5rem;
+            margin-bottom: auto;
+        }
   
     .menu li {
         display: block;
@@ -612,6 +601,8 @@ text-align: center;
 
         padding: 0;
         width: 335px;
+        line-height: 2rem;
+        font-size: 20px;
     }
 
     #keep-your-poo-healthy {
@@ -690,12 +681,70 @@ text-align: center;
             align-items: center;
         }
 
-        section.form-section {
-            background-repeat: no-repeat;
-            background-size: cover;
+        .keep-your-poo-healthy-text {
+            text-align: center;
+            line-height: 55px;
+            font-size: 20px;
+            align-items: center;
+            margin-bottom: 25px;
+            justify-items: center;
             width: 325px;
-            overflow: hidden;
-            height: 1100px;
+            margin: 0;
+            padding: 0;
+        }
+
+        article.keep-your-poo-healthy-text {
+            line-height: 30px;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            width: 300px;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .container-new-cockaparents {
+            line-height: 2rem;
+        }
+
+        div#or {
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            width: 320px;
+        }
+
+        p#jump-to-fffg {
+            font-size: 25px;
+        }
+
+        #furry-fun-fotos-join {
+            font-size: 20px;
+        }
+
+        .fun-fotos {
+            min-height: 100vh;
+            align-items: center;
+            margin-bottom: 25px;
+            display: block;
+            width: 325px;
+        }
+
+        img {
+            width: 325px;
+        }
+        section.form-section {
+   
+            width: 325px;
+            height: 1000px;
+        }
+
+        .form-section {
+            background-image: none;
         }
 
         .signup-form {
@@ -705,6 +754,39 @@ text-align: center;
             position: unset;
             text-align: center;
             margin-top: 30px;
-            height: 10px;
+            height: 750px;
+        }
+
+        h3 {
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .signup-form label {
+            font-size: 15px;
+            font-weight: 800;
+            margin: initial;
+        }
+
+        .join-button {
+            margin-top: 20px;
+            margin-left: 0;
+            border-radius: 2px;
+            text-align: center;
+            font-size: 140%;
+            background-color: rgb(113, 18, 238);
+            color: #fafafa;
+            display: block;
+        }
+
+        span#join-text {
+
+            font-size: 20px;
+            width: 325px;
+            color:rgb(113, 18, 238)
+        }
+
+        #video iframe {
+            width: 325px;
         }
     }
