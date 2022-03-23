@@ -540,7 +540,7 @@ h2 a {
 
 /*Media Query for Mobile Devices */
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
 
     #logo {
         margin: 0;
@@ -802,8 +802,19 @@ h2 a {
         }
     }
 
-    @media and (min-width: 401 max-width: 550px) {
+    @media screen and (min-width: 401) and (max-width: 470px) {
     
+        #hero-outer {
+            width: 39rem;
+        }
+    
+        #page-intro {
+            font-size: 2rem;
+        }
+
+        span#new-cockaparents {
+            width: 22rem;
+        }
     }
 
     @media and (min-width 551px) {
