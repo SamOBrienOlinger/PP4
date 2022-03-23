@@ -528,6 +528,14 @@ text-align: center;
     margin-bottom: 25px;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+h2 a {
+    color: rgb(113, 18, 238);
+}
 /*Responsiveness*/
 
 /*Media Query for Mobile Devices */
@@ -540,7 +548,7 @@ text-align: center;
 
     #hero-outer {
         height: 350px;
-        width: 335px;
+        width: 90%;
         overflow: hidden;
         position: relative;
     }
@@ -590,11 +598,12 @@ text-align: center;
     }
 
     #new-cockaparents {
-        width: 335px;
+        padding-left: 5%;
+        width: 90%;
         font-size: 30px;
         background-position-x: left;
         background-size: cover;
-        margin: 1.7rem;
+        margin: 1rem;
     }
 
     .new-cockaparents-text {
@@ -606,19 +615,21 @@ text-align: center;
     }
 
     #keep-your-poo-healthy {
-        width: 335px;
+        padding-left: 5%;
+        width: 90%;
         background-position-x: center;
         background-position-y: center;
         font-size: 30px;
         background-size: cover;
-        margin: 1.7rem;
+        margin: 1rem;
     }
 
     #furry-fun {
-        width: 335px;
+        padding-left: 5%;
+        width: 90%;
         font-size: 30px;
         background-position-x: 70%;
-        margin: 1.7rem;
+        margin: 1rem;
     }
 
     .clubhouse-map {
@@ -789,4 +800,16 @@ text-align: center;
         #video iframe {
             width: 325px;
         }
+    }
+
+    @media and (min-width: 401 max-width: 550px) {
+    
+    }
+
+    @media and (min-width 551px) {
+    
+    }
+    
+    @media and (min-width 1226px) {
+    
     }
