@@ -374,18 +374,13 @@ a {
     color: rgba(113, 18, 238);
 }
 
-div#free-supports {
-    font-size: 1.7rem;
-    width: 100vw;
-}
-
 #free-supports {
     font-size: large; 
     outline-style:groove; 
     outline-width: thin; 
     outline-color: blueviolet;
     text-align: center;
-    width: 25rem;
+    width: 100vw;
 }
 
 ul {
