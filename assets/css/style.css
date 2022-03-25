@@ -176,17 +176,21 @@ div#new-page-intro.clubhouse-map {
 
 .homepage-container {
     display: flex;
-    margin: 1.3rem;
+    margin: 2rem;
     padding: 0;
     flex-direction: row;
     text-align: center;
     flex-wrap: wrap;
+    width: 98rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .homepage-anchors-row {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 1;
+    width: 22rem;
 }
 
 .homepage-anchors-column {
@@ -194,6 +198,7 @@ div#new-page-intro.clubhouse-map {
     flex-grow: 1;
     flex-shrink: 1;
     flex: 1;
+    width: 22rem;
 }
 
     /* new cockaparents page*/
