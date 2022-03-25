@@ -89,7 +89,7 @@ div#cover-text {
 }
 
 #cover-text, #cover-text h2 {
-    color: whitesmoke;
+    color: white;
     text-align: center;
     }
 
@@ -326,7 +326,7 @@ article.new-cockaparents-text-3 {
     background-position-y: 30%;
     background-position-x: 75%;
 
-    text-decoration-color: whitesmoke;
+    text-decoration-color: white;
     outline-color: rgb(113, 18, 238);
     outline-style: solid;
 } 
@@ -351,13 +351,6 @@ article.new-cockaparents-text-3 {
 
 /*map*/
 
-.mapouter {
-    text-align: center;
-    height: 600px;
-    width: 600px;
-    position: relative; 
-}
-
 .gmap_canvas {overflow: hidden; 
               outline-color: #252525; 
               outline-style: solid;
@@ -366,8 +359,8 @@ article.new-cockaparents-text-3 {
 } 
 
 iframe {
-    width: 650px;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .text-center {
@@ -656,7 +649,7 @@ h2 a {
     }
 
     iframe {
-        width: 325px;
+        width: 25rem;
     }
 
     #free-supports {
@@ -669,7 +662,7 @@ h2 a {
 
     article.new-cockaparents-text-2 {
         font-size: 20px;
-        width: 335px;
+        width: 19rem;
     }
  
     footer { 
@@ -730,6 +723,7 @@ h2 a {
 
         .container-new-cockaparents {
             line-height: 2rem;
+            width: 20rem;
         }
 
         div#or {
@@ -824,8 +818,39 @@ h2 a {
             font-size: 2rem;
         }
 
-        span#new-cockaparents {
-            width: 22rem;
+        .homepage-container {
+            display: contents;
+            width: 100vw;
+    }
+
+    #new-cockaparents {
+        padding-left: 5%;
+        width: 90%;
+        font-size: 30px;
+        background-position-x: left;
+        background-size: cover;
+        margin: 1rem;
+    }
+    span#new-cockaparents {
+            width: 20rem;
+        }
+
+    #keep-your-poo-healthy {
+            padding-left: 5%;
+            width: 90%;
+            background-position-x: center;
+            background-position-y: center;
+            font-size: 30px;
+            background-size: cover;
+            margin: 1rem;
+        }
+
+        #furry-fun {
+            padding-left: 5%;
+            width: 90%;
+            font-size: 30px;
+            background-position-x: 70%;
+            margin: 1rem;
         }
     }
 
