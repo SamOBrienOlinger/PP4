@@ -355,7 +355,7 @@ article.new-cockaparents-text-3 {
               outline-color: #252525; 
               outline-style: solid;
               height: 25rem;
-              width: 25rem;
+              width: 90vw;
 } 
 
 iframe {
@@ -370,9 +370,13 @@ iframe {
     font-weight: 100;
 }
 
+a {
+    color: rgba(113, 18, 238);
+}
+
 div#free-supports {
     font-size: 1.7rem;
-    margin: 1rem;
+    width: 100vw;
 }
 
 #free-supports {
@@ -407,6 +411,7 @@ table {
 footer {
     height: 150px;
     font-family: Lato, sans-serif;
+    width: 100vw;
 }
 
 .social-networks {
@@ -702,7 +707,7 @@ h3 {
     }
  
     footer { 
-        width: 335px;
+        width: 100vw;
         font-size: 10px;
     }
 
