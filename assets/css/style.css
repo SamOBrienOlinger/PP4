@@ -598,8 +598,16 @@ h2 a {
     }
 
     .homepage-container {
-          flex-wrap: wrap;
-          margin: 0;
+        display: inline;
+
+    }
+
+   .homepage-anchors-column {
+    width: 90vw;
+    }
+
+   .homepage-anchors-row {
+    width: 90vw;
     }
 
     #new-cockaparents {
@@ -637,6 +645,30 @@ h2 a {
         margin: 1rem;
     }
 
+    div.container-new-cockaparents {
+        /* display: flex; */
+        /* margin: 1rem; */
+        /* padding: 0; */
+        /* flex-direction: column; */
+        /* text-align: center; */
+        /* flex-wrap: nowrap; */
+        /* align-items: center; */
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+article.new-cockaparents-text {
+        background-color: rgba(113, 18, 238, 0.103);
+        height: 31rem;
+        width: 100vw;
+    }
+
+h3 {
+    font-size: 1rem;
+}
     .clubhouse-map {
             width: 300px;
             padding-top: 25px;
@@ -644,8 +676,7 @@ h2 a {
     }
 
     .gmap_canvas {
-        width: 315px;
-        margin-right: 10px;
+        width: 20rem;
     }
 
     iframe {
@@ -653,7 +684,11 @@ h2 a {
     }
 
     #free-supports {
-        width: 315px;
+        width: 20rem;
+    }
+
+    a {
+        color: rgba(113, 18, 238)
     }
 
     ul {
@@ -661,8 +696,9 @@ h2 a {
     }
 
     article.new-cockaparents-text-2 {
-        font-size: 20px;
+        font-size: 1rem;
         width: 19rem;
+        margin: auto;       
     }
  
     footer { 
@@ -724,6 +760,7 @@ h2 a {
         .container-new-cockaparents {
             line-height: 2rem;
             width: 20rem;
+            margin: 0;
         }
 
         div#or {
@@ -774,11 +811,6 @@ h2 a {
             height: 750px;
         }
 
-        h3 {
-            padding: 0;
-            font-size: 16px;
-        }
-
         .signup-form label {
             font-size: 15px;
             font-weight: 800;
@@ -823,7 +855,7 @@ h2 a {
             width: 100vw;
     }
 
-    #new-cockaparents {
+        #new-cockaparents {
         padding-left: 5%;
         width: 90%;
         font-size: 30px;
@@ -831,11 +863,12 @@ h2 a {
         background-size: cover;
         margin: 1rem;
     }
-    span#new-cockaparents {
+    
+        span#new-cockaparents {
             width: 20rem;
         }
 
-    #keep-your-poo-healthy {
+        #keep-your-poo-healthy {
             padding-left: 5%;
             width: 90%;
             background-position-x: center;
