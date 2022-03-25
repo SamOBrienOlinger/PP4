@@ -23,27 +23,23 @@ h1, h2 {
 
 h3 {
     text-align: center;
-    padding-top: 25px;
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 #logo {
-    position: relative;
-    font-size: 280%;
-    margin-left: 30px;
+
+    font-size: 3rem;
     text-align: center;
 }
 
 /* navigation links */
 
 .menu {
-    /* display: flex;
-    flex-wrap: wrap; */
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-align: center;
-    font-size: 225%;
+    font-size: 3rem;
 }
 
 .menu, #logo {
@@ -52,7 +48,7 @@ h3 {
 
 .menu li {
     font-size: 2rem;
-    padding: 30px;
+    padding: 4rem;
     display: inline-block;
 }
 
@@ -426,9 +422,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 260%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 3.5rem;
+    padding: 5rem;
     color: rgb(113, 18, 238);
 }
 
