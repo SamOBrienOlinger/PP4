@@ -220,7 +220,6 @@ div#new-page-intro.clubhouse-map {
 article.new-cockaparents-text {
     background-color: rgba(113, 18, 238, 0.103);
     height: 31rem;
-    width: 100vw;
 }
 
 article.new-cockaparents-text-2 {
@@ -380,7 +379,6 @@ a {
     outline-width: thin; 
     outline-color: blueviolet;
     text-align: center;
-    width: 100vw;
 }
 
 ul {
@@ -406,7 +404,6 @@ table {
 footer {
     height: 150px;
     font-family: Lato, sans-serif;
-    width: 100vw;
 }
 
 .social-networks {
@@ -702,7 +699,6 @@ h3 {
     }
  
     footer { 
-        width: 100vw;
         font-size: 10px;
     }
 

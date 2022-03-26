@@ -212,3 +212,5 @@ The live link can be found here: /*   */
      - David Bowers_5p_lead
      - Eventyret_mentor
      - Ionut Ciobanu
+     - Franciska 
+     - Sean
