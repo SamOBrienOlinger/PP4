@@ -1,107 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
-    margin: auto;
-    padding: 0;
-    border: none;
+    box-sizing: border-box;
  }
 
-main {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
+body {
+    font-family: 'Lato', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    font-weight: 300;   
 }
 
-/* headings and logo */
-
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    text-align: center;
-    }
-
-h3 {
-    text-align: center;
-    font-size: 1.9rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+a {
+    text-decoration: none;
+    color: unset;
 }
 
-#logo {
-
-    font-size: 3rem;
+section {
+    margin: auto;
     text-align: center;
 }
 
-/* navigation links */
+section {
+    margin: auto;
+    text-align: center;
+}
+
+/* Index Page */
+
+#logo,
+#new-page-intro {
+    font-size: 5vmin;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+/* MENU */
 
 .menu {
-    list-style: none;
+    margin: 20px auto;
+    padding: 0;
     text-align: center;
-    font-size: 3rem;
-}
-
-.menu, #logo {
-    line-height: unset;
 }
 
 .menu li {
-    font-size: 2rem;
-    padding: 4rem;
     display: inline-block;
+    margin: -5px;
+    font-size: 2vmax;
+    text-align: center;
+    padding: 20px 1.5%;
 }
 
-.menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.menu a:hover {
-    border-bottom: 2px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-    background-color: rgb(113, 18, 238, 0.1);
-}
-
-/* hero image and cover text */
+/* HERO IMAGE */
 
 #hero-outer {
-    height: 600px;
+    height: 60vh;
+    position: relative;
     width: 100%;
     overflow: hidden;
-    position: relative;
+
 }
 
 #join {
-    line-height: 7vw;
+    line-height: 2vw;
     color: white;
     font-weight: 900;
-    margin-right: 1rem;
-    font-size: 1.5rem;
+    font-size: 1em;
     position: relative;
 }
 
-div#cover-text {
-    text-decoration: none;
-}
-
-#cover-text, #cover-text h2 {
-    color: white;
-    text-align: center;
-    }
-
 #hero-image {
-    height: 650px;
+    height: 100%;
     width: 100%;
-    background: url(../css/images/new-hero.jfif) no-repeat center center;
-
-    /* animates zoom effect on loading page */
     animation-name: hero-zoom;
     animation-duration: 9s;
     animation-fill-mode: forwards;
+    background: url(../css/images/new-hero.jfif) center center no-repeat;
+    background-size: cover;
 }
 
 /* creates the level of zoom for hero image */
@@ -114,727 +89,159 @@ div#cover-text {
     }
 }
 
+
 #cover-text {
-    font-size: 1rem;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 20rem;
-    height: 14rem;
-    padding-left: 1rem;
-    padding-top: 6rem;
-    background-color: rgba(113, 18, 238, 50);
-    bottom: 1rem;
-    right: 3rem;
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(113, 18, 238);
     position: absolute;
     border-radius: 50%;
+    top: 60%;
+    right: 10%;
 }
 
-#intro {
-    position: relative;
-    text-align: center;
-    margin: 20px 0;
-    font-size: 180%;
-    letter-spacing: 2px;
+#cover-text a {
+    font-size: .8rem;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    }
-
-#new-page-intro {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    margin: 20px;
-    font-size: 3rem;
-    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 100%;
+    color: white;
 }
 
-div#new-page-intro.clubhouse-map {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    margin: 20px;
-    font-size: 1.5rem;
-    text-align: center;
+/* 3 Images */
+.homepage-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 30vw;
+    margin: 1rem;
+}
+
+.homepage-container>div {
+    height: 100%;
+    width: 100%;
+    padding: 1%;
 }
 
 .main-sections {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 600px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-    font-size: 55px;
-    font-weight: 1000;
-}      
-
-.homepage-container {
-    display: flex;
-    margin: 2rem;
-    padding: 0;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
-    width: 98rem;
-    align-items: center;
-    justify-content: space-around;
+    height: 30vw;
+    width: 30vw;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 2vmax;
+    font-family: 'Oswald';
 }
 
-.homepage-anchors-row {
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    width: 22rem;
+#keep-your-poo-healthy {
+    background-image: url(../css/images/healthy-boy.jpg);
 }
-
-.homepage-anchors-column {
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex: 1;
-    width: 22rem;
-}
-
-    /* new cockaparents page*/
 
 #new-cockaparents {
-        background-image: url('../css/images/new-new-cockaparents.jfif');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 37rem;
-        overflow: hidden;
-        color: rgb(113, 18, 238);
-        height: 37rem;
-        outline: solid;
-        font-weight: 1000;
+    background-image: url(../css/images/new-new-cockaparents.jfif);
 }
 
-article.new-cockaparents-text {
-    background-color: rgba(113, 18, 238, 0.103);
-    height: 31rem;
+#furry-fun {
+    background-image: url(../css/images/furry-fun.jfif);
+}
+
+/* CLUBHOUSE */
+
+.clubhouse-map {
+    font-size: 2.5vmin !important;
+    letter-spacing: 2px;
+    margin: 60px auto;
+    line-height: 1rem;
+}
+
+.container-new-cockaparents h3 {
+    font-size: 2vmin;
+    padding: 20px 0 0px;
+}
+
+.gmap_canvas {
+    outline-color: rgb(37, 37, 37);
+    outline-style: solid;
+    height: 30rem;
+    width: 30vw;
+    margin: auto;
+}
+
+.new-cockaparents-text {
+    padding-bottom: 50px;
+    background-color: rgba(113, 18, 238, 0.1);
+
+}
+
+#gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* SUPPORTS */
+#free-supports {
+    padding: 40px 0;
+    background-color: white;
+    font-size: 3vmin;
+    line-height: 2.5rem;
 }
 
 article.new-cockaparents-text-2 {
     background-color: rgba(169, 169, 169, 0.199);
 }
 
-.container-new-cockaparents {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: nowrap;
-    align-items: center;
-}
 
-.new-cockaparents-text {
-    text-align: center;
-    line-height: 30px;
-    font-size: 20px;
-           
-    align-items: center;
-    margin-bottom: 25px;
-    justify-items: center;
-
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    
-    margin: inherit;
-}
-
-article.new-cockaparents-text-2 ul {
+ul {
     list-style: none;
-    font-size: 20px;
-    line-height: 30px;
 }
 
 .new-cockaparents-text-2 {
     text-align: center;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    align-items: center;
-    margin-bottom: 1rem;
-    justify-items: center;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    width: 100%;
-    }
-
-article.new-cockaparents-text-3 {
-    margin-top: 25px;
 }
 
-/*Keep Your Poo Healthy page*/
-
-
-#keep-your-poo-healthy {
-    background-image: url('../css/images/healthy-boy.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    width: 37rem;
-    overflow: hidden;
-    height: 37rem;
-    outline: solid;
-    color: #3a3a3a;
-    outline-color: #3a3a3a;
+.new-cockaparents-text-2 h3 {
+    font-size: 3vmin;
 }
 
-.container-keep-your-cockapoo-healthy {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
+.new-cockaparents-text-2 table {
+    margin: 50px auto;
+    font-size: 2vmin;
 }
 
-.keep-your-poo-healthy-text {
-    text-align: center;
-    line-height: 55px;
-    font-size: 30px;
-           
-    align-items: center;
-    margin-bottom: 25px;
-    justify-items: center;
-
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    padding: 0 100px;
+.new-cockaparents-text-2 tr,
+.new-cockaparents-text-2 td {
+    min-width: 100px;
+    font-size: 2.5vmin;
+}
+.new-cockaparents-text-2 th {
+    margin: 10px;
 }
 
-#furry-fun {
-    background-image: url('../css/images/furry-fun.jfif');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 37rem;
-    height: 37rem;
-    overflow: hidden;
-    text-align: center;
-    font-size: 55px;
-    background-position-y: 30%;
-    background-position-x: 75%;
-
-    text-decoration-color: white;
-    outline-color: rgb(113, 18, 238);
-    outline-style: solid;
-} 
-
-#video iframe {
-    width: 650px; 
-    height: 400px; 
-    outline-style: solid;
-    outline-color: rgb(113, 18, 238);
-}
-
-#join-cockapoo-club {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-    margin: 20px;
-    font-size: 180%;
-    text-align: center;
-    float: none;
-}
-
-/*map*/
-
-.gmap_canvas {overflow: hidden; 
-              outline-color: #252525; 
-              outline-style: solid;
-              height: 25rem;
-              width: 90vw;
-} 
-
-iframe {
-    width: 100vw;
-    height: 100vh;
-}
-
-.text-center {
-    color: #252525;
-    line-height: 1;
-    inline-size: -webkit-fill-available;
-    font-weight: 100;
-}
-
-a {
-    color: rgba(113, 18, 238);
-}
-
-#free-supports {
-    font-size: large; 
-    outline-style:groove; 
-    outline-width: thin; 
-    outline-color: blueviolet;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-    font-size: 1.6rem;
-    line-height: 3rem;
-}
-
-table {
-    padding-bottom: 20px;
-    overflow-x:auto; 
-    border-spacing: 20px;
-}
-
+/* SOCIAL_NETWORKS */
 #or {
-    font-size: 1.5rem;
-    line-height: 1rem;
+    font-size: 2.5vmin;
     text-align: center;
-}
-
-/* footer */
-
-footer {
-    height: 150px;
-    font-family: Lato, sans-serif;
 }
 
 .social-networks {
+    max-width: 50vw;
+    list-style-type: none;
+    margin: 50px auto;
+    padding: 0;
     text-align: center;
-    font-size: large1.3rem;
 }
 
-.social-networks > li {
-    display: inline;
+.social-networks li {
+    display: inline-block;
+    width: 20%;
+    font-size: 4.5vmin;
+    color:rgb(113, 18, 238);
 }
-
-.social-networks i {
-    font-size: 3.5rem;
-    padding: 5rem;
-    color: rgb(113, 18, 238);
-}
-
-/*Join page*/
-
-#join-text {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-    }
-
-#furry-fun-fotos-join {
-    margin-bottom: 25px;
-    color: #252525;
-}
-
-.form-section {
-    clear: left;
-    background-image: url("../css/images/benji-couch2.jfif");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-   }
-
-.choose {
-        line-height: 2;
-        font-size: large;
- }
-
-.signup-form {
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: sticky;
-    left: 10%;
-    padding: 30px;
-    text-align: center;
-    margin-top: 30px;
-}
-
-#simply {
-    margin-bottom: 35px;
-    text-align: center;
-    font-size: 25px;
-    padding: 30px;
-    margin: 0;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: rgb(113, 18, 238);
-}
-
-.join-button {
-    margin-top: 20px;
-    margin-left: 55px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 150%;
-    background-color: rgb(113, 18, 238);
-    color: #fafafa;
-    display: block;
-}
-
-.join-button:hover {
-    background-color: #fafafa;
-    color: rgb(113, 18, 238);
-}
-
-::placeholder {
-color: rgb(113, 18, 238);;
-text-align: center;
-}
-
-.signup-form label {
-    font-size: 20px;
-    font-weight: 800;
-}
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
-/*furry-fun-fotos-gallery page*/
-
-.fun-fotos {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
-
-h2 a {
-    color: rgb(113, 18, 238);
-}
-/*Responsiveness*/
-
-/*Media Query for Mobile Devices */
-
-@media screen and (max-width: 400px) {
-
-    #logo {
-        margin: 0;
-    }
-
-    #hero-outer {
-        height: 350px;
-        width: 90%;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    #hero-image {
-        background-size: contain;
-        height: 600px;
-        width: 100%;
-        background-position-y: 100px;
-    }
-    
-    #cover-text {
-        /*position of text is off
-            font-size: 10%;
-            font-family: Oswald, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            width: 80%;
-            height: 17px;
-            padding-left: 20px;
-            padding-top: 100px;
-            background-color: rgba(113, 18, 238, 50);
-            bottom: 2px;
-            right: 25px;
-            position: sticky;
-            border-radius: 50%;
-            */
-            display: none;
-    }
-
-    #new-page-intro {
-            font-size: 20px;
-            width: 90%;
-            line-height: 1.5rem;
-            margin-bottom: auto;
-        }
-  
-    .menu li {
-        display: block;
-        padding: 5px;
-        font-size: 1rem;
-    }
-
-    .homepage-container {
-        display: inline;
-
-    }
-
-   .homepage-anchors-column {
-    width: 90vw;
-    }
-
-   .homepage-anchors-row {
-    width: 90vw;
-    }
-
-    #new-cockaparents {
-        padding-left: 5%;
-        width: 90%;
-        font-size: 30px;
-        background-position-x: left;
-        background-size: cover;
-        margin: 1rem;
-    }
-
-    .new-cockaparents-text {
-
-        padding: 0;
-        width: 335px;
-        line-height: 2rem;
-        font-size: 20px;
-    }
-
-    #keep-your-poo-healthy {
-        padding-left: 5%;
-        width: 90%;
-        background-position-x: center;
-        background-position-y: center;
-        font-size: 30px;
-        background-size: cover;
-        margin: 1rem;
-    }
-
-    #furry-fun {
-        padding-left: 5%;
-        width: 90%;
-        font-size: 30px;
-        background-position-x: 70%;
-        margin: 1rem;
-    }
-
-    div.container-new-cockaparents {
-        /* display: flex; */
-        /* margin: 1rem; */
-        /* padding: 0; */
-        /* flex-direction: column; */
-        /* text-align: center; */
-        /* flex-wrap: nowrap; */
-        /* align-items: center; */
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-
-article.new-cockaparents-text {
-        background-color: rgba(113, 18, 238, 0.103);
-        height: 31rem;
-        width: 100vw;
-    }
-
-h3 {
-    font-size: 1rem;
-}
-    .clubhouse-map {
-            width: 300px;
-            padding-top: 25px;
-            font-size: 70%;
-    }
-
-    .gmap_canvas {
-        width: 20rem;
-    }
-
-    iframe {
-        width: 25rem;
-    }
-
-    #free-supports {
-        width: 20rem;
-    }
-
-    a {
-        color: rgba(113, 18, 238)
-    }
-
-    ul {
-        font-size: 18px;
-    }
-
-    article.new-cockaparents-text-2 {
-        font-size: 1rem;
-        width: 19rem;
-        margin: auto;       
-    }
- 
-    footer { 
-        font-size: 10px;
-    }
-
-    #or {
-        font-size: 20px;
-        line-height: 20px;
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        width: 320px;
-    }
-
-    div#jump-to-nc {
-     
-            display: flex;
-            flex-wrap: nowrap;
-            width: 325px;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        div#jump-to-kyph {
-     
-            display: flex;
-            flex-wrap: nowrap;
-            width: 325px;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .keep-your-poo-healthy-text {
-            text-align: center;
-            line-height: 55px;
-            font-size: 20px;
-            align-items: center;
-            margin-bottom: 25px;
-            justify-items: center;
-            width: 325px;
-            margin: 0;
-            padding: 0;
-        }
-
-        article.keep-your-poo-healthy-text {
-            line-height: 30px;
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            width: 300px;
-            margin: 0;
-            font-size: 20px;
-        }
-
-        .container-new-cockaparents {
-            line-height: 2rem;
-            width: 20rem;
-            margin: 0;
-        }
-
-        div#or {
-            font-size: 20px;
-            line-height: 20px;
-            text-align: center;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            width: 320px;
-        }
-
-        p#jump-to-fffg {
-            font-size: 25px;
-        }
-
-        #furry-fun-fotos-join {
-            font-size: 20px;
-        }
-
-        .fun-fotos {
-            min-height: 100vh;
-            align-items: center;
-            margin-bottom: 25px;
-            display: block;
-            width: 325px;
-        }
-
-        img {
-            width: 325px;
-        }
-        section.form-section {
-   
-            width: 325px;
-            height: 1000px;
-        }
-
-        .form-section {
-            background-image: none;
-        }
-
-        .signup-form {
-            color: #fff;
-            background-color: rgba(60, 60, 60, 0.6);
-            max-width: 325px;
-            position: unset;
-            text-align: center;
-            margin-top: 30px;
-            height: 750px;
-        }
-
-        .signup-form label {
-            font-size: 15px;
-            font-weight: 800;
-            margin: initial;
-        }
-
-        .join-button {
-            margin-top: 20px;
-            margin-left: 0;
-            border-radius: 2px;
-            text-align: center;
-            font-size: 140%;
-            background-color: rgb(113, 18, 238);
-            color: #fafafa;
-            display: block;
-        }
-
-        span#join-text {
-
-            font-size: 20px;
-            width: 325px;
-            color:rgb(113, 18, 238)
-        }
-
-        #video iframe {
-            width: 325px;
-        }
-    }
 
     @media screen and (min-width: 401) and (max-width: 470px) {
     
@@ -881,6 +288,11 @@ h3 {
             background-position-x: 70%;
             margin: 1rem;
         }
+    }
+
+    .gmap_canvas {
+        height: 20rem;
+        width: 60vw;
     }
 
     @media and (min-width 551px) {
