@@ -192,7 +192,8 @@ section {
 .new-cockaparents-text {
     padding: 1rem;
     background-color: rgba(113, 18, 238, 0.1);
-
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 #gmap_canvas {
@@ -211,8 +212,9 @@ section {
 article.new-cockaparents-text-2 {
     background-color: rgba(169, 169, 169, 0.199);
     padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
-
 
 ul {
     list-style: none;
@@ -254,6 +256,8 @@ iframe {
 div#jump-to-nc {
     margin-top: 3rem;
 }
+
+/*keep your poo healthy*/
 
 /* gallery */
 
