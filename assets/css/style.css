@@ -134,20 +134,37 @@ section {
     background-position: center;
     background-size: cover;
     color: white;
-    font-size: 2vmax;
+    font-size: 3vmax;
     font-family: 'Oswald';
-}
-
-#keep-your-poo-healthy {
-    background-image: url(../css/images/healthy-boy.jpg);
 }
 
 #new-cockaparents {
     background-image: url(../css/images/new-new-cockaparents.jfif);
+    background-position-x: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid;
+    color: rgb(113, 18, 238);
+    outline-color: rgb(113, 18, 238);
+}
+
+#keep-your-poo-healthy {
+    background-image: url(../css/images/healthy-boy.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid;
+    color: #3a3a3a;
+    outline-color: #3a3a3a;  
 }
 
 #furry-fun {
     background-image: url(../css/images/furry-fun.jfif);
+    background-position-x: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid;
+    color: white;
+    outline-color: rgb(113, 18, 238);
 }
 
 /* CLUBHOUSE */
@@ -220,6 +237,12 @@ ul {
 }
 .new-cockaparents-text-2 th {
     margin: 10px;
+}
+
+/* gallery */
+
+img {
+    height: 40vh;
 }
 
 /* SOCIAL_NETWORKS */
