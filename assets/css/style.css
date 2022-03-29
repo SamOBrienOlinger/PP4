@@ -190,7 +190,7 @@ section {
 }
 
 .new-cockaparents-text {
-    padding-bottom: 50px;
+    padding: 1rem;
     background-color: rgba(113, 18, 238, 0.1);
 
 }
@@ -210,6 +210,7 @@ section {
 
 article.new-cockaparents-text-2 {
     background-color: rgba(169, 169, 169, 0.199);
+    padding: 1rem;
 }
 
 
@@ -239,7 +240,26 @@ ul {
     margin: 10px;
 }
 
+div#video {
+    padding-top: 2rem;
+}
+
+iframe {
+    height: 40vh;
+    width: 50vw;
+}
+
+/*New Cockaparents page*/
+
+div#jump-to-nc {
+    margin-top: 3rem;
+}
+
 /* gallery */
+
+#furry-fun-fotos-join {
+    color: rgb(113, 18, 238);
+}
 
 img {
     height: 40vh;
