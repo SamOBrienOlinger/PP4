@@ -304,9 +304,22 @@ img {
         align-items: center;
         align-content: center;
     }
+
+    #new-page-intro {
+        margin: 1rem;
+    }
+
     .main-sections {
         width: auto;
     }
+
+    .social-networks {
+        display: block;
+}
+
+img {
+    max-width: 90vw;
+}
 
 }
 
@@ -316,7 +329,7 @@ img {
             width: 39rem;
         }
     
-        #page-intro {
+        #new-page-intro {
             font-size: 2rem;
         }
 
@@ -361,6 +374,11 @@ img {
         height: 20rem;
         width: 60vw;
     }
+
+
+
+
+
 
     @media and (min-width 551px) {
     
