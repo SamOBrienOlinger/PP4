@@ -274,6 +274,106 @@ img {
     height: 40vh;
 }
 
+
+/*Join-form page*/
+
+#join-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    }
+
+    #logo, #new-page-intro-join {
+        font-size: 5vmin;
+        font-family: 'Oswald';
+        text-align: center;
+        color: white;
+        margin: 1rem;
+    }
+
+
+
+.form-section {
+    clear: left;
+    background-image: url("../css/images/benji-couch2.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+   }
+
+.choose {
+    line-height: 2;
+    font-size: large;
+}
+
+.signup-form {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: auto;
+    height: 70vh;
+    margin-right: auto;
+    display: contents;
+}
+
+#simply {
+margin-bottom: 35px;
+text-align: center;
+font-size: 25px;
+padding: 30px;
+margin: 0;
+}
+
+.signup-form > h2 {
+color: #fafafa;
+margin-bottom: 20px;
+}
+
+.text-input {
+background: transparent;
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid #fafafa;
+border-radius: 2px;
+}
+
+.text-input:hover {
+border-color: rgb(113, 18, 238);
+}
+
+.join-button {
+margin-top: 20px;
+margin-left: 55px;
+border-radius: 2px;
+padding: 15px 32px 15px 32px;
+text-align: center;
+font-size: 150%;
+background-color: rgb(113, 18, 238);
+color: #fafafa;
+display: block;
+}
+
+.join-button:hover {
+background-color: #fafafa;
+color: rgb(113, 18, 238);
+}
+
+::placeholder {
+color: rgb(113, 18, 238);;
+text-align: center;
+}
+
+.signup-form label {
+font-size: 20px;
+font-weight: 800;
+}
+
+
 /* SOCIAL_NETWORKS */
 #or {
     font-size: 2.5vmin;
