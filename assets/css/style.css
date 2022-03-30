@@ -212,6 +212,7 @@ h1#logo, #new-page-intro-join {
     background-color: rgba(113, 18, 238, 0.1);
     font-size: 1.5rem;
     line-height: 2rem;
+    font-weight: 600;
 }
 
 #gmap_canvas {
@@ -324,7 +325,6 @@ img {
     }
 
 
-
 .form-section {
     clear: left;
     background-image: url("../css/images/benji-couch2.jfif");
@@ -341,7 +341,7 @@ img {
 .signup-form {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 3rem;
+  
     text-align: center;
     margin-top: 2rem;
     margin-left: auto;
@@ -377,16 +377,24 @@ border-radius: 2px;
 border-color: rgb(113, 18, 238);
 }
 
+.signup-form label {
+    font-size: 1rem;
+    font-weight: 800;
+    display: inline-block;
+}
+
 .join-button {
-margin-top: 20px;
-margin-left: 55px;
-border-radius: 2px;
-padding: 15px 32px 15px 32px;
-text-align: center;
-font-size: 150%;
-background-color: rgb(113, 18, 238);
-color: #fafafa;
-display: block;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 150%;
+    background-color: rgb(113, 18, 238);
+    color: #fafafa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .join-button:hover {
@@ -404,11 +412,18 @@ font-size: 20px;
 font-weight: 800;
 }
 
+div#new-page-intro-join, section.form-section div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 /* SOCIAL_NETWORKS */
 #or {
     font-size: 2.5vmin;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .social-networks {
@@ -425,6 +440,9 @@ font-weight: 800;
     font-size: 4.5vmin;
     color:rgb(113, 18, 238);
 }
+
+
+/*media queries*/
 
 @media screen and (min-width: 320px) and (max-width: 533px) {
 
@@ -459,48 +477,51 @@ font-weight: 800;
         width: auto;
     }
 
-.form-section {
-    height: 100vh;
-    display: block;
-}
-
-.social-networks {
+    .form-section {
+        height: 125vh;
         display: block;
+    }
+
+    .signup-form {
+        height: 110vh;
+        display: block;
+        width: 65%;
+    }
+
+    .social-networks {
+        display: block;
+    }
+
+    img {
+        max-width: 90vw;
+    }
+
+    div#new-page-intro-join, section.form-section div {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gmap_canvas {
+        display: inline;
+    }
+
+    #or {
+        margin-top: 4rem;
+    }
+
+    .join-button {
+        margin-top: 1.2rem;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
-img {
-    max-width: 90vw;
-}
 
-div#new-page-intro-join, section.form-section div {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.gmap_canvas {
-   display: inline;
-}
-
-#or {
-    margin-top: 4rem;
-}
-
-.join-button {
-    margin-top: 1.2rem;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-}
-
-
-
-
-
-    @media and (min-width 551px) {
+    @media and (min-width 534px) {
     
     }
     
