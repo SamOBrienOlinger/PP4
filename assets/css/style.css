@@ -21,17 +21,21 @@ section {
     text-align: center;
 }
 
-section {
-    margin: auto;
-    text-align: center;
-}
-
 /* Index Page */
 
-#logo,
-#new-page-intro {
+h1#logo, #new-page-intro-join {
     font-size: 5vmin;
-    font-family: 'Oswald';
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #252525;
+    text-align: center;
+    }
+
+#new-page-intro {
+    font-size: 3vmin;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: #252525;
     text-align: center;
 }
 
@@ -50,6 +54,20 @@ section {
     text-align: center;
     padding: 20px 1.5%;
 }
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+    .menu a:hover {
+        border-bottom: 2px solid #3a3a3a;
+    }
+    
+    .active {
+         background-color: rgb(113, 18, 238, 0.1);
+    }
+
 
 /* HERO IMAGE */
 
@@ -203,17 +221,25 @@ section {
 
 /* SUPPORTS */
 #free-supports {
-    padding: 40px 0;
+    padding: 2vh 0;
     background-color: white;
     font-size: 3vmin;
     line-height: 2.5rem;
 }
 
+div#free-supports p {
+    font-weight: 600;
+}
+
 article.new-cockaparents-text-2 {
     background-color: rgba(169, 169, 169, 0.199);
-    padding: 1rem;
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+}
+
+.new-cockaparents-text-2 table {
+    margin: 1rem auto;
+    font-size: 2vmin;
 }
 
 ul {
@@ -224,8 +250,13 @@ ul {
     text-align: center;
 }
 
-.new-cockaparents-text-2 h3 {
+.new-cockaparents-text-2 p {
     font-size: 3vmin;
+    font-weight: 600;
+}
+
+div.text-center p {
+    padding-top: 1rem;
 }
 
 .new-cockaparents-text-2 table {
@@ -403,6 +434,21 @@ font-weight: 800;
         justify-items: center;
         align-items: center;
         align-content: center;
+        padding: 0;
+    }
+
+    .menu li {
+        
+        font-size: 4vmin;
+        padding: 15px 1.5%;
+    }
+
+    #hero-outer {
+        height: 25vh;
+    }
+
+    #cover-text {
+        display: none;
     }
 
     #new-page-intro {
@@ -413,7 +459,12 @@ font-weight: 800;
         width: auto;
     }
 
-    .social-networks {
+.form-section {
+    height: 100vh;
+    display: block;
+}
+
+.social-networks {
         display: block;
 }
 
@@ -421,60 +472,29 @@ img {
     max-width: 90vw;
 }
 
+div#new-page-intro-join, section.form-section div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-    @media screen and (min-width: 401) and (max-width: 470px) {
-    
-        #hero-outer {
-            width: 39rem;
-        }
-    
-        #new-page-intro {
-            font-size: 2rem;
-        }
+.gmap_canvas {
+   display: inline;
+}
 
-        .homepage-container {
-            display: contents;
-            width: 100vw;
-    }
+#or {
+    margin-top: 4rem;
+}
 
-        #new-cockaparents {
-        padding-left: 5%;
-        width: 90%;
-        font-size: 30px;
-        background-position-x: left;
-        background-size: cover;
-        margin: 1rem;
-    }
-    
-        span#new-cockaparents {
-            width: 20rem;
-        }
+.join-button {
+    margin-top: 1.2rem;
 
-        #keep-your-poo-healthy {
-            padding-left: 5%;
-            width: 90%;
-            background-position-x: center;
-            background-position-y: center;
-            font-size: 30px;
-            background-size: cover;
-            margin: 1rem;
-        }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        #furry-fun {
-            padding-left: 5%;
-            width: 90%;
-            font-size: 30px;
-            background-position-x: 70%;
-            margin: 1rem;
-        }
-    }
-
-    .gmap_canvas {
-        height: 20rem;
-        width: 60vw;
-    }
-
+}
 
 
 
