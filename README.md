@@ -2,13 +2,13 @@
 
 This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds.
 
-The site targets people in Ireland 
+The site targets people in Ireland who
 
-* Who already have a Cockapoo dog and need more information about taking care of their dog. 
+* may already have a Cockapoo dog and need more information about taking care of their dog. 
 
-* Who are thinking about getting a new Cockapoo dog and require more information to make their decision. 
+* may be thinking about getting a new Cockapoo dog and require more information to make their decision. 
 
-* Who are already Cockapoo owners interested in connecting with and learning from other Cockapoo owners, by joining their own unique community.  
+* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community.  
 
 !["hero image with nav bar on homepage"](assets/css/images/README.md-Hero-Image.jpg)
 
@@ -66,7 +66,7 @@ The webiste consists of five webapges:
 
     ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
 
-  - For people who will become cockapoo owners for the first time the [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc) webapge provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
+  - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
   - To ensure a positive user expereince, all internal links to this webpage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
 
@@ -74,18 +74,16 @@ The webiste consists of five webapges:
 
     ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)
 
-  - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) provdes the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
+  - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://samobrienolinger.github.io/Cockapoo-Club/keep-your-poo-healthy.html#jump-to-kyph) provides the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
 
   - Similar to the New Cockaparents page, the same features were applied regarding internal links and landing on this new page that guarantee consistency while meeting the user's need for familairity and expectations of engaging with new content. 
 
 
 - __Furry Fun Foto Gallery page__
 
-    IN MD This feature is currently hidden 
-
     ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
 
-  - The 'Furry Fun' section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
+  - The [Furry Fun Foto Gallery] (https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg)section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
   - After researching other websites and social media that provide dog owners with relevant valuable information, it was clear that dog owners enjoy being part of a community with this same shared interest in their pets. Joining a unique online collective is a priority for many users who love to see images of other people's pets and want to share images and information about their own pet and personal experiences.
 
@@ -95,7 +93,7 @@ The webiste consists of five webapges:
 
     ![Join page image](assets/css/images/Join-CC-image.jpg)
 
-  - An important feature of the website that provides value for users is the opportunity to become a member of Cockapoo Club. The [Join](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/join-form.html#jump-to-jcc) page encourages users to submit some basic details via the short survey to automatically receive free membership. Users are also entered into a new members prize draw. This feature was inspired by the Code Institute's Coders Coffeehouse example.    
+  - An important feature of the website that provides value for users is the opportunity to become a member of Cockapoo Club. The [Join](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) page encourages users to submit some basic details via the short survey to automatically receive free membership. Users are also entered into a new members prize draw. This feature was inspired by the Code Institute's Coders Coffeehouse example.    
 
   - This builds on the concept outlined in the abovesection regarding the clubhouse and training centre as well as the Furry Fun Foto Gallery.  A physical space where Cockapoo owners and their pets can meet in person. The opportunity to meet and benefit membership in-person makes this website and concept different to most other purely online communities that can easily be found on social media platforms yet do not involve members meeting face-to-face with their pets for mutual benefit and free peer-support.   
 
@@ -120,7 +118,7 @@ The webiste consists of five webapges:
 
 
 ### **Testing**
- - This website works on screens sizes of minimum width 320px up to desktops. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
+ - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
  
  - __Validator Testing__
 
@@ -207,13 +205,16 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
 
  - __Acknowledgements__
 
-   - The README template provided y Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
+   - The README template provided by Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
 
    - A number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat: 
      
-     - DavidK_5P
-     - David Bowers_5p_lead
-     - Eventyret_mentor
-     - Ionut Ciobanu
-     - Franciska 
-     - Sean
+    - sandeep_mentor
+    - DavidK_5P
+    - David Bowers_5p_lead
+    - Eventyret_mentor
+    - Ionut Ciobanu
+    - Franciska 
+    - Sean
+    - Ger
+    - Christine
