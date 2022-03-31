@@ -202,7 +202,7 @@ h1#logo, .new-page-intro-join {
     padding: 20px 0 0px;
 }
 
-.gmap_canvas {
+.gmap_size {
     outline-color: rgb(37, 37, 37);
     outline-style: solid;
     height: 30rem;
@@ -215,7 +215,7 @@ h1#logo, .new-page-intro-join {
     background-color: rgba(113, 18, 238, 0.1);
     font-size: 1.5rem;
     line-height: 2rem;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 #gmap_canvas {
@@ -235,13 +235,13 @@ div#free-supports p {
     font-weight: 600;
 }
 
-article.new-cockaparents-text-2 {
+article.new-cockaparents-text-second-section {
     background-color: rgba(169, 169, 169, 0.199);
     font-size: 1.5rem;
     line-height: 1.5rem;
 }
 
-.new-cockaparents-text-2 table {
+.new-cockaparents-text-second-section table {
     margin: 1rem auto;
     font-size: 2vmin;
 }
@@ -250,11 +250,11 @@ ul {
     list-style: none;
 }
 
-.new-cockaparents-text-2 {
+.new-cockaparents-text-second-section {
     text-align: center;
 }
 
-.new-cockaparents-text-2 p {
+.new-cockaparents-text-second-section p {
     font-size: 3vmin;
     font-weight: 600;
 }
@@ -263,17 +263,17 @@ div.text-center p {
     padding-top: 1rem;
 }
 
-.new-cockaparents-text-2 table {
+.new-cockaparents-text-second-section table {
     margin: 50px auto;
     font-size: 2vmin;
 }
 
-.new-cockaparents-text-2 tr,
-.new-cockaparents-text-2 td {
+.new-cockaparents-text-second-section tr,
+.new-cockaparents-text-second-section td {
     min-width: 100px;
     font-size: 2.5vmin;
 }
-.new-cockaparents-text-2 th {
+.new-cockaparents-text-second-section th {
     margin: 10px;
 }
 
@@ -519,7 +519,7 @@ div.new-page-intro-join, section.form-section div {
         margin-right: auto;
     }
 
-    .gmap_canvas {
+    .gmap_size {
         display: inline;
     }
 
@@ -562,7 +562,7 @@ div.new-page-intro-join, section.form-section div {
             font-weight: 600;
     }
 
-        article.new-cockaparents-text-2 {
+        article.new-cockaparents-text-second-section {
             height: fit-content;
             background-color: rgba(169, 169, 169, 0.199);
             font-size: 1rem;
@@ -574,7 +574,7 @@ div.new-page-intro-join, section.form-section div {
             margin: 0;
     }
 
-        .gmap_canvas {
+        .gmap_size {
              height: 15rem;
             width: auto;
     }
