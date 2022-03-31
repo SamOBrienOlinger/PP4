@@ -284,6 +284,7 @@ div#video {
 iframe {
     height: 40vh;
     width: 50vw;
+    frameborder: 0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 }
 
 /*New Cockaparents page*/
@@ -433,7 +434,7 @@ div.new-page-intro-join, section.form-section div {
 }
 
 /* SOCIAL_NETWORKS */
-#or {
+#contact-us {
     font-size: 2.5vmin;
     text-align: center;
     margin-top: 2rem;
@@ -523,7 +524,7 @@ div.new-page-intro-join, section.form-section div {
         display: inline;
     }
 
-    #or {
+    #contact-us {
         margin-top: 4rem;
     }
 
