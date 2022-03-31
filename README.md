@@ -120,7 +120,8 @@ The webiste consists of five webapges:
 
 
 ### **Testing**
-
+ - This website works on screens sizes of minimum width 320px up to desktops. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
+ 
  - __Validator Testing__
 
    - HTML
