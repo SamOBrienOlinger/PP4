@@ -238,7 +238,7 @@ div#free-supports p {
 article.new-cockaparents-text-second-section {
     background-color: rgba(169, 169, 169, 0.199);
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .new-cockaparents-text-second-section table {
@@ -256,7 +256,7 @@ ul {
 
 .new-cockaparents-text-second-section p {
     font-size: 3vmin;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 div.text-center p {
@@ -559,7 +559,7 @@ div.new-page-intro-join, section.form-section div {
             background-color: rgba(113, 18, 238, 0.1);
             font-size: 1rem;
             line-height: 2rem;
-            font-weight: 600;
+            font-weight: 300;
     }
 
         article.new-cockaparents-text-second-section {
