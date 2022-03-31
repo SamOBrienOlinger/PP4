@@ -52,16 +52,10 @@ The webiste consists of five webapges:
    - Free to use background images were used for each of the three main options that bring the user to a new page within the website: 
   
      - [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc)
-
-        ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
    
       - [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) 
-
-        ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)  
     
        - [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg).     
-
-          ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
