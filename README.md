@@ -10,7 +10,7 @@ The site targets people in Ireland
 
 * Who are already Cockapoo owners interested in connecting with and learning from other Cockapoo owners, by joining their own unique community.  
 
-!["hero image with nav bar on homepage"](assets/css/images/README.md-Hero-Image.jpg)
+!["hero image with nav bar on homepage"](assets/Images/README.md-Hero-Image.jpg)
 
 ### **Features**
 
@@ -32,18 +32,18 @@ The webiste consists of five webapges:
   - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells teh user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
 
-    !["nav bar"](assets/css/images/nav-bar-highlighted.jpg) 
+    !["nav bar"](assets/Images/nav-bar-highlighted.jpg) 
 
 
 - __Hero image__
 
   - The hero image and also has cover text of >JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
 
-      !["cover text with internal link to Join page"](assets/css/images/README.md-Join-Cockapoo-Club-Cover-Text.jpg?raw=true )  
+      !["cover text with internal link to Join page"](assets/Images/README.md-Join-Cockapoo-Club-Cover-Text.jpg?raw=true )  
 
   - To avoid the illusion of completeness there are images visible above the fold area:
 
-     !["homepage and visible images above the fold area"](assets/css/images/Improved-layout-homepage.jpg )
+     !["homepage and visible images above the fold area"](assets/Images/Improved-layout-homepage.jpg )
 
 - __Content on Home page__
 
@@ -53,24 +53,24 @@ The webiste consists of five webapges:
   
      - [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc)
 
-        ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
+        ![New Cockaparnets](assets/Images/Option-1-NC.jpg)
    
       - [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) 
 
-        ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)  
+        ![Keep Your Poo Healthy](assets/Images/Option-2-KYPH.jpg)  
     
        - [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg).     
 
-          ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
+          ![Furry Fun Foto Gallery](assets/Images/Option-3-FFFGjpg.jpg)
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
-       !["clubhouse map"](assets/css/images/README.md-clubhouse-training-centre-map.jpg)
+       !["clubhouse map"](assets/Images/README.md-clubhouse-training-centre-map.jpg)
 
 
 - __New Cockaparents page__
 
-    ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
+    ![New Cockaparnets](assets/Images/Option-1-NC.jpg)
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc) webapge provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
@@ -78,7 +78,7 @@ The webiste consists of five webapges:
 
 - __Keep Your Poo Health page__
 
-    ![Keep Your Poo Healthy](assets/css/images/Option-2-KYPH.jpg)
+    ![Keep Your Poo Healthy](assets/Images/Option-2-KYPH.jpg)
 
   - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) provdes the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
 
@@ -87,7 +87,7 @@ The webiste consists of five webapges:
 
 - __Furry Fun Foto Gallery page__
 
-    ![Furry Fun Foto Gallery](assets/css/images/Option-3-FFFGjpg.jpg)
+    ![Furry Fun Foto Gallery](assets/Images/Option-3-FFFGjpg.jpg)
 
   - The 'Furry Fun' section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
@@ -97,7 +97,7 @@ The webiste consists of five webapges:
 
 - __Join page__
 
-    ![Join page image](assets/css/images/Join-CC-image.jpg)
+    ![Join page image](assets/Images/Join-CC-image.jpg)
 
   - An important feature of the website that provides value for users is the opportunity to become a member of Cockapoo Club. The [Join](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/join-form.html#jump-to-jcc) page encourages users to submit some basic details via the short survey to automatically receive free membership. Users are also entered into a new members prize draw. This feature was inspired by the Code Institute's Coders Coffeehouse example.    
 
@@ -105,7 +105,7 @@ The webiste consists of five webapges:
 
 - __The Footer__ 
 
-    ![Footer](assets/css/images/Footer.jpg) 
+    ![Footer](assets/Images/Footer.jpg) 
 
   - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user.
 

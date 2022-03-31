@@ -93,7 +93,7 @@ h1#logo, .new-page-intro-join {
     animation-name: hero-zoom;
     animation-duration: 9s;
     animation-fill-mode: forwards;
-    background: url(../css/images/new-hero.jfif) center center no-repeat;
+    background: url(../Images/new-hero.jfif) center center no-repeat;
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #new-cockaparents {
-    background-image: url(../css/images/new-new-cockaparents.jfif);
+    background-image: url(../Images/new-new-cockaparents.jfif);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -168,7 +168,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #keep-your-poo-healthy {
-    background-image: url(../css/images/healthy-boy.jpg);
+    background-image: url(../Images/healthy-boy.jpg);
     margin-left: auto;
     margin-right: auto;
     outline: solid;
@@ -178,7 +178,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #furry-fun {
-    background-image: url(../css/images/furry-fun.jfif);
+    background-image: url(../Images/furry-fun.jfif);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -330,7 +330,7 @@ img {
 
 .form-section {
     clear: left;
-    background-image: url("../css/images/benji-couch2.jfif");
+    background-image: url("../Images/benji-couch2.jfif");
     background-size: cover;
     background-position: center;
     height: auto;
@@ -484,6 +484,7 @@ div.new-page-intro-join, section.form-section div {
 
     .main-sections {
         width: auto;
+        font-size: 2vmax;
     }
 
     .form-section {
@@ -544,30 +545,37 @@ div.new-page-intro-join, section.form-section div {
             height: 50vh;
     }
     
-    .new-cockaparents-text {
-        height: fit-content;
-        padding: 1rem;
-        background-color: rgba(113, 18, 238, 0.1);
-        font-size: 1rem;
-        line-height: 2rem;
-        font-weight: 600;
+        .new-cockaparents-text {
+            height: fit-content;
+            padding: 1rem;
+            background-color: rgba(113, 18, 238, 0.1);
+            font-size: 1rem;
+            line-height: 2rem;
+            font-weight: 600;
     }
 
-    article.new-cockaparents-text-2 {
-        height: fit-content;
-        background-color: rgba(169, 169, 169, 0.199);
-        font-size: 1rem;
-        line-height: 2rem;
+        article.new-cockaparents-text-2 {
+            height: fit-content;
+            background-color: rgba(169, 169, 169, 0.199);
+            font-size: 1rem;
+            line-height: 2rem;
     }
 
-    .new-page-intro {
-        padding: 20px;
-        margin: 0;
+        .new-page-intro {
+            padding: 20px;
+            margin: 0;
     }
 
-    .gmap_canvas {
-        height: 15rem;
-        width: auto;
+        .gmap_canvas {
+             height: 15rem;
+            width: auto;
+    }
+
+        .signup-from {
+            background-color: rgba(60, 60, 60, 0.6);
+        }
+    }
+
     }
 
     @media screen and (min-width: 1226px) {
