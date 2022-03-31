@@ -59,7 +59,7 @@ The webiste consists of five webapges:
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
-       !["clubhouse map"](assets/images/Map-for-clubhouse-area.jpg)
+       !["clubhouse map"](/workspace/Cockapoo-Club/assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
 
 
 - __New Cockaparents page__
