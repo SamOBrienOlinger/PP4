@@ -34,7 +34,6 @@ The webiste consists of five webapges:
 
     !["nav bar"](assets/css/images/nav-bar-highlighted.jpg) 
 
-
 - __Hero image__
 
   - The hero image and also has cover text of >JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
@@ -61,7 +60,6 @@ The webiste consists of five webapges:
 
        !["clubhouse map"](/workspace/Cockapoo-Club/assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
 
-
 - __New Cockaparents page__
 
     ![New Cockaparnets](assets/css/images/Option-1-NC.jpg)
@@ -77,7 +75,6 @@ The webiste consists of five webapges:
   - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://samobrienolinger.github.io/Cockapoo-Club/keep-your-poo-healthy.html#jump-to-kyph) provides the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
 
   - Similar to the New Cockaparents page, the same features were applied regarding internal links and landing on this new page that guarantee consistency while meeting the user's need for familairity and expectations of engaging with new content. 
-
 
 - __Furry Fun Foto Gallery page__
 
@@ -107,7 +104,6 @@ The webiste consists of five webapges:
 
    - The footoer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
 
-
 ### **Features Left to Implement**
 
 - Two other ideas for future features include: 
@@ -115,7 +111,6 @@ The webiste consists of five webapges:
   - a live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
-
 
 ### **Testing**
  - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
@@ -142,7 +137,6 @@ The webiste consists of five webapges:
 
     - 
 
-
 Cedits:
 
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allwoed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to Cockapoo Club. 
@@ -158,7 +152,6 @@ As a starting point I began with the html and css structure used in Code Institu
 The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Club/index.html 
 
 
-
 ### **Credits**
 
  - __Content__
@@ -170,7 +163,6 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
       - https://en.wikipedia.org/wiki/Cockapoo 
       - https://youtu.be/Fe-sa9mHcxI 
 
-
     - Instructions on how to construct form validation on the join-form.html page was taken from the Code Institute Love Running Project module. 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
@@ -179,7 +171,6 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
 
    - Technologies used include: 
    
