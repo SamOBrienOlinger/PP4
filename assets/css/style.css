@@ -348,9 +348,13 @@ img {
     text-align: center;
     margin-top: 2rem;
     margin-left: auto;
-    height: 70vh;
+    height: auto;
     margin-right: auto;
-    display: contents;
+
+}
+
+.input-fields {
+    width: 50%;
 }
 
 #simply {
@@ -391,7 +395,7 @@ border-color: rgb(113, 18, 238);
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 150%;
+    font-size: 18px;
     background-color: rgb(113, 18, 238);
     color: #fafafa;
     display: block;
@@ -417,7 +421,7 @@ display: inline;
 }
 
 div.new-page-intro-join, section.form-section div {
-    width: auto;
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -498,6 +502,10 @@ div.new-page-intro-join, section.form-section div {
         width: 80%;
     }
 
+    .signup-form label {
+        font-size: 15px;
+    }
+
     .social-networks {
         display: block;
     }
@@ -539,7 +547,7 @@ div.new-page-intro-join, section.form-section div {
         .menu li {
             display: inline-block;
             padding: 10px 1.5%;
-        }
+    }
 
         #hero-outer {
             height: 50vh;
@@ -574,10 +582,9 @@ div.new-page-intro-join, section.form-section div {
         .signup-from {
             background-color: rgba(60, 60, 60, 0.6);
         }
-    }
 
-    }
+        .input-fields {
+            width: 50%;
+        }
 
-    @media screen and (min-width: 1226px) {
-    
     }
