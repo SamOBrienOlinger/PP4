@@ -132,9 +132,17 @@ The webiste consists of five webapges:
 
     Y
 
+   - Lighthouse 
+     
+    - Mobile
+      screenshot
+    
+    - Desktop 
+      screenshot
+      
 - __Unfixed Bugs__
 
-                       Gallery hidden 
+    - 
 
 
 Cedits:
@@ -149,7 +157,7 @@ As a starting point I began with the html and css structure used in Code Institu
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here: /*   */
+The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Club/index.html 
 
 
 
