@@ -23,7 +23,7 @@ section {
 
 /* Index Page */
 
-h1#logo, #new-page-intro-join {
+h1#logo, .new-page-intro-join {
     font-size: 5vmin;
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -31,7 +31,7 @@ h1#logo, #new-page-intro-join {
     text-align: center;
     }
 
-#new-page-intro {
+.new-page-intro {
     font-size: 3vmin;
     text-align: center;
     font-family: Oswald, sans-serif;
@@ -164,6 +164,7 @@ h1#logo, #new-page-intro-join {
     outline: solid;
     color: rgb(113, 18, 238);
     outline-color: rgb(113, 18, 238);
+    width: 30vw;
 }
 
 #keep-your-poo-healthy {
@@ -173,6 +174,7 @@ h1#logo, #new-page-intro-join {
     outline: solid;
     color: #3a3a3a;
     outline-color: #3a3a3a;  
+    width: 30vw;
 }
 
 #furry-fun {
@@ -183,6 +185,7 @@ h1#logo, #new-page-intro-join {
     outline: solid;
     color: white;
     outline-color: rgb(113, 18, 238);
+    width: 30vw;
 }
 
 /* CLUBHOUSE */
@@ -296,9 +299,10 @@ article.keep-your-poo-healthy-text {
     line-height: 2rem;   
 }
 
+
 /* gallery */
 
-#furry-fun-fotos-join {
+.furry-fun-fotos-join {
     color: rgb(113, 18, 238);
 }
 
@@ -316,11 +320,10 @@ img {
     color: white;
     }
 
-    #logo, #new-page-intro-join {
-        font-size: 5vmin;
+    #logo, .new-page-intro-join {
+        font-size: 3vmin;
         font-family: 'Oswald';
         text-align: center;
-        color: white;
         margin: 1rem;
     }
 
@@ -330,7 +333,7 @@ img {
     background-image: url("../css/images/benji-couch2.jfif");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: auto;
    }
 
 .choose {
@@ -380,7 +383,7 @@ border-color: rgb(113, 18, 238);
 .signup-form label {
     font-size: 1rem;
     font-weight: 800;
-    display: inline-block;
+    display: inline;
 }
 
 .join-button {
@@ -410,13 +413,19 @@ text-align: center;
 .signup-form label {
 font-size: 20px;
 font-weight: 800;
+display: inline;
 }
 
-div#new-page-intro-join, section.form-section div {
-    width: 70%;
+div.new-page-intro-join, section.form-section div {
+    width: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.radio-input {
+    display: inline;
+    width: auto;
 }
 
 /* SOCIAL_NETWORKS */
@@ -469,7 +478,7 @@ div#new-page-intro-join, section.form-section div {
         display: none;
     }
 
-    #new-page-intro {
+    .new-page-intro {
         margin: 1rem;
     }
 
@@ -478,14 +487,14 @@ div#new-page-intro-join, section.form-section div {
     }
 
     .form-section {
-        height: 125vh;
+        height: auto;
         display: block;
     }
 
     .signup-form {
-        height: 110vh;
+        height: auto;
         display: block;
-        width: 65%;
+        width: 80%;
     }
 
     .social-networks {
@@ -496,8 +505,7 @@ div#new-page-intro-join, section.form-section div {
         max-width: 90vw;
     }
 
-    div#new-page-intro-join, section.form-section div {
-        width: 70%;
+    div.new-page-intro-join, section.form-section div {
         margin-left: auto;
         margin-right: auto;
     }
@@ -518,9 +526,9 @@ div#new-page-intro-join, section.form-section div {
         margin-right: auto;
     }
 
-    #keep-your-poo-healthy {
-        background-position-y: -1vh;
-    }
+    .radio-input {
+        display: block;
+        width: auto;
 
 }
 
@@ -552,13 +560,14 @@ div#new-page-intro-join, section.form-section div {
         line-height: 2rem;
     }
 
-    #new-page-intro {
+    .new-page-intro {
         padding: 20px;
         margin: 0;
     }
 
     .gmap_canvas {
         height: 15rem;
+        width: auto;
     }
 
     @media screen and (min-width: 1226px) {

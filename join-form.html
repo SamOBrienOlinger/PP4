@@ -48,19 +48,19 @@
 </section>
 
 <section>
-    <div id="new-page-intro">
+    <div class="new-page-intro">
         <p id="jump-to-jcc">
           Join Cockapoo Club
         </p>
     </div>
-
+    <div id="new-page-intro-join">
+        <span class="furry-fun-fotos-join"><a href="join-form.html#jump-to-jcc">Join Cockapoo Club now</a></span> and you could win a year's supply of treats for your furry friend
+    </div>
 </section>
 
 <section class="form-section">
 
-    <div id="new-page-intro-join">
-        <span id="furry-fun-fotos-join"><a href="join-form.html#jump-to-jcc">Join Cockapoo Club now</a></span> and you could win a year's supply of treats for your furry friend
-    </div>
+
     
     <div> 
     <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
@@ -83,16 +83,23 @@
             <div class="choose">
                 
                 <p>Choose one of the following answers</p>
-                <label for="no-cockapoos">I have no Cockapoos yet!</label>
+                <div class="radio-input">
+                    <label for="no-cockapoos">I have no Cockapoos yet!</label>
                     <input id="no-cockapoo" type="radio" name ="number_of_Cockapoos" value="none" required/>
-                <label for="one-cockapoo">I have 1 Cockapoo at home</label>
+                </div>
+                <div class="radio-input">
+                    <label for="one-cockapoo">I have 1 Cockapoo at home</label>
                     <input id="one-cockapoo" type="radio" name ="number_of_Cockapoos" value="one" required/>
-                <label for="two-cockapoo">I have 2 Cockapoos at home</label>
+                </div>
+                <div class="radio-input">
+                    <label for="two-cockapoo">I have 2 Cockapoos at home</label>
                     <input id="two-cockapoo" type="radio" name="number_of_Cockapoos" value="two"/>
-                <label for="both">I have 3 or more Cockapoos at home</label>
+                </div>
+                <div class="radio-input">
+                    <label for="both">I have 3 or more Cockapoos at home</label>
                     <input id="three-cockapoos" type="radio" name="number_of_Cockapoos" value="three"/>
+                </div>
             </div>
-        
     </div> 
         <input class="join-button"  type="submit" value="Submit to Join Cockapoo Club!"/>   
     </form>
@@ -102,10 +109,10 @@
 
 <footer>
     <div id="or">
-        Contact us by <span id="furry-fun-fotos-join"><a href="join-form.html#jump-to-jcc">becoming a member</a>
+        Contact us by <span class="furry-fun-fotos-join"><a href="join-form.html#jump-to-jcc">becoming a member</a>
         </span> 
             
-        -or- email: <span id="furry-fun-fotos-join"><a href="https://mail.google.com/">cockapooclub@gmail.com</a></span>
+        -or- email: <span class="furry-fun-fotos-join"><a href="https://mail.google.com/">cockapooclub@gmail.com</a></span>
   </div>      
     <ul class="social-networks">
         <li>
