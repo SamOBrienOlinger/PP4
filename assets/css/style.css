@@ -93,7 +93,7 @@ h1#logo, .new-page-intro-join {
     animation-name: hero-zoom;
     animation-duration: 9s;
     animation-fill-mode: forwards;
-    background: url(../Images/new-hero.jfif) center center no-repeat;
+    background: url(../Images/new-hero.png) center center no-repeat;
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #new-cockaparents {
-    background-image: url(../Images/new-new-cockaparents.jfif);
+    background-image: url(../Images/new-new-cockaparents.png);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -168,7 +168,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #keep-your-poo-healthy {
-    background-image: url(../Images/healthy-boy.jpg);
+    background-image: url(../Images/healthy-boy.png);
     margin-left: auto;
     margin-right: auto;
     outline: solid;
@@ -178,7 +178,7 @@ h1#logo, .new-page-intro-join {
 }
 
 #furry-fun {
-    background-image: url(../Images/furry-fun.jfif);
+    background-image: url(../Images/furry-fun.png);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -330,7 +330,7 @@ img {
 
 .form-section {
     clear: left;
-    background-image: url("../Images/benji-couch2.jfif");
+    background-image: url("../Images/benji-couch2.png");
     background-size: cover;
     background-position: center;
     height: auto;
