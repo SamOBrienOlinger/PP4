@@ -285,7 +285,6 @@ div#video {
 iframe {
     height: 40vh;
     width: 50vw;
-    frameborder: 0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 }
 
 /*New Cockaparents page*/
@@ -545,11 +544,11 @@ div.new-page-intro-join, section.form-section div {
         .menu li {
             display: inline-block;
             padding: 10px 1.5%;
-    }
+        }
 
         #hero-outer {
             height: 50vh;
-    }
+        }
     
         .new-cockaparents-text {
             height: fit-content;
@@ -558,24 +557,24 @@ div.new-page-intro-join, section.form-section div {
             font-size: 1rem;
             line-height: 2rem;
             font-weight: 300;
-    }
+        }
 
         article.new-cockaparents-text-second-section {
             height: fit-content;
             background-color: rgba(169, 169, 169, 0.199);
             font-size: 1rem;
             line-height: 2rem;
-    }
+        }
 
         .new-page-intro {
             padding: 20px;
             margin: 0;
-    }
+        }
 
         .gmap_size {
              height: 15rem;
             width: auto;
-    }
+        }
 
         .signup-from {
             background-color: rgba(60, 60, 60, 0.6);
@@ -584,5 +583,4 @@ div.new-page-intro-join, section.form-section div {
         .input-fields {
             width: 50%;
         }
-
     }
