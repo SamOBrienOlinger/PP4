@@ -104,6 +104,8 @@ The webiste consists of five webapges:
 
    - The footoer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
 
+   - The icons for the footer  were taken from [Font Awesome](https://fontawesome.com/)
+
 ### **Features Left to Implement**
 
 - Two other ideas for future features include: 
@@ -127,10 +129,10 @@ The webiste consists of five webapges:
 
    - Lighthouse 
      
-    - Mobile
+      - Mobile
       screenshot
     
-    - Desktop 
+      - Desktop 
       screenshot
       
 - __Unfixed Bugs__
@@ -173,7 +175,6 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
 - The images used for the gallery page were taken from this other open source site
 
 - Technologies used include: 
-   
      - Font-awesome ("Font Awesome 5 Brands")    
      - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
      - @keyframes hero-zoom 
@@ -181,8 +182,12 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
      - Prefixed by https://autoprefixer.github.io
         * PostCSS: v8.3.6,
         * Autoprefixer: v10.3.1
-        * Browsers: last 4 version   
+        * Browsers: last 4 version 
 
+  - Languages used: 
+      - HTML
+      - CSS
+   
  - __Images__
 
    - Hero image: https://unsplash.com/photos/KVeogBZzl4M 
