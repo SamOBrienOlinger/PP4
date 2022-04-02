@@ -163,16 +163,16 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
       - https://en.wikipedia.org/wiki/Cockapoo 
       - https://youtu.be/Fe-sa9mHcxI 
 
-    - Instructions on how to construct form validation on the join-form.html page was taken from the Code Institute Love Running Project module. 
+    - Instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module. 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
+### **Media**
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
-   - Technologies used include: 
+- Technologies used include: 
    
      - Font-awesome ("Font Awesome 5 Brands")    
      - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
