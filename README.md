@@ -137,7 +137,7 @@ The webiste consists of five webapges:
       
 - __Unfixed Bugs__
 
-    - There seems to be a minor difference between how the background image renders in the join-form.html page via (A) the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and (B) the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc): 
+    - There seems to be a minor difference between how the background image renders in the join-form.html page via (A) the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and (B) the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
       (A)
 
