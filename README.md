@@ -80,7 +80,7 @@ The webiste consists of five webapges:
 
     ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
-  - The [Furry Fun Foto Gallery] (https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg)section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
+  - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
   - After researching other websites and social media that provide dog owners with relevant valuable information, it was clear that dog owners enjoy being part of a community with this same shared interest in their pets. Joining a unique online collective is a priority for many users who love to see images of other people's pets and want to share images and information about their own pet and personal experiences.
 
@@ -141,7 +141,7 @@ The webiste consists of five webapges:
 
 Cedits:
 
-As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allwoed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to Cockapoo Club. 
+As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
 ### **Deployment**
 
@@ -175,7 +175,17 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
 - The images used for the gallery page were taken from this other open source site
 
 - Technologies used include: 
-     - Font-awesome ("Font Awesome 5 Brands")    
+     
+      - HTML5 to provide content and structure to the website.
+      - CSS3 provides styles for the website.
+      - Python
+      - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improved performance 
+      - Gitpod to create and edit the website.
+      - GibHub for hosting files and deployment of the website.
+      - Google Chrome DevTools for debug and testing site.
+      - GitBash to push changes to the GitHub repository.  
+      
+     - Font-awesome ("Font Awesome 5 Brands")  
      - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
      - @keyframes hero-zoom 
      - @media screen and (max-width: 800px)
