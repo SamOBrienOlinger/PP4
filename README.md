@@ -137,7 +137,17 @@ The webiste consists of five webapges:
       
 - __Unfixed Bugs__
 
-    - 
+    - There seems to be a minor difference between how the background image renders in the join-form.html page via (A) the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and (B) the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc): 
+
+      (A)
+
+      ![background image A](assets/README.md-images/Background-image-A)
+
+      (B)
+
+      ![background image B](assets/README.md-images/Background-image-B)
+
+
 
 Cedits:
 
