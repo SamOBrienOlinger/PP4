@@ -63,7 +63,7 @@ The webiste consists of five webapges:
 
        ![clubhouse map](assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
 
-  ### __[New Cockaparents page](#new-cockaparents)__
+  ### **[New Cockaparents](#new-cockaparents)**
 
   ![New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg) 
 
@@ -71,7 +71,7 @@ The webiste consists of five webapges:
 
   - To ensure a positive user expereince, all internal links to this webpage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
 
-  ### __[Keep Your Poo Health page](#keep-your-poo-healthy)__
+### **[Keep Your Poo Healthy](#keep-your-poo-healthy)**
 
   ![Keep Your Poo Healthy](assets/README.md-images/Option-2-KYPH.jpg)
 
@@ -79,9 +79,9 @@ The webiste consists of five webapges:
 
   - Similar to the New Cockaparents page, the same features were applied regarding internal links and landing on this new page that guarantee consistency while meeting the user's need for familairity and expectations of engaging with new content. 
 
-- __[Furry Fun Foto Gallery page](#furry-fun-foto-gallery)__
+### **[Furry Fun Foto Gallery](#furry-fun-foto-gallery)**
 
-    ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
+  ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
   - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
@@ -89,7 +89,7 @@ The webiste consists of five webapges:
 
   - This photo gallery idea was borrowed from the Love Running Project, which also seemed to capture the demand of users to particapte in an online setting with other likeminded users through sharing relvant images. This feature aims to add more value to the overall educational and informative purpose of the site.   
 
-- __[Join page](#join-page)__
+### **[Join](#join-page)**
 
    ![Join page image](assets/README.md-images/Join-CC-image.jpg)
 
@@ -164,7 +164,7 @@ As a starting point I began with the html and css structure used in Code Institu
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Club/index.html 
+The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
 
 ### **Credits**
@@ -177,6 +177,7 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
       - https://www.hillspet.com/new-pet-parent/dog#faqs
       - https://en.wikipedia.org/wiki/Cockapoo 
       - https://youtu.be/Fe-sa9mHcxI 
+
 
     - Styling and instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module: [Signup Form: Challenge 1](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=first). 
 
@@ -241,3 +242,5 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
     - Sean
     - Ger
     - Christine
+    - Rebecca
+
