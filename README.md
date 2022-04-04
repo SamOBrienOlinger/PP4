@@ -65,7 +65,7 @@ The webiste consists of five webapges:
 
   ### __[New Cockaparents page](#new-cockaparents)__
 
-    ![New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg) 
+  ![New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg) 
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
@@ -73,7 +73,7 @@ The webiste consists of five webapges:
 
   ### __[Keep Your Poo Health page](#keep-your-poo-healthy)__
 
-    ![Keep Your Poo Healthy](assets/README.md-images/Option-2-KYPH.jpg)
+  ![Keep Your Poo Healthy](assets/README.md-images/Option-2-KYPH.jpg)
 
   - For people who want to learn more about maintaining their pet's wellbeing, there is the section called 'Keep your Poo healthy'. [Keep Your Poo Healthy](https://samobrienolinger.github.io/Cockapoo-Club/keep-your-poo-healthy.html#jump-to-kyph) provides the user with a starting point for finding out more infomration about taking good care of a Cockapoo, with evidence-based information linking to credible sources on other webistes to help owners take care of the health needs of their pet.
 
@@ -91,7 +91,7 @@ The webiste consists of five webapges:
 
 - __[Join page](#join-page)__
 
-    ![Join page image](assets/README.md-images/Join-CC-image.jpg)
+   ![Join page image](assets/README.md-images/Join-CC-image.jpg)
 
   - An important feature of the website that provides value for users is the opportunity to become a member of Cockapoo Club. The [Join](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) page encourages users to submit some basic details via the short survey to automatically receive free membership. Users are also entered into a new members prize draw. This feature was inspired by the Code Institute's Coders Coffeehouse example.    
 
