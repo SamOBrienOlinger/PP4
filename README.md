@@ -2,53 +2,56 @@
 
 This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds.
 
-The site targets people in Ireland who
+!["hero image with nav bar on homepage"](assets/README.md-images/README.md-Hero-Image.jpg)
+
+The site targets users in Dublin, Ireland who
 
 * may already have a Cockapoo dog and need more information about taking care of their dog. 
 
 * may be thinking about getting a new Cockapoo dog and require more information to make their decision. 
 
-* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community.  
+Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how i ttargets users who 
 
-!["hero image with nav bar on homepage"](assets/README.md-images/README.md-Hero-Image.jpg)
+* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community, meeting face-to-face, sharing photographs of their pet and training their dogs together.   
 
-### **Features**
+
+## **Features**
 
 The webiste consists of five webapges:
 
-* Home
-* New Cockaparents
-* Keep Your Poo Healthy
-* Furry Fun Foto Gallery
-* Join
-* Footer
+* [Homepage](#homepage)
+* [New Cockaparents](#new-cockaparents)
+* [Keep Your Poo Healthy](#keep-your-poo-healthy)
+* [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
+* [Join](#join-page)
 
-- __Homepage__
+### **[Homepage](#homepage)** 
 
-  - The landing page immedaitely engages the user with a large hero image that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this realifesituation in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
+  - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this realifesituation in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
 
-- __Navigation Bar__
+    #### **Navigation Bar**
 
-  - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells teh user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
+      - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
+      - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells teh user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
 
-    !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
+      !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
-- __Hero image__
+      #### **[Hero image](#hero-image)**
 
-  - The hero image and also has cover text of >JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
+      - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
+  
 
       !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
-  - To avoid the illusion of completeness there are images visible above the fold area:
+    - To avoid the 'illusion of completeness' there are images visible above the fold area:
 
-     !["homepage and visible images above the fold area"](assets/README.md-images/Improved-layout-homepage.jpg )
+     !["homepage and visible images above the fold area"](assets/README.md-images/README.md-above-the-fold.jpg)
 
-- __Content on Home page__
+  #### **Content on Homepage**
 
   - The main element is divided into three sections with different purposes and value for the user, depending on what kind of information they are looking for. 
   
-   - Free to use background images were used for each of the three main options that bring the user to a new page within the website: 
+   - Free-to-use background images were used for each of the three main options that bring the user to a new page within the website: 
   
      - [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc)
    
@@ -60,15 +63,15 @@ The webiste consists of five webapges:
 
        !["clubhouse map"](assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
 
-- __New Cockaparents page__
+  ### __[New Cockaparents page](#new-cockaparents)__
 
-    ![New Cockaparnets](assets/README.md-images/Option-1-NC.jpg)
+    !["New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg)
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
   - To ensure a positive user expereince, all internal links to this webpage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
 
-- __Keep Your Poo Health page__
+  ### __[Keep Your Poo Health page](#keep-your-poo-healthy)__
 
     ![Keep Your Poo Healthy](assets/README.md-images/Option-2-KYPH.jpg)
 
@@ -76,7 +79,7 @@ The webiste consists of five webapges:
 
   - Similar to the New Cockaparents page, the same features were applied regarding internal links and landing on this new page that guarantee consistency while meeting the user's need for familairity and expectations of engaging with new content. 
 
-- __Furry Fun Foto Gallery page__
+- __[Furry Fun Foto Gallery page]#furry-fun-foto-gallery__
 
     ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
@@ -86,7 +89,7 @@ The webiste consists of five webapges:
 
   - This photo gallery idea was borrowed from the Love Running Project, which also seemed to capture the demand of users to particapte in an online setting with other likeminded users through sharing relvant images. This feature aims to add more value to the overall educational and informative purpose of the site.   
 
-- __Join page__
+- __[Join page](#join-page)__
 
     ![Join page image](assets/README.md-images/Join-CC-image.jpg)
 
