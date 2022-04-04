@@ -83,7 +83,7 @@ The webiste consists of five webapges:
 
   ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
-  - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is for users to peruse and upload images of their pets. This section provides a gallery of shared images.
+  - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is intended for users to peruse and upload images of their pets. This section provides a gallery of shared images.
 
   - After researching other websites and social media that provide dog owners with relevant valuable information, it was clear that dog owners enjoy being part of a community with this same shared interest in their pets. Joining a unique online collective is a priority for many users who love to see images of other people's pets and want to share images and information about their own pet and personal experiences.
 
@@ -112,6 +112,8 @@ The webiste consists of five webapges:
 ### **Features Left to Implement**
 
 - Two other ideas for future features include: 
+
+  - a way for users who would join Cockapoo CLub to upload their photographs of their pets. 
 
   - a live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
