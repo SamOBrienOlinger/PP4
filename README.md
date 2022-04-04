@@ -61,11 +61,11 @@ The webiste consists of five webapges:
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
-       !["clubhouse map"](assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
+       ![clubhouse map](assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
 
   ### __[New Cockaparents page](#new-cockaparents)__
 
-    !["new cockaparents"](assets/README.md-images/README.md-Option-1-NC) 
+    ![New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg) 
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 

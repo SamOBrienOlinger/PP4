@@ -599,7 +599,7 @@ section.form-section div {
         }
 
         #join {
-            font-size: 3em;
-            line-height: 3rem;
+            font-size: 2vw;
+            line-height: 6vh;
         }
     }
