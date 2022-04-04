@@ -53,11 +53,11 @@ The webiste consists of five webapges:
   
    - Free-to-use background images were used for each of the three main options that bring the user to a new page within the website: 
   
-     - [New Cockaparents](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/new-cockaparents.html#jump-to-nc)
+     - [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc)
    
-      - [Keep Your Poo Healthy](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/keep-your-poo-healthy.html#jump-to-kyph) 
+      - [Keep Your Poo Healthy](https://samobrienolinger.github.io/Cockapoo-Club/keep-your-poo-healthy.html#jump-to-kyph) 
     
-       - [Furry Fun Foto Gallery](https://8000-samobrienolinge-cockapoo-ovrr1eu3z5g.ws-eu34.gitpod.io/furry-fun-foto-gallery.html#jump-to-fffg).     
+       - [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg)   
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
 
@@ -65,7 +65,7 @@ The webiste consists of five webapges:
 
   ### __[New Cockaparents page](#new-cockaparents)__
 
-    !["New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg)
+    !["new cockaparents"](assets/README.md-images/README.md-Option-1-NC) 
 
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
@@ -79,7 +79,7 @@ The webiste consists of five webapges:
 
   - Similar to the New Cockaparents page, the same features were applied regarding internal links and landing on this new page that guarantee consistency while meeting the user's need for familairity and expectations of engaging with new content. 
 
-- __[Furry Fun Foto Gallery page]#furry-fun-foto-gallery__
+- __[Furry Fun Foto Gallery page](#furry-fun-foto-gallery)__
 
     ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
@@ -189,14 +189,16 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
 
 - Technologies used include: 
      
-      - HTML5 to provide content and structure to the website.
-      - CSS3 provides styles for the website.
-      - Python
-      - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improved performance 
-      - Gitpod to create and edit the website.
-      - GibHub for hosting files and deployment of the website.
-      - Google Chrome DevTools for debug and testing site.
-      - GitBash to push changes to the GitHub repository.  
+    - HTML
+    - CSS
+    - Python
+    - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improved performance 
+
+    - Gitpod
+    - Github
+    - Gitbash
+    - Google Chrome DevTools 
+
       
      - Font-awesome ("Font Awesome 5 Brands")  
      - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
@@ -212,6 +214,8 @@ The live link can be found here: https://samobrienolinger.github.io/Cockapoo-Clu
       - CSS
    
  - __Images__
+  
+    Images were sourced from the following places:
 
    - Hero image: https://unsplash.com/photos/KVeogBZzl4M 
    - new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
