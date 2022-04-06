@@ -1,6 +1,6 @@
 # Cockapoo Club
 
-This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds.
+This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own club and community in person.  
 
 !["hero image with nav bar on homepage"](assets/README.md-images/README.md-Hero-Image.jpg)
 
@@ -29,21 +29,23 @@ The webiste consists of five webapges:
 
   - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this real life situation, in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
 
-    #### **Navigation Bar**
+![hero image](assets/README.md-images/README.md-original-hero-image.jpg)
+
+  #### **Navigation Bar**
 
       - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
       - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
 
       !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
-      #### **[Hero image](#hero-image)**
+      
+  #### **[Hero image](#hero-image)**
 
-      - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
+  - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
   
+ !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
-      !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
-
-    - To avoid the 'illusion of completeness' there are images visible above the fold area:
+  - To avoid the 'illusion of completeness' there are images visible above the fold area:
 
      !["homepage and visible images above the fold area"](assets/README.md-images/README.md-above-the-fold.jpg)
 
@@ -59,9 +61,9 @@ The webiste consists of five webapges:
     
        - [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg)   
 
-   - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users more opportunities to visit the Join page and submit their contact details to win a prize. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community:
+   - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users even more opportunities to visit the Join page and submit their contact details. A chance to win a prize is also available and aims to further encourage new members to join. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community, making this project stand out from other simalr websites providing infomration about cCoakapoos and other pets:
 
-       ![clubhouse map](assets/README.md-images/README.md-map-for-clubhouse-area.jpg)
+       ![clubhouse map](assets/README.md-images/README.md-clubhouse-training-centre-map.jpg)
 
   ### **[New Cockaparents](#new-cockaparents)**
 
@@ -97,9 +99,9 @@ The webiste consists of five webapges:
 
   - This builds on the concept outlined in the abovesection regarding the clubhouse and training centre as well as the Furry Fun Foto Gallery.  A physical space where Cockapoo owners and their pets can meet in person. The opportunity to meet and benefit membership in-person makes this website and concept different to most other purely online communities that can easily be found on social media platforms yet do not involve members meeting face-to-face with their pets for mutual benefit and free peer-support.   
 
-- __The Footer__ 
+### **The Footer** 
 
-    ![Footer](assets/README.md-images/Footer.jpg) 
+  ![Footer](assets/README.md-images/README.md-footer.jpg) 
 
   - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user.
 
@@ -215,16 +217,16 @@ As a starting point I began with the html and css structure used in Code Institu
    
  - **Images**
 
-    - The photos used on the home and sign up page are from various open source sites. Images on the main pages were sourced from the following places:
+    - The photos used on the main pages are from various open source sites. The background image for join-form.html is my own. The other images on the main pages were sourced from the following places:
 
       - Hero image: [unsplash](https://unsplash.com/photos/KVeogBZzl4M) 
       - new cockaparents: [unsplash](https://unsplash.com/photos/T2ld_5QnZBQ) 
       - Keep your Poo Healthy: [pixabay](https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/) 
-      - Furry Fun: [pixabay](https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/) 
+      - Furry Fun: [pixabay](https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/)
+      
+     - Images for the [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) are a combination of my own and others found on the following sites:
 
-    - Images for the [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) were found on the following sites:
-
-      - 
+        - [pxfuel](https://www.pxfuel.com/en/search?q=Cockapoo) 
 
  - **Video**
 
