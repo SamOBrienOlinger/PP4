@@ -61,7 +61,11 @@ The webiste consists of five webapges:
     
        - [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg)   
 
-   - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users even more opportunities to visit the Join page and submit their contact details. A chance to win a prize is also available and aims to further encourage new members to join. The value of this content to the user is the list it provides of the main benefits to becoming a new member. An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises and encourage them to visit and socialise with others in this special community, making this project stand out from other simalr websites providing infomration about cCoakapoos and other pets:
+   - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users even more opportunities to visit the [Join](#join-page) page and submit their contact details. A chance to win a prize is also available on the Join page and aims to further encourage new members to join.
+   
+   - An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises along with opening times for the clubhouse and training centre. 
+   
+   - A list of free suports are also outlined to encourage users to visit and socialise with others in this special community, making this project stand out from other simalr websites that may provide similar information about Coakapoos and other pets. The value of this content to the user is the list it provides of the main benefits to becoming a new member and particapting in person
 
        ![clubhouse map](assets/README.md-images/README.md-clubhouse-training-centre-map.jpg)
 
@@ -111,6 +115,16 @@ The webiste consists of five webapges:
 
    - The icons for the footer  were taken from [Font Awesome](https://fontawesome.com/)
 
+## **Deployment**
+
+- The site was deployed to GitHub pages using the following steps:
+
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
+
 ## **Features Left to Implement**
 
 - Two other ideas for future features include: 
@@ -142,7 +156,7 @@ The webiste consists of five webapges:
       - Desktop 
       screenshot
       
-- __Unfixed Bugs__
+## **Unfixed Bugs**
 
     - There seems to be a minor difference between how the background image renders in the join-form.html page via (A) the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and (B) the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
@@ -156,24 +170,15 @@ The webiste consists of five webapges:
 
 
 
-### **Credits**
+## **Credits**
 
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
-### **Deployment**
-
-- The site was deployed to GitHub pages using the following steps:
-
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-  - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
 
-## **Credits**
 
- - **Content**
+
+### **Content**
 
    - information and text was gathered from the following websites:
 
@@ -183,7 +188,7 @@ As a starting point I began with the html and css structure used in Code Institu
       - https://youtu.be/Fe-sa9mHcxI 
 
 
-    - Styling and instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module: [Signup Form: Challenge 1](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=first). 
+  - Styling and instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module: [Signup Form: Challenge 1](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=first). 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
