@@ -154,7 +154,7 @@ The webiste consists of five webapges:
 
 
 
-Cedits:
+### **Credits**
 
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
@@ -169,9 +169,9 @@ As a starting point I began with the html and css structure used in Code Institu
   - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
 
-### **Credits**
+## **Credits**
 
- - __Content__
+ - **Content**
 
    - information and text was gathered from the following websites:
 
@@ -185,10 +185,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### **Media**
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
 - Technologies used include: 
      
@@ -217,13 +214,17 @@ As a starting point I began with the html and css structure used in Code Institu
       - CSS
    
  - **Images**
-  
-    Images were sourced from the following places:
 
-   - Hero image: https://unsplash.com/photos/KVeogBZzl4M 
-   - new cockaparents: https://unsplash.com/photos/T2ld_5QnZBQ 
-   - Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
-   - Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
+    - The photos used on the home and sign up page are from various open source sites. Images on the main pages were sourced from the following places:
+
+      - Hero image: [unsplash](https://unsplash.com/photos/KVeogBZzl4M) 
+      - new cockaparents: [unsplash](https://unsplash.com/photos/T2ld_5QnZBQ) 
+      - Keep your Poo Healthy: [pixabay](https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/) 
+      - Furry Fun: [pixabay](https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/) 
+
+    - Images for the [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) were found on the following sites:
+
+      - 
 
  - **Video**
 
@@ -233,16 +234,16 @@ As a starting point I began with the html and css structure used in Code Institu
 
    - The README template provided by Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
 
-   - A number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat: 
+   - My mentor, as well as a number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat. The following people helped guide me and to tease out a range of issues I faced developing the project: 
      
-    - sandeep_mentor
-    - DavidK_5P
-    - David Bowers_5p_lead
-    - Eventyret_mentor
-    - Ionut Ciobanu
-    - Franciska 
-    - Sean
-    - Ger
-    - Christine
-    - Rebecca
+      - sandeep_mentor
+      - DavidK_5P
+      - David Bowers_5p_lead
+      - Eventyret_mentor
+      - Ionut Ciobanu
+      - Franciska 
+      - Sean
+      - Ger
+      - Christine
+      - Rebecca
 
