@@ -168,13 +168,13 @@ The webiste consists of five webapges:
 
       ![background image B](assets/README.md-images/Background-image-B)
 
-  - In making the project resposniven it was suggested to me that I use flexbox. However, having not covered this in the modules I found impleneting felxbox ultimately resulted in over-complicating issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox. With support from Code Institute tutors I was eventually able to undo the areas of code that were causing the most problems for responsiveness. 
+  - In making the project responsive, it was suggested to me that I use flexbox. However, having not covered this in the modules I found that in trying to implenet flexbox this ultimately resulted in over-complicating issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems for responsiveness. 
 
   - Another issue faced in making the site more responsive was making sure to use dynamic units of measurement rather than fixed ones in the most appropriate places.  
 
-  - I was unaware that having more than one gitpod workspace open would casue signifcant issues with diverging main branches. A signficant amount of time was sepnt on two aoccasions with Code Institute tutors fixing the issues that came with having to merge main branches. 
+  - There were two occasions where I expereinced conflicts between my GitHub repository and my local one. I was unaware that having more than one gitpod workspace open would casue signifcant issues with diverging main branches. A signficant amount of time was sepnt on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
 
-  - significant bugs were experienced when Github moved servers from eu34 to eu38, resulting in losing weeks of work.   
+  - significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
 
 
 ## **Credits**

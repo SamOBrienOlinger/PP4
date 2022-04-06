@@ -473,6 +473,7 @@ section.form-section div {
 
     .new-page-intro {
         margin: 1rem;
+        font-size: 2rem;
     }
 
     .main-sections {
@@ -582,6 +583,10 @@ section.form-section div {
         
         .input-fields {
             width: 50%;
+        }
+
+        ul {
+            padding: 0;
         }
     }
 
