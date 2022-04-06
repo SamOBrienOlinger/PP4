@@ -158,13 +158,13 @@ The webiste consists of five webapges:
       
 ## **Unfixed Bugs**
 
-    - There seems to be a minor difference between how the background image renders in the join-form.html page via (A) the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and (B) the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
+  - There seems to be a minor difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
-      (A)
+      **(A)**
 
       ![background image A](assets/README.md-images/Background-image-A)
 
-      (B)
+      **(B)**
 
       ![background image B](assets/README.md-images/Background-image-B)
 
@@ -175,6 +175,29 @@ The webiste consists of five webapges:
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
 
+### **Code**
+
+  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples and styled differnetly in CSS later: 
+
+    <h3>Open times</h3>
+
+    <table>
+      <tr>
+        <th></th>
+        <th>Open</th>
+        <th>Close</th>	
+      </tr>
+      <tr>
+        <td>Mon - Fri</td>
+        <td>09:00</td>
+        <td>21:00</td>
+      </tr>
+      <tr>
+        <td>Weekend</td>
+        <td>10:00</td>
+        <td>22:00</td>
+      </tr>	
+    </table>
 
 
 
