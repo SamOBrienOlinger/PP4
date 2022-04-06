@@ -27,12 +27,12 @@ The webiste consists of five webapges:
 
 ### **[Homepage](#homepage)** 
 
-  - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this realifesituation in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
+  - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this real life situation, in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
 
     #### **Navigation Bar**
 
       - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
-      - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells teh user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
+      - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
 
       !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
@@ -109,7 +109,7 @@ The webiste consists of five webapges:
 
    - The icons for the footer  were taken from [Font Awesome](https://fontawesome.com/)
 
-### **Features Left to Implement**
+## **Features Left to Implement**
 
 - Two other ideas for future features include: 
 
@@ -119,7 +119,7 @@ The webiste consists of five webapges:
 
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
 
-### **Testing**
+## **Testing**
  - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
  
  - __Validator Testing__
@@ -166,7 +166,7 @@ As a starting point I began with the html and css structure used in Code Institu
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
+  - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
 
 ### **Credits**
@@ -216,7 +216,7 @@ The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Cl
       - HTML
       - CSS
    
- - __Images__
+ - **Images**
   
     Images were sourced from the following places:
 
@@ -225,11 +225,11 @@ The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Cl
    - Keep your Poo Healthy: https://pixabay.com/photos/beach-dog-ball-cockapoo-puppy-2427290/ 
    - Furry Fun: https://pixabay.com/photos/beach-dog-water-sea-reflection-2239428/ 
 
- - __Video__
+ - **Video**
 
     - The YouTube video embedded in keep-your-poo-healthy.html was taken from https://www.hillspet.com: https://youtu.be/Fe-sa9mHcxI 
 
- - __Acknowledgements__
+## **Acknowledgements**
 
    - The README template provided by Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
 
