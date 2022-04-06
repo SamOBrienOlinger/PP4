@@ -136,9 +136,9 @@ The webiste consists of five webapges:
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
 
 ## **Testing**
- - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as mobiles but media queries for screens of maximimum wiadth 320px this will have to be carried uot in the future.   
+ - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as smaller mobiles, so future media queries will be added for screens of maximimum width 320px.     
  
- - __Validator Testing__
+ - **Validator Testing**
 
    - HTML
 
@@ -205,10 +205,10 @@ As a starting point I began with the html and css structure used in Code Institu
 
    - information and text was gathered from the following websites:
 
-      - https://zigzag.dog/guide-how-to-train-cockapoo-puppy/ 
-      - https://www.hillspet.com/new-pet-parent/dog#faqs
-      - https://en.wikipedia.org/wiki/Cockapoo 
-      - https://youtu.be/Fe-sa9mHcxI 
+      - [zigzag.dog](https://zigzag.dog/guide-how-to-train-cockapoo-puppy/)
+      - [Hillspet](https://www.hillspet.com/new-pet-parent/dog#faqs)
+      - [Wikipedia](https://en.wikipedia.org/wiki/Cockapoo) 
+      - [YouTube](https://youtu.be/Fe-sa9mHcxI )
 
 
   - Styling and instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module: [Signup Form: Challenge 1](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=first). 
@@ -219,9 +219,9 @@ As a starting point I began with the html and css structure used in Code Institu
 
 - Technologies used include: 
      
-    - HTML
-    - CSS
-    - Python
+    - HTML5
+    - CSS3
+    - Python3
     - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improved performance 
 
     - Gitpod
@@ -240,8 +240,9 @@ As a starting point I began with the html and css structure used in Code Institu
         * Browsers: last 4 version 
 
   - Languages used: 
-      - HTML
-      - CSS
+      - HTML5
+      - CSS3
+      - ?python3?
    
  - **Images**
 
@@ -254,7 +255,8 @@ As a starting point I began with the html and css structure used in Code Institu
       
      - Images for the [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) are a combination of my own and others found on the following sites:
 
-        - [pxfuel](https://www.pxfuel.com/en/search?q=Cockapoo) 
+        - [pxfuel](https://www.pxfuel.com/en/search?q=Cockapoo)
+        - [ukpets](https://www.ukpets.com/blog/how-much-is-a-cockapoo) 
 
  - **Video**
 
