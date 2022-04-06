@@ -168,6 +168,13 @@ The webiste consists of five webapges:
 
       ![background image B](assets/README.md-images/Background-image-B)
 
+  - In making the project resposniven it was suggested to me that I use flexbox. However, having not covered this in the modules I found impleneting felxbox ultimately resulted in over-complicating issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox. With support from Code Institute tutors I was eventually able to undo the areas of code that were causing the most problems for responsiveness. 
+
+  - Another issue faced in making the site more responsive was making sure to use dynamic units of measurement rather than fixed ones in the most appropriate places.  
+
+  - I was unaware that having more than one gitpod workspace open would casue signifcant issues with diverging main branches. A signficant amount of time was sepnt on two aoccasions with Code Institute tutors fixing the issues that came with having to merge main branches. 
+
+  - significant bugs were experienced when Github moved servers from eu34 to eu38, resulting in losing weeks of work.   
 
 
 ## **Credits**
