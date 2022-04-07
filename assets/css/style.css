@@ -297,8 +297,7 @@ article.keep-your-poo-healthy-text {
 }
 
 img {
-    height: 40vh;
-    width: auto;
+    height: 100%;
 }
 
 .gallery-container {
@@ -308,6 +307,8 @@ img {
     align-content: center;
     justify-content: center;
     align-items: center;
+    background: rgba(113, 18, 238, 0.1);
+    padding: 15px;
 }
 
 .gallery-container .gallery-box {
