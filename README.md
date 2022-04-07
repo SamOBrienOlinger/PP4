@@ -199,6 +199,8 @@ However, I changed many of the fixed units of measurement to dynamic units; made
    - **CSS**
     
     Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
+
+    ![CSS Validator](assets/README.md-images/README.md-CSS-Validator.jpg)
     
 
    - **Lighthouse** 
