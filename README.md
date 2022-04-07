@@ -24,6 +24,7 @@ The webiste consists of five webpages:
 * [Keep Your Poo Healthy](#keep-your-poo-healthy)
 * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
 * [Join](#join)
+* [Footer](#footer)
 
 ### **[Homepage](#homepage)** 
 
@@ -46,6 +47,27 @@ The webiste consists of five webpages:
   "square a circle". 
   
  !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
+
+ The CSS code that was particualrly useful for this can be found [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css) on line 94 to 112: 
+
+  >
+    #cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    }
+    
+
+However, I changed many of the fixed units of measurement to dynamic units; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multpiple screen sizes and responsiveness. 
 
   - To avoid the 'illusion of completeness' there are images visible above the fold area:
 
@@ -105,7 +127,7 @@ The webiste consists of five webpages:
 
   - This builds on the concept outlined in the abovesection regarding the clubhouse and training centre as well as the Furry Fun Foto Gallery.  A physical space where Cockapoo owners and their pets can meet in person. The opportunity to meet and benefit membership in-person makes this website and concept different to most other purely online communities that can easily be found on social media platforms yet do not involve members meeting face-to-face with their pets for mutual benefit and free peer-support.   
 
-### **The Footer** 
+### **[Footer](#footer)** 
 
   ![Footer](assets/README.md-images/README.md-footer.jpg) 
 
@@ -134,14 +156,11 @@ The webiste consists of five webpages:
         </ul>
   </footer>
    
-
-
+  - While the above code is essentially the same for most of the footer in this project, I added two elements for this project to engage the user more. In this project the footer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
 
   - The footer is valuable to the user as it encourages them to stay connected with their community and fellow Cokcapoo Club members via social media.
 
-   - The footoer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
-
-   - The icons for the footer  were taken from [Font Awesome](https://fontawesome.com/)
+   - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
 ## **Deployment**
 
@@ -170,16 +189,16 @@ The webiste consists of five webpages:
  
  - **Validator Testing**
 
-   - HTML
+   - **HTML**
 
      I began testing the HTML code early on in teh project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initally, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. WIth feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
 
-   - CSS
+   - **CSS**
     
-    Testing the CSS code was also carried out with each developmental stage of the project. 
+    Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
     
 
-   - Lighthouse 
+   - **Lighthouse** 
 
     Initially, I intended all of the images on the website, especially the Furry Fun Foto Gallery page, to be my own photogrpahy with family, my own dog and with friend's pets. However, coordinating this proved to be more time consuming and difficult than I originally envisaged, especially with health implications of socialising due to COVID. Instead I have used a mix of my own photographs and images from open source websites covered in the [Images](#used-images) section. 
 
@@ -219,9 +238,9 @@ As a starting point I began with the html and css structure used in Code Institu
 
 ### **Code**
 
-  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples and styled differnetly in CSS later: 
+  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS: 
 
-    <h3>Open times</h3>
+  ><h3>Open times</h3>
 
     <table>
       <tr>

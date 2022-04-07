@@ -505,6 +505,10 @@ section.form-section div {
         max-width: 90vw;
     }
 
+    div.text-center p {
+         margin: 0;
+    }
+
     div.new-page-intro-join,
     section.form-section div {
         margin-left: auto;
@@ -513,6 +517,11 @@ section.form-section div {
 
     .gmap_size {
         display: inline;
+    }
+
+    .new-cockaparents-text-second-section table {
+        margin: auto;
+        font-size: 2vmin;
     }
 
     #contact-us {
