@@ -24,6 +24,9 @@ The webiste consists of five webpages:
 * [Keep Your Poo Healthy](#keep-your-poo-healthy)
 * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
 * [Join](#join)
+
+Every page also has a navigation bar and footer
+* [Navigation bar](#navbar)
 * [Footer](#footer)
 
 ### **[Homepage](#homepage)** 
@@ -32,7 +35,7 @@ The webiste consists of five webpages:
 
 ![hero image](assets/README.md-images/README.md-original-hero-image.jpg)
 
-  #### **Navigation Bar**
+  #### **[Navigation bar](#navbar)**
 
    - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
 
@@ -48,7 +51,7 @@ The webiste consists of five webpages:
   
  !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
- The CSS code that was particualrly useful for this can be found [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css) on line 94 to 112: 
+ The CSS code that was particualrly useful for this can be found [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css) on lines 94 to 112: 
 
   >
     #cover-text {
@@ -238,27 +241,29 @@ As a starting point I began with the html and css structure used in Code Institu
 
 ### **Code**
 
-  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS: 
+  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS. The following code can be found on lines 101 to 121 [Here](https://github.com/aoifesmith/CodersCoffeehouse/blob/master/index.html).  
 
-  ><h3>Open times</h3>
+  ><div class="contact-box-left">
+		<h3 class="text-center">Open times</h3>
 
-    <table>
-      <tr>
-        <th></th>
-        <th>Open</th>
-        <th>Close</th>	
-      </tr>
-      <tr>
-        <td>Mon - Fri</td>
-        <td>09:00</td>
-        <td>21:00</td>
-      </tr>
-      <tr>
-        <td>Weekend</td>
-        <td>10:00</td>
-        <td>22:00</td>
-      </tr>	
-    </table>
+		<table class="text-center">
+		<tr>
+			<th></th>
+			<th>Open</th>
+			<th>Close</th>	
+		</tr>
+		<tr>
+			<td>Mon - Fri</td>
+			<td>09:00</td>
+			<td>21:00</td>
+		</tr>
+		<tr>
+			<td>Weekend</td>
+			<td>10:00</td>
+			<td>22:00</td>
+		</tr>	
+		</table>
+	</div>
 
 
 
@@ -325,7 +330,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
 ## **Acknowledgements**
 
-   - The README template provided by Code Institute was very helpful as a model for developing this README file: https://github.com/Code-Institute-Solutions/readme-template 
+   - The [README template](https://github.com/Code-Institute-Solutions/readme-template) provided by Code Institute was very helpful as a model for developing this README file.  
 
    - My mentor, as well as a number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat. The following people helped guide me and to tease out a range of issues I faced developing the project: 
      
