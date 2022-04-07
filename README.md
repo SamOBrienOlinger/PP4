@@ -2,7 +2,7 @@
 
 This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own club and community in person.  
 
-!["hero image with nav bar on homepage"](assets/README.md-images/README.md-Hero-Image.jpg)
+!["hero image with nav bar on homepage"](assets/README.md-images/README.md-the-Hero-Image.jpg)
 
 The site targets users in Dublin, Ireland who
 
@@ -17,7 +17,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 ## **Features**
 
-The webiste consists of five webpages:
+The webiste consists of five webpages
 
 * [Homepage](#homepage)
 * [New Cockaparents](#new-cockaparents)
