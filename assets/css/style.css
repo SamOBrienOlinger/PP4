@@ -298,6 +298,34 @@ article.keep-your-poo-healthy-text {
 
 img {
     height: 40vh;
+    width: auto;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-container .gallery-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery-container .gallery-box .gallery-row {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.gallery-container .gallery-box .gallery-row img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
 }
 
 #join-text {
@@ -535,6 +563,14 @@ section.form-section div {
     .radio-input {
         display: block;
         width: auto;
+    }
+
+    .gallery-container .gallery-box {
+        flex-direction: column;
+    }
+
+    .gallery-container .gallery-box .gallery-row {
+        width: 100%;
     }
 }
 
