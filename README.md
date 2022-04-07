@@ -17,13 +17,13 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 ## **Features**
 
-The webiste consists of five webapges:
+The webiste consists of five webpages:
 
 * [Homepage](#homepage)
 * [New Cockaparents](#new-cockaparents)
 * [Keep Your Poo Healthy](#keep-your-poo-healthy)
 * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-* [Join](#join-page)
+* [Join](#join)
 
 ### **[Homepage](#homepage)** 
 
@@ -33,15 +33,17 @@ The webiste consists of five webapges:
 
   #### **Navigation Bar**
 
-      - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
-      - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
+   - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
 
-      !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
+   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are via the specific page the user is on having the correpsonding navigation bar option bakcground highlighted: 
+
+  !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
       
   #### **[Hero image](#hero-image)**
 
-  - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. 
+  - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. This was inspired by Code Institute's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) image and the module where we learn to 
+  "square a circle". 
   
  !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
@@ -95,7 +97,7 @@ The webiste consists of five webapges:
 
   - This photo gallery idea was borrowed from the Love Running Project, which also seemed to capture the demand of users to particapte in an online setting with other likeminded users through sharing relvant images. This feature aims to add more value to the overall educational and informative purpose of the site.   
 
-### **[Join](#join-page)**
+### **[Join](#join)**
 
    ![Join page image](assets/README.md-images/Join-CC-image.jpg)
 
@@ -107,7 +109,33 @@ The webiste consists of five webapges:
 
   ![Footer](assets/README.md-images/README.md-footer.jpg) 
 
-  - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user.
+  - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user. The initial code for the social media icons for the footer was based on those found in the Code Institue's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) and then altered to match and be consistent with the color scheme of this project.   
+
+  The original HTML code was
+
+  ><footer>
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+  </footer>
+   
+
+
 
   - The footer is valuable to the user as it encourages them to stay connected with their community and fellow Cokcapoo Club members via social media.
 
@@ -120,16 +148,18 @@ The webiste consists of five webapges:
 - The site was deployed to GitHub pages using the following steps:
 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the Main Branch has been selected, click on the save button. The page will be automatically refreshed, a link proved, and a detailed ribbon displayed to indicate the successful deployment. 
 
   - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
 ## **Features Left to Implement**
 
-- Two other ideas for future features include: 
+- Ideas for future features include: 
 
   - a way for users who would join Cockapoo CLub to upload their photographs of their pets. 
+
+  - a commercial page with branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.  
 
   - a live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
@@ -142,13 +172,18 @@ The webiste consists of five webapges:
 
    - HTML
 
-     X
+     I began testing the HTML code early on in teh project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initally, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. WIth feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
 
    - CSS
-
-    Y
+    
+    Testing the CSS code was also carried out with each developmental stage of the project. 
+    
 
    - Lighthouse 
+
+    Initially, I intended all of the images on the website, especially the Furry Fun Foto Gallery page, to be my own photogrpahy with family, my own dog and with friend's pets. However, coordinating this proved to be more time consuming and difficult than I originally envisaged, especially with health implications of socialising due to COVID. Instead I have used a mix of my own photographs and images from open source websites covered in the [Images](#used-images) section. 
+
+    By including images of larger file sizes, specifically my own iamges, I received a lower Lighthouse score than I had hoped for. I followed the advice of my mentor and the Lighthouse app to convert all .jfif and .jpg images to .png format. This procedure did improve the score on both movile and desktop somewhat, however in the future I would use smaller image sizes for next projects and continuing trying to improve current images use din this project. Below are the Lighthouse scores.    
      
       - Mobile
       screenshot
@@ -158,7 +193,7 @@ The webiste consists of five webapges:
       
 ## **Unfixed Bugs**
 
-  - There seems to be a minor difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
+  - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
       **(A)**
 
@@ -168,7 +203,7 @@ The webiste consists of five webapges:
 
       ![background image B](assets/README.md-images/Background-image-B)
 
-  - In making the project responsive, it was suggested to me that I use flexbox. However, having not covered this in the modules I found that in trying to implenet flexbox this ultimately resulted in over-complicating issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems for responsiveness. 
+  - In making the project responsive, it was suggested by tutors and students via Slack that I use flexbox. However, I think because flexbox was not covered in the modules, I quickly found that in trying to implement flexbox the ultimate resulted was I over-complicated issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems I was experiencing. 
 
   - Another issue faced in making the site more responsive was making sure to use dynamic units of measurement rather than fixed ones in the most appropriate places.  
 
@@ -251,7 +286,7 @@ As a starting point I began with the html and css structure used in Code Institu
       - CSS3
       - ?python3?
    
- - **Images**
+ - **[Images](#used-images)**
 
     - The photos used on the main pages are from various open source sites. The background image for join-form.html is my own. The other images on the main pages were sourced from the following places:
 
