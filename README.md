@@ -332,14 +332,14 @@ As a starting point I began with the html and css structure used in Code Institu
 
    - The [README template](https://github.com/Code-Institute-Solutions/readme-template) provided by Code Institute was very helpful as a model for developing this README file.  
 
-   - My mentor, as well as a number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat. The following people helped guide me and to tease out a range of issues I faced developing the project: 
+   - My mentor, Sandeep Aggarwal, as well as a number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
      
-      - sandeep_mentor
       - DavidK_5P
       - David Bowers_5p_lead
       - Eventyret_mentor
-      - Ionut Ciobanu
-      - Franciska 
+      - Ionut Ciobanu)lead
+      - Franciska
+      - rachel_rock_5P_lead 
       - Sean
       - Ger
       - Christine
