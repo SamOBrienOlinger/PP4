@@ -244,7 +244,7 @@ As a starting point I began with the html and css structure used in Code Institu
   - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS. The following code can be found on lines 101 to 121 [Here](https://github.com/aoifesmith/CodersCoffeehouse/blob/master/index.html).  
 
   ><div class="contact-box-left">
-		<h3 class="text-center">Open times</h3>
+		<h2 class="text-center">Open times</h2>
 
 		<table class="text-center">
 		<tr>
