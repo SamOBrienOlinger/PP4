@@ -199,19 +199,21 @@ However, I changed many of the fixed units of measurement to dynamic units; made
      I began testing the HTML code early on in teh project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initally, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. WIth feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
 
      * [Homepage](#homepage)
-
+        ![homepage](assets/README.md-images/README.md-index-html-valid.png)
       
      * [New Cockaparents](#new-cockaparents)
-     
-      
-     * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+        ![new cockaparents](assets/README.md-images/README.md-NC-html-valid.png)
 
+     * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+        ![Keep Your Poo Healthy](assets/README.md-images/README.md-KYPH-html-valid.png)
 
      * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
         ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-valid.png)
 
 
      * [Join](#join)
+        ![Join Cockapoo CLub page](assets/README.md-images/README.md-JCC-html-valid.png)
+
 
    - **CSS**
     
