@@ -116,11 +116,13 @@ However, I changed many of the fixed units of measurement to dynamic units; made
 
   ![Furry Fun Foto Gallery](assets/README.md-images/Option-3-FFFGjpg.jpg)
 
-  - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is intended for users to peruse and upload images of their pets. This section provides a gallery of shared images.
+  - The [Furry Fun Foto Gallery](https://samobrienolinger.github.io/Cockapoo-Club/furry-fun-foto-gallery.html#jump-to-fffg) section is intended for users to peruse and upload images of their pets.
 
   - After researching other websites and social media that provide dog owners with relevant valuable information, it was clear that dog owners enjoy being part of a community with this same shared interest in their pets. Joining a unique online collective is a priority for many users who love to see images of other people's pets and want to share images and information about their own pet and personal experiences.
 
-  - This photo gallery idea was borrowed from the Love Running Project, which also seemed to capture the demand of users to particapte in an online setting with other likeminded users through sharing relvant images. This feature aims to add more value to the overall educational and informative purpose of the site.   
+  - This photo gallery idea was borrowed from the Love Running Project, which also seemed to capture the demand of users to particapte in an online setting with other likeminded users through sharing relevant images. This feature aims to add more value to the overall educational and informative purpose of the site. 
+
+  - Making the gallery responsive was challenging given the very different sizes of the photographs chosen. However, [Create Responsive Image Gallery Using HTML and CSS](https://www.youtube.com/watch?v=Trw_9lisYVY), a YouTube tutorial produced by [Tech2 etc](https://tech2etc.com/) was very helpful. The code for this gallery is based on the explanation found in this video.   
 
 ### **[Join](#join)**
 
@@ -195,6 +197,21 @@ However, I changed many of the fixed units of measurement to dynamic units; made
    - **HTML**
 
      I began testing the HTML code early on in teh project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initally, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. WIth feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
+
+     * [Homepage](#homepage)
+
+      
+     * [New Cockaparents](#new-cockaparents)
+     
+      
+     * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+
+
+     * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
+        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-valid.png)
+
+
+     * [Join](#join)
 
    - **CSS**
     
