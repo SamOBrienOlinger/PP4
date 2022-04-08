@@ -329,6 +329,14 @@ img {
     border-radius: 5px;
 }
 
+body > main > div > div > div:nth-child(1) > img:nth-child(1) {
+    height: auto;
+}
+
+body > main > div > div > div:nth-child(2) > img:nth-child(2) {
+    height: auto;
+}
+
 #join-text {
     text-align: center;
     font-size: 30px;
