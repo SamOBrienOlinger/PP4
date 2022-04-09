@@ -17,7 +17,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 ## **Features**
 
-The webiste consists of five webpages
+The webiste consists of five pngages
 
 * [Homepage](#homepage)
 * [New Cockaparents](#new-cockaparents)
@@ -100,9 +100,9 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
 
   ![New Cockaparents"](assets/README.md-images/README.md-Option-1-NC.jpg) 
 
-  - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) webpage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
+  - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) pngage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
-  - To ensure a positive user expereince, all internal links to this webpage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
+  - To ensure a positive user expereince, all internal links to this pngage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
 
 ### **[Keep Your Poo Healthy](#keep-your-poo-healthy)**
 
@@ -228,10 +228,25 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
 
     By including images of larger file sizes, specifically my own iamges, I received a lower Lighthouse score than I had hoped for. I followed the advice of my mentor and the Lighthouse app to convert all .jfif and .jpg images to .png format. This procedure did improve the score on both movile and desktop somewhat, however in the future I would use smaller image sizes for next projects and continuing trying to improve current images use din this project. Below are the Lighthouse scores.    
      
-      - Mobile
-      screenshot
+    - Mobile
+      
+      * [Homepage](#homepage)
+      ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
+      
+      * [New Cockaparents](#new-cockaparents)
+        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
+
+      * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
+
+      * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
+        ![Furry Fun Foto Gallery]()
+
+
+      * [Join](#join)
+        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
     
-      - Desktop 
+    - Desktop 
       screenshot
       
 ## **Unfixed Bugs**
