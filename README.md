@@ -242,12 +242,24 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
         ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
 
-
       * [Join](#join)
         ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
     
     - Desktop 
-      screenshot
+      * [Homepage](#homepage)
+      ![Homepage](assets/README.md-images/README.md-index-html-Desktop-lighthouse-.png)
+      
+      * [New Cockaparents](#new-cockaparents)
+        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
+
+      * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
+
+      * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
+        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-fffg-html-Desktop-lighthouse-.png)
+
+      * [Join](#join)
+        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
       
 ## **Unfixed Bugs**
 
