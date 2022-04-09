@@ -70,7 +70,7 @@ Every page also has a navigation bar and footer
     }
     
 
-However, I changed many of the fixed units of measurement to dynamic units; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multpiple screen sizes and responsiveness. 
+However, I changed many of the fixed units of measurement to dynamic units; changed the fon-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multiple screen sizes to ensure responsiveness. 
 
   - To avoid the 'illusion of completeness' there are images visible above the fold area:
 
@@ -217,9 +217,9 @@ However, I changed many of the fixed units of measurement to dynamic units; made
 
    - **CSS**
     
-    Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
+      Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
 
-    ![CSS Validator](assets/README.md-images/README.md-CSS-Validator.jpg)
+      ![CSS Validator](assets/README.md-images/README.md-CSS-Validator.jpg)
     
 
    - **Lighthouse** 

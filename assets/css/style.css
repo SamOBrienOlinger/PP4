@@ -98,7 +98,7 @@ a:hover {
     animation-name: hero-zoom;
     animation-duration: 9s;
     animation-fill-mode: forwards;
-    background: url(../Images/new-hero.png) center center no-repeat;
+    background: url(../Images/new-hero-webp.webp) center center no-repeat;
     background-size: cover;
 }
 
