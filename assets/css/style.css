@@ -98,7 +98,7 @@ a:hover {
     animation-name: hero-zoom;
     animation-duration: 9s;
     animation-fill-mode: forwards;
-    background: url(../Images/new-hero-png.png) center center no-repeat;
+    background: url(../Images/new-hero-webp.webp) center center no-repeat;
     background-size: cover;
 }
 
@@ -159,7 +159,7 @@ a:hover {
 }
 
 #new-cockaparents {
-    background-image: url(../Images/new-new-cockaparents.png);
+    background-image: url(../Images/new-new-cockaparents.webp);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -170,7 +170,7 @@ a:hover {
 }
 
 #keep-your-poo-healthy {
-    background-image: url(../Images/healthy-boy.png);
+    background-image: url(../Images/healthy-boy.webp);
     margin-left: auto;
     margin-right: auto;
     outline: solid;
@@ -180,7 +180,7 @@ a:hover {
 }
 
 #furry-fun {
-    background-image: url(../Images/furry-fun.png);
+    background-image: url(../Images/furry-fun.webp);
     background-position-x: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -354,7 +354,7 @@ body > main > div > div > div:nth-child(2) > img:nth-child(2) {
 
 .form-section {
     clear: left;
-    background-image: url("../Images/benji-couch2.png");
+    background-image: url("../Images/benji-couch2.webp");
     background-size: cover;
     background-position: center;
     height: auto;
