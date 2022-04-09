@@ -240,7 +240,7 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
         ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-        ![Furry Fun Foto Gallery]()
+        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
 
 
       * [Join](#join)
@@ -324,7 +324,8 @@ As a starting point I began with the html and css structure used in Code Institu
     - HTML5
     - CSS3
     - Python3
-    - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improved performance 
+    - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
+    - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
 
     - Gitpod
     - Github
