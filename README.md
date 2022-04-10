@@ -1,8 +1,9 @@
 # Cockapoo Club
 
-This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own club and community in person.  
+  ## **Summary**
+  This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own club and community in person.  
 
-!["hero image with nav bar on homepage"](assets/README.md-images/README.md-the-Hero-Image.jpg)
+!["Cockapoo Club on all screens"](assets/README.md-images/README.md-screens.png)
 
 The site targets users in Dublin, Ireland who
 
@@ -14,8 +15,17 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 * may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community, meeting face-to-face, sharing photographs of their pet and training their dogs together.   
 
+## **Contents**
 
-## **Features**
+1. **[Features](#features)**
+2. **[Deployment](#deployment)**
+3. **[Features Left to Implement](#features-left-to-implement)**
+4. **[Testing](#testing)**
+5. **[Unfixed Bugs](#unfixed-bugs)**
+6. **[Credits](#credits)**
+7. **[Acknowledgements](#acknowledgements)** 
+
+## 1. **[Features](#features)**
 
 The webiste consists of five pngages
 
@@ -31,9 +41,21 @@ Every page also has a navigation bar and footer
 
 ### **[Homepage](#homepage)** 
 
-  - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward therefore aims to remind the user of this real life situation, in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
+  - The landing page immedaitely engages the user with a large [hero image](#hero-image) that zooms forward. The image is of a friendly happy Cockapoo running towards you with excitement. The zoom forward feature aims to remind the user of this real life situation, in order to illicit a positive emoitional respons from the user from the very start of their experience on the website.  
 
-![hero image](assets/README.md-images/README.md-original-hero-image.jpg)
+    #### **[Hero image](#hero-image)**
+
+    ![hero image](assets/README.md-images/README.md-original-hero-image.jpg)
+      - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. This was inspired by Code Institute's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) image and the module where we learn to "square a circle". 
+  
+        !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
+
+        The CSS code that was particualrly useful for this can be found on lines 94 to 112 [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css). For details of this code, please go to [Code](#code). However, I changed many of the fixed units of measurement to dynamic units; changed the fon-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multiple screen sizes to ensure responsiveness. 
+
+
+      - To avoid the 'illusion of completeness' there are images visible above the fold area:
+
+      !["homepage and visible images above the fold area"](assets/README.md-images/README.md-above-the-fold.jpg)
 
   #### **[Navigation bar](#navbar)**
 
@@ -44,37 +66,6 @@ Every page also has a navigation bar and footer
   !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
       
-  #### **[Hero image](#hero-image)**
-
-  - The hero image and also has cover text of JOIN COKCAPOO CLUB with an immediate call to action which brings the user to the Join page in order to encourage the user to sign up and become a member of this unique community. This was inspired by Code Institute's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) image and the module where we learn to 
-  "square a circle". 
-  
- !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
-
- The CSS code that was particualrly useful for this can be found [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css) on lines 94 to 112: 
-
-  >
-    #cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-    }
-    
-
-However, I changed many of the fixed units of measurement to dynamic units; changed the fon-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multiple screen sizes to ensure responsiveness. 
-
-  - To avoid the 'illusion of completeness' there are images visible above the fold area:
-
-     !["homepage and visible images above the fold area"](assets/README.md-images/README.md-above-the-fold.jpg)
 
   #### **Content on Homepage**
 
@@ -136,38 +127,13 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
 
   ![Footer](assets/README.md-images/README.md-footer.jpg) 
 
-  - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user. The initial code for the social media icons for the footer was based on those found in the Code Institue's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) and then altered to match and be consistent with the color scheme of this project.   
-
-  The original HTML code was
-
-  ><footer>
-        <ul>
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-  </footer>
-   
-  - While the above code is essentially the same for most of the footer in this project, I added two elements for this project to engage the user more. In this project the footer also contains an email address to contact Cockapoo Club and another call to action to join as a new member. 
+  - The footer section includes links to the relevant social media sites which would connect users with social media for Cockapoo Club. The links open to a new tab to allow easy navigation for the user. The initial code for the social media icons for the footer was based on those found in the Code Institue's [Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) and then altered to match and be consistent with the color scheme of this project.    
 
   - The footer is valuable to the user as it encourages them to stay connected with their community and fellow Cokcapoo Club members via social media.
 
    - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
-## **Deployment**
+## 2. **[Deployment](#deployment)**
 
 - The site was deployed to GitHub pages using the following steps:
 
@@ -177,7 +143,7 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
 
   - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
-## **Features Left to Implement**
+## 3. **[Features Left to Implement](#features-left-to-implement)**
 
 - Ideas for future features include: 
 
@@ -189,7 +155,7 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
 
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
 
-## **Testing**
+## 4. **[Testing](#testing)**
  - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as smaller mobiles, so future media queries will be added for screens of maximimum width 320px.     
  
  - **Validator Testing**
@@ -219,7 +185,7 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
     
       Testing the CSS code was also carried out with each developmental stage of the project. Most often the errors that arose were with syntax for media queries and stray curly braces.  
 
-      ![CSS Validator](assets/README.md-images/README.md-CSS-Validator.jpg)
+        ![CSS Validator](assets/README.md-images/README.md-CSS-Validator.jpg)
     
 
    - **Lighthouse** 
@@ -231,37 +197,37 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
     - Mobile
       
       * [Homepage](#homepage)
-      ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
+          ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
       
       * [New Cockaparents](#new-cockaparents)
-        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
+          ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
 
       * [Keep Your Poo Healthy](#keep-your-poo-healthy)
-        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
+          ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
+          ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
 
       * [Join](#join)
-        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
+          ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
     
     - Desktop 
       * [Homepage](#homepage)
-      ![Homepage](assets/README.md-images/README.md-index-html-Desktop-lighthouse-.png)
+          ![Homepage](assets/README.md-images/README.md-index-html-Desktop-lighthouse-.png)
       
       * [New Cockaparents](#new-cockaparents)
-        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
+          ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
 
       * [Keep Your Poo Healthy](#keep-your-poo-healthy)
-        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
+          ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-fffg-html-Desktop-lighthouse-.png)
+          ![Furry Fun Foto Gallery](assets/README.md-images/README.md-fffg-html-Desktop-lighthouse-.png)
 
       * [Join](#join)
-        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
+          ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
       
-## **Unfixed Bugs**
+## 5. **[Unfixed Bugs](#unfixed-bugs)**
 
   - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
@@ -282,16 +248,34 @@ However, I changed many of the fixed units of measurement to dynamic units; chan
   - significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
 
 
-## **Credits**
+## 6. **[Credits](#credits)**
 
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
 
-### **Code**
+### **[Code](#code)**
 
-  - code for the opening times of the Cockapoo CLubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS. The following code can be found on lines 101 to 121 [Here](https://github.com/aoifesmith/CodersCoffeehouse/blob/master/index.html).  
+- Code for the   
+~~~
+    #cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    }
+~~~
+  - Code for the opening times of the Cockapoo Clubhouse and Traininge Centre was initally taken from the Code Institute's Coders Coffeehouse practical examples. The details have been altered to make it relevant to thsi projcet and styled differnetly using CSS. The following code can be found on lines 101 to 121 [Here](https://github.com/aoifesmith/CodersCoffeehouse/blob/master/index.html).  
 
-  ><div class="contact-box-left">
+~~~
+  <div class="contact-box-left">
 		<h2 class="text-center">Open times</h2>
 
 		<table class="text-center">
@@ -312,8 +296,33 @@ As a starting point I began with the html and css structure used in Code Institu
 		</tr>	
 		</table>
 	</div>
+~~~
 
+ - The original HTML code for the footer was:
+~~~
+<footer>
+        <ul>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+  </footer>
+~~~
 
+   While the above code is essentially the same for most of the footer in this project, I added two elements for this project to engage the user more. In this project the footer also contains an email address to contact Cockapoo Club and another call to action to join as a new member of Cockapoo Club.
 
 ### **Content**
 
@@ -355,9 +364,11 @@ As a starting point I began with the html and css structure used in Code Institu
         * Browsers: last 4 version 
 
   - Languages used: 
-      - HTML5
-      - CSS3
-      - ?python3?
+      - HTML
+      - CSS
+
+     ![Languages](assets/README.md-images/README.md-languages-used.png)
+     
    
  - **[Images](#used-images)**
 
@@ -377,7 +388,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
     - The YouTube video embedded in keep-your-poo-healthy.html was taken from https://www.hillspet.com: https://youtu.be/Fe-sa9mHcxI 
 
-## **Acknowledgements**
+## 7. **[Acknowledgements](#acknowledgements)**
 
    - The [README template](https://github.com/Code-Institute-Solutions/readme-template) provided by Code Institute was very helpful as a model for developing this README file.  
 
