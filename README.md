@@ -198,7 +198,7 @@ Every page also has a navigation bar and footer
     - Mobile
       
       * [Homepage](#homepage)
-          ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
+         ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
       
       * [New Cockaparents](#new-cockaparents)
           ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
