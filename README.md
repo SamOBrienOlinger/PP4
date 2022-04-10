@@ -1,9 +1,19 @@
-# Cockapoo Club
+# **Cockapoo Club**, Dublin Ireland
 
-  ## **Summary**
-  This website provides users with a starting point for all kinds of information about owning Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own club and community in person.  
+For my Portfolio 1 Project submitted as part of the Code Institute's Diploma in full-stack software development course, I created a fictional website for dog owners called 'Cockapoo Club'.
 
-!["Cockapoo Club on all screens"](assets/README.md-images/README.md-screens.png)
+![Website on multiple screens](assets/README.md-images/README.md-screens.png)
+
+- [Click Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) to see the deployed website. 
+
+- To view the repository on Github [Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)
+
+- This website was first designed for Desktop users first and is responsive for users of smaller devices.  
+
+## **Summary**
+  This website provides users with a starting point for all kinds of information about owning, training and taking care of a breed of dog called Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. 
+  
+  Unlike many other websites that provide similar information this project offers users a unique opportunity to create and particapte in their own unique community at a fictional physical clubhouse and training centre in person in Dublin, Ireland.   
 
 The site targets users in Dublin, Ireland who
 
@@ -11,9 +21,9 @@ The site targets users in Dublin, Ireland who
 
 * may be thinking about getting a new Cockapoo dog and require more information to make their decision. 
 
-Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how i ttargets users who 
+Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how it targets users who 
 
-* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community, meeting face-to-face, sharing photographs of their pet and training their dogs together.   
+* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. By providing users with a unique opportunity to join their own community of consisting of Cockapoo owners, of meeting face-to-face, sharing photographs of their pets and training their dogs together, I beleeve the concept has much potential and would be of significant value to users.      
 
 
 ## **[Contents](#contents)**
@@ -28,7 +38,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 ## **[Features](#features)**
 
-The webiste consists of five pngages
+The webiste consists of five pages:
 
 * [Homepage](#homepage)
 * [New Cockaparents](#new-cockaparents)
@@ -155,30 +165,36 @@ Every page also has a navigation bar and footer
   - a live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
+  
+  - This website works on screens sizes of minimum width 320px. To make sure it works for smaller screen-sizes, such as smaller mobile devices, future media queries will need to be added for screens of maximimum width 320px.
 
 ## **[Testing](#testing)**
- - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as smaller mobiles, so future media queries will be added for screens of maximimum width 320px.     
- 
+   
  - **Validator Testing**
 
    - **HTML**
 
      I began testing the HTML code early on in teh project, to methodically ensure that all HTML code was being built on solid foundations across all pages. Initally, I had some basic mistakes about having more than one H1 heading and errors due to opening tags not having corresponding closing tags. WIth feedback from fellow students via Slack and by using the HTML Validator I have been able to fix these HTML issues.  
 
-     * [Homepage](#homepage)
+      * [Homepage](#homepage)
+
         ![homepage](assets/README.md-images/README.md-index-html-valid.png)
       
      * [New Cockaparents](#new-cockaparents)
+        
         ![new cockaparents](assets/README.md-images/README.md-NC-html-valid.png)
 
      * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+        
         ![Keep Your Poo Healthy](assets/README.md-images/README.md-KYPH-html-valid.png)
 
      * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
+        
         ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-valid.png)
 
 
      * [Join](#join)
+        
         ![Join Cockapoo CLub page](assets/README.md-images/README.md-JCC-html-valid.png)
 
 
@@ -198,35 +214,45 @@ Every page also has a navigation bar and footer
     - Mobile
       
       * [Homepage](#homepage)
-         ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
+
+        ![Homepage](assets/README.md-images/README.md-index-html-lighthouse.png)
       
       * [New Cockaparents](#new-cockaparents)
-          ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
+          
+        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-lighthouse.png)
 
       * [Keep Your Poo Healthy](#keep-your-poo-healthy)
-          ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
+          
+        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-lighthouse.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-          ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
+          
+        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-FFFG-html-lighthouse.png)
 
       * [Join](#join)
-          ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
+          
+        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-lighthouse.png)
+
     
     - Desktop 
+
       * [Homepage](#homepage)
-          ![Homepage](assets/README.md-images/README.md-index-html-Desktop-lighthouse-.png)
+          
+        ![Homepage](assets/README.md-images/README.md-index-html-Desktop-lighthouse-.png)
       
       * [New Cockaparents](#new-cockaparents)
-          ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
+          
+        ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
 
       * [Keep Your Poo Healthy](#keep-your-poo-healthy)
-          ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
+        ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
-          ![Furry Fun Foto Gallery](assets/README.md-images/README.md-fffg-html-Desktop-lighthouse-.png)
+        ![Furry Fun Foto Gallery](assets/README.md-images/README.md-fffg-html-Desktop-lighthouse-.png)
 
       * [Join](#join)
-          ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
+        ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
+
       
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
@@ -240,7 +266,7 @@ Every page also has a navigation bar and footer
 
       ![background image B](assets/README.md-images/Background-image-B)
 
-  - In making the project responsive, it was suggested by tutors and students via Slack that I use flexbox. However, I think because flexbox was not covered in the modules, I quickly found that in trying to implement flexbox the ultimate resulted was I over-complicated issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems I was experiencing. 
+  - In making the project responsive, it was suggested by tutors and students via Slack that I use flexbox. However, I think because flexbox was not covered in the modules, I quickly found that in trying to implement flexbox the ultimate resulted was I over-complicated issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from my mentor and Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems I was experiencing. 
 
   - Another issue faced in making the site more responsive was making sure to use dynamic units of measurement rather than fixed ones in the most appropriate places.  
 
@@ -387,7 +413,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
  - **Video**
 
-    - The YouTube video embedded in keep-your-poo-healthy.html was taken from https://www.hillspet.com: https://youtu.be/Fe-sa9mHcxI 
+    - The YouTube video embedded in the [Keep Your Poo Healthy](https://samobrienolinger.github.io/Cockapoo-Club/keep-your-poo-healthy.html#jump-to-kyph) page was taken from [Hills Pet](https://www.hillspet.com) and can be found at https://youtu.be/Fe-sa9mHcxI 
 
 ## **[Acknowledgements](#acknowledgements)**
 
