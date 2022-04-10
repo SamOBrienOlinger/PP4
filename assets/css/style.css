@@ -156,7 +156,7 @@ a:hover {
 
 #new-cockaparents {
 	background-image: url(../Images/new-new-cockaparents.webp);
-	background-position-x: 90%;
+	background-position-x: 20%;
 	margin-left: auto;
 	margin-right: auto;
 	outline: solid;
@@ -218,7 +218,9 @@ a:hover {
 	width: 100%;
 	height: 100%
 }
-
+.fa {
+	color: #7112ee;
+}
 #free-supports {
 	padding: 2vh 0;
 	background-color: white;
@@ -235,7 +237,8 @@ div.new-cockaparents-text-second-section {
 	font-size: 1.5rem;
 	line-height: 2rem;
 	font-weight: 300;
-	text-align: center
+	text-align: center;
+	padding: 1rem;
 }
 
 .new-cockaparents-text-second-section table {
@@ -244,9 +247,9 @@ div.new-cockaparents-text-second-section {
 }
 
 ul {
-	list-style: none
+	list-style: none;
+	padding: 0;
 }
-
 .new-cockaparents-text-second-section {
 	text-align: center
 }
@@ -481,7 +484,6 @@ section.form-section div {
 	text-decoration: none;
 	border-bottom: 0
 }
-
 @media screen and (min-width:320px) and (max-width:533px) {
 	ul {
 		display: grid;
@@ -489,7 +491,6 @@ section.form-section div {
 		justify-items: center;
 		align-items: center;
 		align-content: center;
-		padding: 0
 	}
 	.menu li {
 		font-size: 4vmin;
@@ -505,9 +506,12 @@ section.form-section div {
 		margin: 1rem;
 		font-size: 2rem
 	}
+	div.keep-your-poo-healthy-text {
+		padding: 1rem;
+	}
 	.main-sections {
 		width: auto;
-		font-size: 2vmax
+		font-size: 1vmax
 	}
 	.form-section {
 		height: auto;
@@ -560,7 +564,16 @@ section.form-section div {
 		width: 100%
 	}
 }
-
+@media screen and (max-width: 421px) {
+	#keep-your-poo-healthy {
+		font-size: 1.5vmax;
+	}
+}
+@media screen and (max-width: 632px) {
+	.main-sections {
+		font-size: 2vmax
+	}
+}
 @media screen and (min-width:534px) and (max-width:1599px) {
 	.menu li {
 		display: inline-block;
@@ -589,7 +602,8 @@ section.form-section div {
 	div.new-cockaparents-text-second-section {
 		height: fit-content;
 		font-size: 1rem;
-		line-height: 2rem
+		line-height: 2rem;
+		padding: 1rem;
 	}
 	.new-page-intro {
 		padding: 20px;
@@ -605,11 +619,7 @@ section.form-section div {
 	.input-fields {
 		width: 50%
 	}
-	ul {
-		padding: 0
-	}
 }
-
 @media screen and (min-width:1600px) {
 	.form-section {
 		background-size: cover
