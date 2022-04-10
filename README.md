@@ -15,7 +15,8 @@ Perhaps most importantly, what makes this website stand out from other websites 
 
 * may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners, by joining their own unique community, meeting face-to-face, sharing photographs of their pet and training their dogs together.   
 
-## **Contents**
+
+## **[Contents](#contents)**
 
 1. **[Features](#features)**
 2. **[Deployment](#deployment)**
@@ -25,7 +26,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 6. **[Credits](#credits)**
 7. **[Acknowledgements](#acknowledgements)** 
 
-## 1. **[Features](#features)**
+## **[Features](#features)**
 
 The webiste consists of five pngages
 
@@ -133,7 +134,7 @@ Every page also has a navigation bar and footer
 
    - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
-## 2. **[Deployment](#deployment)**
+## **[Deployment](#deployment)**
 
 - The site was deployed to GitHub pages using the following steps:
 
@@ -143,7 +144,7 @@ Every page also has a navigation bar and footer
 
   - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
 
-## 3. **[Features Left to Implement](#features-left-to-implement)**
+## **[Features Left to Implement](#features-left-to-implement)**
 
 - Ideas for future features include: 
 
@@ -155,7 +156,7 @@ Every page also has a navigation bar and footer
 
   - a training video gallery for members to post their videos of progress they are making in training their pets. 
 
-## 4. **[Testing](#testing)**
+## **[Testing](#testing)**
  - This website works on screens sizes of minimum width 320px. I wanted it to work for smaller screen-sizes such as smaller mobiles, so future media queries will be added for screens of maximimum width 320px.     
  
  - **Validator Testing**
@@ -227,7 +228,7 @@ Every page also has a navigation bar and footer
       * [Join](#join)
           ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
       
-## 5. **[Unfixed Bugs](#unfixed-bugs)**
+## **[Unfixed Bugs](#unfixed-bugs)**
 
   - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
@@ -248,7 +249,7 @@ Every page also has a navigation bar and footer
   - significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
 
 
-## 6. **[Credits](#credits)**
+## **[Credits](#credits)**
 
 As a starting point I began with the html and css structure used in Code Institute's Love Running Project. I did this mainly because I thought the hero image with zoom was a great way to engage a new user. I also wanted to have a feature that allowed users to 'join' a club, so the Love Running project provided a good blueprint for adapting to the concpet of a Cockapoo Club community.  
 
@@ -388,7 +389,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
     - The YouTube video embedded in keep-your-poo-healthy.html was taken from https://www.hillspet.com: https://youtu.be/Fe-sa9mHcxI 
 
-## 7. **[Acknowledgements](#acknowledgements)**
+## **[Acknowledgements](#acknowledgements)**
 
    - The [README template](https://github.com/Code-Institute-Solutions/readme-template) provided by Code Institute was very helpful as a model for developing this README file.  
 
@@ -405,3 +406,4 @@ As a starting point I began with the html and css structure used in Code Institu
       - Christine
       - Rebecca
 
+**[Click Here](#contents)** to return to Contents
