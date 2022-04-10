@@ -168,6 +168,8 @@ Every page also has a navigation bar and footer
   
   - This website works on screens sizes of minimum width 320px. To make sure it works for smaller screen-sizes, such as smaller mobile devices, future media queries will need to be added for screens of maximimum width 320px.
 
+  - At screen-sizes smaller than 401px, the purple ball with the call to action 'JOIN COCKAPOO CLUB' located within the hero-image section was purposely removed via media query. This attractive feature was removed becuase on these much smaller screen sizes it covers the face of the dog in the hero image which may confuse users and take away from their expereince of being on the website. In future, I will alter the code so this call to action can be viewed on the smaller screen sizes.  
+
 ## **[Testing](#testing)**
    
  - **Validator Testing**
@@ -282,7 +284,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
 ### **[Code](#code)**
 
-- Code for the   
+- Below is the code for the cover text of JOIN COKCAPOO CLUB which immediatley presents the user with a call to action that encourages them to visit the page allowing them to sign up and become a member of this unique community. This was based on the same feature used in the Code Institute's Love Running Project module:   
 ~~~
     #cover-text {
     font-size: 130%;
