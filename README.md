@@ -144,6 +144,35 @@ Every page also has a navigation bar and footer
 
    - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
+## **[Users' experience](#users-expereince)**
+
+  -	**User 1 feedback on iPhone**
+
+    “Good job on the site Sam. It looks very polished and the usability was good I thought. I viewed this on my phone but the only things that caught my eye were cosmetic...The different text size on some pages just kinda caught my eye for that reason”
+
+-	**User 2 feedback on desktop**
+
+    “I liked the layout of this site. It was easy to navigate and clear information. I looked at it from a mobile device and the layout worked well. It was easy to get back to home page and other sections from the menu on top and it was good to see confirmation of details submitted in the form. One small thing it would be good if the social media links either went to the social media pages of cockapoo club. Or maybe were a share this page. But overall, a very good user experience.”
+
+
+-	**User 3 on Samsung Galaxy 7 feedback**
+
+    “1. The font is too large. Resize it. Home page menu is perfect size. 
+    And 2. Format page so words don't appear on lines by themselves e.g in "new cockapoos" section "channelled" and "puppy" are on their own line”
+
+- **User 4 on desktop feedback**
+
+    "I really enjoed using the site! Thanks Sam. Now I really want to get a Cockapoo, they're really cute and seem like so much fun"
+
+- **User 4 on desktop feedback** 
+
+    "Very esay to navigate. Looks great and fun!"
+
+The above users’ experience reflects how the website was built using a desktop first approach and how I wanted to make sure users of all ages and visual abilities would be able to read the text. 
+
+Given how diverse in digital literacy levels, familiarity with using online resources, age range and social backgrounds of the target audience, I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Also, illiciting a postive emotional response from users was central to the success of the website and to achieivng the aim of creating and developing the fictional community of Cockapoo owners in Dublin, Ireland.  
+
+
 ## **[Deployment](#deployment)**
 
 - The site was deployed to GitHub pages using the following steps:
