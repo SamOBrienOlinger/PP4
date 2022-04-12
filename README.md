@@ -33,8 +33,9 @@ Perhaps most importantly, what makes this website stand out from other websites 
 3. **[Features Left to Implement](#features-left-to-implement)**
 4. **[Testing](#testing)**
 5. **[Unfixed Bugs](#unfixed-bugs)**
-6. **[Credits](#credits)**
-7. **[Acknowledgements](#acknowledgements)** 
+6. **[Technologies and tools used](#tech-and-tools)**
+7. **[Credits](#credits)**
+8. **[Acknowledgements](#acknowledgements)** 
 
 ## **[Features](#features)**
 
@@ -61,7 +62,7 @@ Every page also has a navigation bar and footer
   
         !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
-        The CSS code that was particualrly useful for this can be found on lines 94 to 112 [HERE](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css). For details of this code, please go to [Code](#code). However, I changed many of the fixed units of measurement to dynamic units; changed the fon-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multiple screen sizes to ensure responsiveness. 
+        The CSS code that was particualrly useful for this can be found on lines 94 to 112 [Here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css). For details of this code, please go to [Code](#code). However, I changed many of the fixed units of measurement to dynamic units; changed the fon-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with it's position for multiple screen sizes to ensure responsiveness. 
 
 
       - To avoid the 'illusion of completeness' there are images visible above the fold area:
@@ -92,9 +93,11 @@ Every page also has a navigation bar and footer
 
    - After these main pieces of content, there is an area with a map and information about the clubhouse and training centre, as well as another call to action to join Cockapoo Club with two hyperlinked pieces of text to give users even more opportunities to visit the [Join](#join-page) page and submit their contact details. A chance to win a prize is also available on the Join page and aims to further encourage new members to join.
    
-   - An embedded map to the clubhouse and training centre is also provided for users to locate Cockapoo Club's premises along with opening times for the clubhouse and training centre. 
+   - Below is an image of the embedded map regarding the clubhouse and training centre for users to locate Cockapoo Club's premises.  
    
-   - A list of free suports are also outlined to encourage users to visit and socialise with others in this special community, making this project stand out from other simalr websites that may provide similar information about Coakapoos and other pets. The value of this content to the user is the list it provides of the main benefits to becoming a new member and particapting in person
+   - Also seenbelow is a list of free suports to members to encourage users to join Cockapoo Club, visit the centre and socialise with others in this special community. As menioned, this aspect of the porject makes it stand out from other websites that may provide similar information about Cockapoos and other pets. The value of this content to the user is the list it provides of the main benefits to becoming a new member and particapting in the community in person. 
+
+   - Opening times for the clubhouse and training centre are also avialble to the user. 
 
        ![clubhouse map](assets/README.md-images/README.md-clubhouse-training-centre-map.jpg)
 
@@ -105,6 +108,7 @@ Every page also has a navigation bar and footer
   - For people who will become cockapoo owners for the first time the [New Cockaparents](https://samobrienolinger.github.io/Cockapoo-Club/new-cockaparents.html#jump-to-nc) pngage provides the user with a starting point for learning more about becoming a new owner of a Cockapoo, with evidence-based information linking to credible sources on other webistes which help new owners plan and adjust to their new member of the family. 
 
   - To ensure a positive user expereince, all internal links to this pngage bring the user to a specific point lower down the page when they land with a familiar image and heading consistent with the option they chose on the homepage that matches their expectations. This feature is applied across the entire website.  
+
 
 ### **[Keep Your Poo Healthy](#keep-your-poo-healthy)**
 
@@ -287,7 +291,7 @@ Given how diverse in digital literacy levels, familiarity with using online reso
       
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
-  - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webapge [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
+  - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webpage [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
 
       **(A)**
 
@@ -303,8 +307,24 @@ Given how diverse in digital literacy levels, familiarity with using online reso
 
   - There were two occasions where I expereinced conflicts between my GitHub repository and my local one. I was unaware that having more than one gitpod workspace open would casue signifcant issues with diverging main branches. A signficant amount of time was sepnt on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
 
-  - significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
+  - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
 
+## **[Technologies and tools used](#tech-and-tools)**
+     
+- [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
+- [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
+- Gitpod
+- Github
+- Gitbash
+- Google Chrome Dev Tools 
+- Font-awesome ("Font Awesome 5 Brands")  
+- Prefixed by https://autoprefixer.github.io
+
+- Languages used: 
+     - HTML
+     - CSS
+
+     ![Languages](assets/README.md-images/README.md-languages-used.png)
 
 ## **[Credits](#credits)**
 
@@ -313,7 +333,7 @@ As a starting point I began with the html and css structure used in Code Institu
 
 ### **[Code](#code)**
 
-- Below is the code for the cover text of JOIN COKCAPOO CLUB which immediatley presents the user with a call to action that encourages them to visit the page allowing them to sign up and become a member of this unique community. This was based on the same feature used in the Code Institute's Love Running Project module:   
+- Below is the code for the cover text of JOIN COCKAPOO CLUB which immediatley presents the user with a call to action that encourages them to visit the page allowing them to sign up and become a member of this unique community. This was based on the same feature used in the Code Institute's Love Running Project module:   
 ~~~
     #cover-text {
     font-size: 130%;
@@ -395,37 +415,6 @@ As a starting point I began with the html and css structure used in Code Institu
   - Styling and instructions on how to construct form validation on the join-form.html page was based on the form found in the Code Institute Love Running Project module: [Signup Form: Challenge 1](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/?child=first). 
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-
-
-- Technologies used include: 
-     
-    - HTML5
-    - CSS3
-    - Python3
-    - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
-    - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
-
-    - Gitpod
-    - Github
-    - Gitbash
-    - Google Chrome DevTools 
-
-      
-     - Font-awesome ("Font Awesome 5 Brands")  
-     - @font-face / @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap')
-     - @keyframes hero-zoom 
-     - @media screen and (max-width: 800px)
-     - Prefixed by https://autoprefixer.github.io
-        * PostCSS: v8.3.6,
-        * Autoprefixer: v10.3.1
-        * Browsers: last 4 version 
-
-  - Languages used: 
-      - HTML
-      - CSS
-
-     ![Languages](assets/README.md-images/README.md-languages-used.png)
      
    
  - **[Images](#used-images)**
