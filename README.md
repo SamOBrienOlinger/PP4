@@ -4,9 +4,9 @@ For my Portfolio 1 Project submitted as part of the Code Institute's Diploma in 
 
 ![Website on multiple screens](assets/README.md-images/README.md-screens.png)
 
-- [Click Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) to see the deployed website. 
+- **[Click Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html)** to see the deployed website. 
 
-- To view the repository on Github [Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)
+- To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)**
 
 - This website was first designed for Desktop users first and is responsive for users of smaller devices.  
 
