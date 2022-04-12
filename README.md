@@ -191,13 +191,13 @@ Given how diverse in digital literacy levels, familiarity with using online reso
 
 - Ideas for future features include: 
 
-  - a way for users who would join Cockapoo CLub to upload their photographs of their pets. 
+  - A way for users who would join Cockapoo CLub to upload their photographs of their pets. 
 
-  - a commercial page with branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.  
+  - A commercial page with branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.  
 
-  - a live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
+  - A live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
-  - a training video gallery for members to post their videos of progress they are making in training their pets. 
+  - A training video gallery for members to post their videos of progress they are making in training their pets. 
   
   - This website works on screens sizes of minimum width 320px. To make sure it works for smaller screen-sizes, such as smaller mobile devices, future media queries will need to be added for screens of maximimum width 320px.
 
