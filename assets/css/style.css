@@ -329,11 +329,11 @@ img {
 	border-radius: 5px
 }
 
-body>main>div>div>div:nth-child(1)>img:nth-child(1) {
+#girl-on-grass {
 	height: auto
 }
 
-body>main>div>div>div:nth-child(2)>img:nth-child(2) {
+#girl-on-beach {
 	height: auto
 }
 

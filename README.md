@@ -33,7 +33,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 3. **[Features Left to Implement](#features-left-to-implement)**
 4. **[Testing](#testing)**
 5. **[Unfixed Bugs](#unfixed-bugs)**
-6. **[Technologies and tools used](#tech-and-tools)**
+6. **[Technologies and Tools](#tech-and-tools)**
 7. **[Credits](#credits)**
 8. **[Acknowledgements](#acknowledgements)** 
 
@@ -274,7 +274,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
     Initially, I intended all of the images on the website, especially the Furry Fun Foto Gallery page, to be my own photogrpahy with family, my own dog and with friend's pets. However, coordinating this proved to be more time consuming and difficult than I originally envisaged, especially with health implications of socialising due to COVID. Instead I have used a mix of my own photographs and images from open source websites covered in the [Images](#used-images) section. 
 
-    By including images of larger file sizes, specifically my own iamges, I received a lower Lighthouse score than I had hoped for. I followed the advice of my mentor and the Lighthouse app to convert all .jfif and .jpg images to .png format. This procedure did improve the score on both movile and desktop somewhat, however in the future I would use smaller image sizes for next projects and continuing trying to improve current images use din this project. Below are the Lighthouse scores.    
+    By including images of larger file sizes, specifically my own iamges, I received a lower Lighthouse score than I had hoped for. I followed the advice of my mentor and the Lighthouse app to convert all .jfif and .jpg images to .png format. This procedure did improve the score on both Mobile and Desktop somewhat. However, I would use smaller image sizes for future projects, and will continuing to improve current images used in this project. Below are the Lighthouse scores.    
      
     - Mobile
       
@@ -339,7 +339,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
   - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
 
-## **[Technologies and tools used](#tech-and-tools)**
+## **[Technologies and Tools](#tech-and-tools)**
      
 - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
 - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
