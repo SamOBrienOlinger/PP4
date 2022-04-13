@@ -310,6 +310,7 @@ Alternatively, once you have found the project repository in Github, you can cli
         ![new cockaparents](assets/README.md-images/README.md-new-cockaparents-html-Desktop-lighthouse-.png)
 
       * [Keep Your Poo Healthy](#keep-your-poo-healthy)
+      
         ![Keep Your Poo Healthy](assets/README.md-images/README.md-kyph-html-Desktop-lighthouse-.png)
 
       * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
