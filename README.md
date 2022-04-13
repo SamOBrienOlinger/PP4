@@ -99,7 +99,7 @@ Every page also has a navigation bar and footer
 
    - Opening times for the clubhouse and training centre are also avialble to the user. 
 
-       ![clubhouse map](assets/README.md-images/README.md-clubhouse-training-centre-map.jpg)
+       ![clubhouse map](assets/README.md-images/README.md-map-supports-opening-hours.png)
 
   ### **[New Cockaparents](#new-cockaparents)**
 
@@ -318,7 +318,16 @@ Alternatively, once you have found the project repository in Github, you can cli
       * [Join](#join)
         ![Join Cockapoo CLub page](assets/README.md-images/README.md-join-html-Desktop-lighthouse-.png)
 
-      
+  - **Feature testing**
+
+    Testing all interactive features invloved manually clikcing on every link on each page.
+
+    - All social media links in footer bring the user to the corresponding social media platform for them to log in. 
+    - all external links bring the user to the appropriate websites
+    - the sign up to Cockapoo Club form can be prepared and submitted correctly: 
+
+      ![sign up form](assets/README.md-images/README.md-sign-up-form-valid.png) 
+
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
   - There seems to be a difference between how the background image renders in the join-form.html page via **(A)** the Gitpod remote explorer [Here](https://8000-samobrienolinge-cockapoo-53eu3ighye6.ws-eu38.gitpod.io/join-form.html#jump-to-jcc) and **(B)** the same deployed webpage [Here](https://samobrienolinger.github.io/Cockapoo-Club/join-form.html#jump-to-jcc) in Google Chrome (please see images below). Microsoft Edge and Mozilla browsers render as normal/image A below.   
