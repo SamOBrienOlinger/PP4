@@ -478,6 +478,10 @@ As a starting point I began with the html and css structure used in Code Institu
 
    - The [README template](https://github.com/Code-Institute-Solutions/readme-template) provided by Code Institute was very helpful as a model for developing this README file.  
 
+   - [w3schools](https://www.w3schools.com/) provided valuable asistance with a range of areas such as images, displaying elements, and responsive design.
+
+  - [Stack Overflow](https://stackoverflow.com/) was a great resource with many helpful articles and posts which were useful for resolving issues with anchor tags, responsive design and minor bugs regarding font-sizing and text-alignment.
+
    - My mentor, Sandeep Aggarwal, as well as a number of Code Institute Tutors and students were very suportive via slack and the Student Support Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
      
       - DavidK_5P
