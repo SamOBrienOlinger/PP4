@@ -23,7 +23,7 @@ The site targets users in Dublin, Ireland who
 
 Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how it targets users who 
 
-* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. By providing users with a unique opportunity to join their own community of consisting of Cockapoo owners, of meeting face-to-face, sharing photographs of their pets and training their dogs together, I beleeve the concept has much potential and would be of significant value to users.      
+* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. By providing users with a unique opportunity to join their own community of consisting of Cockapoo owners, of meeting face-to-face, sharing photographs of their pets and training their dogs together, I believe the concept has much potential and would be of significant value to users.      
 
 
 ## **[Contents](#contents)**
@@ -346,8 +346,11 @@ Alternatively, once you have found the project repository in Github, you can cli
 
   - There were two occasions where I expereinced conflicts between my GitHub repository and my local one. I was unaware that having more than one gitpod workspace open would casue signifcant issues with diverging main branches. A signficant amount of time was sepnt on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
 
-  - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.      
+  - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a weeks. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.    
 
+ 
+ 
+ 
 ## **[Technologies and Tools](#tech-and-tools)**
      
 - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
