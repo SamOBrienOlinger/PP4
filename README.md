@@ -185,7 +185,37 @@ Given how diverse in digital literacy levels, familiarity with using online reso
   - From the source section drop-down menu, select the Main Branch
   - Once the Main Branch has been selected, click on the save button. The page will be automatically refreshed, a link proved, and a detailed ribbon displayed to indicate the successful deployment. 
 
-  - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html) 
+  - The live link can be found [Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html)
+
+ ### **Deploy locally and contribute to the Project** 
+  
+ 
+Once you have a GitHub account and installed the Gitpod Chrom Extension follow the steps below:
+
+1.	Log in to your Gitpod account.
+2.	Open the project repository in a new tab.
+3.	Click on the green "Gitpod" button to the top right of the project.
+4.	This will automatically create a new Gitpod workspace for you to work on. You can type in any name of your choosing.
+
+To clone this project:
+
+1.	Log into Github
+2.	Navigate to the Project repository
+3.	Click the green Gitpod button in the top right corner of the repository
+4.	This will create a new Gitpod workspace
+
+To work on the project locally:
+
+1.	Click on the Code button
+2.	In the drop-down menu that appears, copy the URL
+3.	In your local IDE, open a new terminal
+4.	Type git clone and paste the URL you copied in Step 2
+5.	Press Enter
+
+Alternatively, once you have found the project repository in Github, you can click on the Code button and in the dropdown menu, click on the Download Zip button. 
+
+  ![Cloning the project](assets/README.md-images/README.md-cloning-local-deployment.png)
+
 
 ## **[Features Left to Implement](#features-left-to-implement)**
 
