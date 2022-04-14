@@ -309,7 +309,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
       ![sign up form](assets/README.md-images/README.md-sign-up-form-valid.png) 
 
-      ## **[Users' experience](#users-expereince)**
+      ## **[Users experience](#users-experience)**
 
       Given how diverse in digital literacy levels, familiarity with using online resources, age range and social backgrounds of the target audience, I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Also, eliciting a positive emotional response from users was central to the success of the website and to achievng the aim of creating and developing the fictional community of Cockapoo owners in Dublin, Ireland.
 
@@ -356,10 +356,15 @@ The above users’ experience reflects how the website was built using a desktop
 
   - There were two occasions where I experienced conflicts between my GitHub repository and my local one. I was unaware that having more than one gitpod workspace open would cause significant issues with diverging main branches. A significant amount of time was spent on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
 
-  - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a week. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.    
+  - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a week. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.  
 
+  - When I used [Responsively App](https://responsively.app/) a bug shoewd up regarding the rendering of images in the Furry Fun Foto Gallery:
 
-## **[Technologies and Tools](#technologies-and-tools)**
+    ![Responsively-App](assets/README.md-images/README.md-Responsively-App-Bug.png)    
+
+    However, when using Google Chrome Dev Tools there does not seem to be any issue at any screen size. So I asked friends and family members to view the website on their different devices to double-check this bug. As well as providing constructive criticism that can be seen in the [Users experience](#users-experience) section above, nobody reported this as an issue. I tested this on multiple browsers, including Mozzila and Microsoft Edge, and still no issue came up. If this is not an issue specific to the Responsively App then it is possible that this bug may continue to occur.    
+    
+    ## **[Technologies and Tools](#technologies-and-tools)**
      
 - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
 - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
@@ -369,7 +374,7 @@ The above users’ experience reflects how the website was built using a desktop
 - Google Chrome Dev Tools 
 - Font-awesome ("Font Awesome 5 Brands")  
 - Prefixed by https://autoprefixer.github.io
-
+- [Responsively App](https://responsively.app/)
 - Languages used: 
      - HTML
      - CSS
