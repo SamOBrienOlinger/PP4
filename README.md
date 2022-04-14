@@ -33,7 +33,7 @@ Perhaps most importantly, what makes this website stand out from other websites 
 3. **[Features Left to Implement](#features-left-to-implement)**
 4. **[Testing](#testing)**
 5. **[Unfixed Bugs](#unfixed-bugs)**
-6. **[Technologies and Tools](#tech-and-tools)**
+6. **[Technologies and Tools](#technologies-and-tools)**
 7. **[Credits](#credits)**
 8. **[Acknowledgements](#acknowledgements)** 
 
@@ -351,7 +351,8 @@ Alternatively, once you have found the project repository in Github, you can cli
 
   - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a week. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.    
 
-## **[Technologies and Tools](#tech-and-tools)**
+
+## **[Technologies and Tools](#technologies-and-tools)**
      
 - [Convertio](https://convertio.co/) was used to convert images from .jfif and .jpeg to .png for improving the lighthouse scores for each page.
 - [nssport.com](https://nsspot.herokuapp.com/imagetowebp/) was used to convert images from .png to .webp for improving the lighthouse scores for each page.
