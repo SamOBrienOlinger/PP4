@@ -148,33 +148,7 @@ Every page also has a navigation bar and footer
 
    - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
-## **[Users' experience](#users-expereince)**
-
-  -	**User 1 feedback on iPhone**
-
-    “Good job on the site Sam. It looks very polished and the usability was good I thought. I viewed this on my phone but the only things that caught my eye were cosmetic...The different text size on some pages just kinda caught my eye for that reason”
-
--	**User 2 feedback on desktop**
-
-    “I liked the layout of this site. It was easy to navigate and clear information. I looked at it from a mobile device and the layout worked well. It was easy to get back to home page and other sections from the menu on top and it was good to see confirmation of details submitted in the form. One small thing it would be good if the social media links either went to the social media pages of cockapoo club. Or maybe were a share this page. But overall, a very good user experience.”
-
-
--	**User 3 on Samsung Galaxy 7 feedback**
-
-    “1. The font is too large. Resize it. Home page menu is perfect size. 
-    And 2. Format page so words don't appear on lines by themselves, e.g. in "new cockapoos" section "channelled" and "puppy" are on their own line”
-
-- **User 4 on desktop feedback**
-
-    "I really enjoyed using the site! Thanks Sam. Now I really want to get a Cockapoo, they're really cute and seem like so much fun"
-
-- **User 4 on desktop feedback** 
-
-    "Very easy to navigate. Looks great and fun!"
-
-The above users’ experience reflects how the website was built using a desktop first approach and how I wanted to make sure users of all ages and visual abilities would be able to read the text. 
-
-Given how diverse in digital literacy levels, familiarity with using online resources, age range and social backgrounds of the target audience, I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Also, eliciting a positive emotional response from users was central to the success of the website and to achievng the aim of creating and developing the fictional community of Cockapoo owners in Dublin, Ireland.  
+  
 
 
 ## **[Deployment](#deployment)**
@@ -330,6 +304,35 @@ Alternatively, once you have found the project repository in Github, you can cli
     - the sign up to Cockapoo Club form can be prepared and submitted correctly: 
 
       ![sign up form](assets/README.md-images/README.md-sign-up-form-valid.png) 
+
+      ## **[Users' experience](#users-expereince)**
+
+      Given how diverse in digital literacy levels, familiarity with using online resources, age range and social backgrounds of the target audience, I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Also, eliciting a positive emotional response from users was central to the success of the website and to achievng the aim of creating and developing the fictional community of Cockapoo owners in Dublin, Ireland.
+
+    -	**User 1 on iPhone**
+
+        “Good job on the site Sam. It looks very polished and the usability was good I thought. I viewed this on my phone but the only things that caught my eye were cosmetic...The different text size on some pages just kinda caught my eye for that reason”
+
+    -	**User 2 on desktop**
+
+        “I liked the layout of this site. It was easy to navigate and clear information. I looked at it from a mobile device and the layout worked well. It was easy to get back to home page and other sections from the menu on top and it was good to see confirmation of details submitted in the form. One small thing it would be good if the social media links either went to the social media pages of cockapoo club. Or maybe were a share this page. But overall, a very good user experience.”
+
+
+    -	**User 3 on Samsung Galaxy 7**
+
+        “1. The font is too large. Resize it. Home page menu is perfect size. 
+        And 2. Format page so words don't appear on lines by themselves, e.g. in "new cockapoos" section "channelled" and "puppy" are on their own line”
+
+    - **User 4 on desktop**
+
+        "I really enjoyed using the site! Thanks Sam. Now I really want to get a Cockapoo, they're really cute and seem like so much fun"
+
+    - **User 5 on desktop** 
+
+      "Very easy to navigate. Looks great and fun!"
+
+The above users’ experience reflects how the website was built using a desktop first approach and how I wanted to make sure users of all ages and visual abilities would be able to read the text. 
+
 
 ## **[Unfixed Bugs](#unfixed-bugs)**
 
@@ -488,15 +491,18 @@ As a starting point I began with the HTML and CSS structure used in Code Institu
 
    - My mentor, Sandeep Aggarwal, as well as a number of Code Institute Tutors and students were very supportive via slack and the Student Support Chat. The following tutors and students helped guide me and to tease out a range of issues I faced developing the project: 
      
-      - DavidK_5P
-      - David Bowers_5p_lead
-      - Eventyret_mentor
-      - Ionut Ciobanu)lead
-      - Franciska
-      - rachel_rock_5P_lead 
-      - Sean
-      - Ger
-      - Christine
-      - Rebecca
+      - [DavidK_5P](https://code-institute-room.slack.com/team/U02R7JKTQ6S)
+      - [David Bowers_5p_lead](https://code-institute-room.slack.com/team/U01S8AW4PT9)
+      - [Eventyret_mentor](https://code-institute-room.slack.com/team/U4MVA9YQP)
+      - [Ionut Ciobanu_lead](https://code-institute-room.slack.com/team/U02SVRD7G5V)
+      - [Franciska_ci](https://code-institute-room.slack.com/team/U035UL8Q71P)
+      - [rachel_rock_5P_lead](https://code-institute-room.slack.com/team/U02NK361YN9) 
+      - [Sean](https://code-institute-room.slack.com/team/U023BDTRM9C)
+      - [Ger](https://code-institute-room.slack.com/team/U030LJXSLQH)
+      - [Ed-ci](https://code-institute-room.slack.com/team/U02FJ8V7NA2)
+      - [Jo_ci](https://code-institute-room.slack.com/team/U01MQ6TQUPQ)
+      - [Christine_ci](https://code-institute-room.slack.com/team/U034J45RX2M)
+      - [Rebecca](https://code-institute-room.slack.com/team/U02NKD296N5)
+      - [DaveHorrocks_5P](https://code-institute-room.slack.com/team/U01R68NPPE2)
 
 **[Click Here](#contents)** to return to Contents
