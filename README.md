@@ -6,24 +6,29 @@ For my Portfolio 1 Project submitted as part of the Code Institute's Diploma in 
 
 - **[Click Here](https://samobrienolinger.github.io/Cockapoo-Club/index.html)** to see the deployed website. 
 
-- To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)**
+- To view the repository on Github **[Click Here](https://github.com/SamOBrienOlinger/Cockapoo-Club)**.
 
-- This website was first designed for Desktop users first and is responsive for users of smaller devices.  
+- This website was designed for Desktop users first and is responsive for users of smaller devices.  
 
 ## **Summary**
   This website provides users with a starting point for all kinds of information about owning, training and taking care of a breed of dog called Cockapoos, one of Ireland's newest, most popular and much-loved dog breeds. 
   
-  Unlike many other websites that provide similar information this project offers users a unique opportunity to create and participate in their own unique community at a fictional physical clubhouse and training centre in person in Dublin, Ireland.   
+  Unlike many other websites that provide similar information this project offers users a unique opportunity to create and participate in their own community of likeminded pet owners at a fictional physical clubhouse and training centre in person in Dublin, Ireland.   
 
-The site targets users in Dublin, Ireland who
+The site targets users in Dublin, Ireland who:
 
 * may already have a Cockapoo dog and need more information about taking care of their dog. 
 
 * may be thinking about getting a new Cockapoo dog and require more information to make their decision. 
 
-Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how it targets users who 
+Perhaps most importantly, what makes this website stand out from other websites that provide useful information about this dog breed and becoming a new owner; is how it targets users who: 
 
-* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. By providing users with a unique opportunity to join their own community of consisting of Cockapoo owners, of meeting face-to-face, sharing photographs of their pets and training their dogs together, I believe the concept has much potential and would be of significant value to users.      
+* may already be Cockapoo owners and are interested in connecting with and learning from other Cockapoo owners. 
+
+* will find Cockapoo Club gives them a unique opportunity to join their own community and to network with other Cockapoo owners face-to-face.
+
+* will enjoy sharing photographs of their pets and training their dogs together in person. 
+    
 
 
 ## **[Contents](#contents)**
@@ -47,7 +52,7 @@ The website consists of five pages:
 * [Furry Fun Foto Gallery](#furry-fun-foto-gallery)
 * [Join](#join)
 
-Every page also has a navigation bar and footer
+Every page also has a navigation bar, backt o top button and footer:
 * [Navigation bar](#navbar)
 * [Back to top button](#back-to-top-button)
 * [Footer](#footer)
@@ -63,7 +68,7 @@ Every page also has a navigation bar and footer
   
         !["cover text with internal link to Join page"](assets/README.md-images/README.md-Join-Cockapoo-Club-Cover-Text.jpg)  
 
-        The CSS code that was particularly useful for this can be found on lines 94 to 112 [Here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css). For details of this code, please go to [Code](#code). However, I changed many of the fixed units of measurement to dynamic units; changed the font-size; made the color consistent with the color scheme across the rest of this project; and had to play around a lot with its position for multiple screen sizes to ensure responsiveness. 
+        The CSS code that was particularly useful for this can be found on lines 94 to 112 [Here](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/03-creating-the-hero-image/03-hero-image-cover-text/assets/css/style.css). For more details in this README.md file, please click on [Code](#code). However, I changed many of the fixed units of measurement to dynamic units; changed the font-size; made the color consistent with the color scheme across the rest of this project; and had to explore and test a lot of positions of this feature on multiple screen sizes to ensure responsiveness. 
 
 
       - To avoid the 'illusion of completeness' there are images visible above the fold area:
@@ -74,7 +79,7 @@ Every page also has a navigation bar and footer
 
    - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page and all other pages. The navigation bar is identical in each page to allow for easy navigation.
 
-   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are via the specific page the user is on having the corresponding navigation bar option background highlighted: 
+   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. Each page has a feature that tells the user which page they are on via the specific page the user is on having the corresponding navigation bar option background highlighted: 
 
   !["nav bar"](assets/README.md-images/nav-bar-highlighted.jpg) 
 
@@ -96,7 +101,7 @@ Every page also has a navigation bar and footer
    
    - Below is an image of the embedded map regarding the clubhouse and training centre for users to locate Cockapoo Club's premises.  
    
-   - Also seen below is a list of free supports to members to encourage users to join Cockapoo Club, visit the centre and socialise with others in this special community. As mentioned, this aspect of the project makes it stand out from other websites that may provide similar information about Cockapoos and other pets. The value of this content to the user is the list it provides of the main benefits to becoming a new member and participating in the community in person. 
+   - Also seen below is a list of free supports to members to encourage users to join Cockapoo Club, visit the centre and socialise with others in this special community. As mentioned, this aspect of the project makes it stand out from other websites that may provide similar information about Cockapoos and other pets. The value of this content to the user is the list it provides of the main benefits to becoming a new member and participating in the community in person at the fictional clubhouse and training centre. Having researched the main prirorites for target users, a number of important supports and services were added to the homepage. Getting advice and guidance from professional dog trainers, attending 1-to-1 and group training sessions, and finding local vetted dogsitters are all considered highly valuable by the intended users of this website. These are also costly, so having these as free to members is intended to attract new members and support current members of Cockapoo Club. 
 
    - Opening times for the clubhouse and training centre are also available to the user. 
 
@@ -141,7 +146,7 @@ Every page also has a navigation bar and footer
 
 ### **[Back to top button](#back-to-top-button)**
 
-  - When the user clicks on an option to open a new page opens they are brought lower down the screen to enhance their experience and meet their expectations of arriving on the page they chose. Due to this a 'Back to top' button was introduced for the user to navigate across the website more easily. 
+  - When the user clicks on an option to open a new page, they are brought lower down the screen of the new page. this feature aims to enhance their experience and meet their expectations of arriving on the new page they chose. In order to allow the user to navigate across the website more easily a 'Back to top' button was introduced. This button brings the user to the same navigation bar and hero image they are already familiar with using from the homepage. This is consistent across the website.   
 
     ![Back-to-top-button](assets/README.md-images/README.md-Back-to-top-button.jpg)
 
@@ -205,7 +210,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
   - A commercial page with branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.  
 
-  - A live chat feed visible in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
+  - A live social media platform feed in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
 
   - A training video gallery for members to post their videos of progress they are making in training their pets. 
   
@@ -319,7 +324,7 @@ Alternatively, once you have found the project repository in Github, you can cli
 
       Given how diverse in digital literacy levels, familiarity with using online resources, age range and social backgrounds of the target audience, I felt I needed to ensure that anyone would be able to navigate and enjoy the website. Also, eliciting a positive emotional response from users was central to the success of the website and to achievng the aim of creating and developing the fictional community of Cockapoo owners in Dublin, Ireland.
 
-    -	**User 1 on iPhone**
+    -	**User 1 on iPhone 12**
 
         “Good job on the site Sam. It looks very polished and the usability was good I thought. I viewed this on my phone but the only things that caught my eye were cosmetic...The different text size on some pages just kinda caught my eye for that reason”
 
@@ -356,15 +361,15 @@ The above users’ experience reflects how the website was built using a desktop
 
       ![background image B](assets/README.md-images/Background-image-B)
 
-  - In making the project responsive, it was suggested by tutors and students via Slack that I use flexbox. However, I think because flexbox was not covered in the modules, I quickly found that in trying to implement flexbox the ultimate resulted was I over-complicated issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from my mentor and Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems I was experiencing. 
+  - In making the project responsive, it was suggested by tutors and students via Slack that I use flexbox. However, I think because flexbox was not covered in the modules, I quickly found that in trying to implement flexbox the ultimate result was I over-complicated issues for ensuring responsiveness. I spent far too much time trying to learn about and apply flexbox to all areas of the site which was not really necessary. With support from my mentor and Code Institute tutors, I was eventually able to undo the areas of code that were causing the most problems I was experiencing. 
 
   - Another issue faced in making the site more responsive was making sure to use dynamic units of measurement rather than fixed ones in the most appropriate places.  
 
-  - There were two occasions where I experienced conflicts between my GitHub repository and my local one. I was unaware that having more than one gitpod workspace open would cause significant issues with diverging main branches. A significant amount of time was spent on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
+  - There were two occasions where I experienced conflicts between my GitHub repository and my local one. I was unaware that having more than one Gitpod workspace open would cause significant issues with diverging main branches. A significant amount of time was spent on these occasions with Code Institute tutors fixing the conflicts that came with having to merge or reconcile branches.  
 
   - Significant bugs were also experienced when Github moved servers from eu34 to eu38, before I saved my progress, resulting in losing a significant number of hours of work over approximately a week. Code Institute tutors were very helpful with guiding me through the procedure for finding the last git push I had done and restoring that.  
 
-  - When I used [Responsively App](https://responsively.app/) a bug shoewd up regarding the rendering of images in the Furry Fun Foto Gallery:
+  - When I used [Responsively App](https://responsively.app/) a bug showed up regarding the rendering of images in the Furry Fun Foto Gallery:
 
     ![Responsively-App](assets/README.md-images/README.md-Responsively-App-Bug.png)    
 
@@ -378,7 +383,7 @@ The above users’ experience reflects how the website was built using a desktop
 - Github
 - Gitbash
 - Google Chrome Dev Tools 
-- Font-awesome ("Font Awesome 5 Brands")  
+- Font Awesome ("Font Awesome 5 Brands")  
 - Prefixed by https://autoprefixer.github.io
 - [Responsively App](https://responsively.app/)
 - Languages used: 
