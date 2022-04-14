@@ -49,6 +49,7 @@ The website consists of five pages:
 
 Every page also has a navigation bar and footer
 * [Navigation bar](#navbar)
+* [Back to top button](#back-to-top-button)
 * [Footer](#footer)
 
 ### **[Homepage](#homepage)** 
@@ -138,6 +139,12 @@ Every page also has a navigation bar and footer
 
   - This builds on the concept outlined in the above section regarding the clubhouse and training centre as well as the Furry Fun Foto Gallery.  A physical space where Cockapoo owners and their pets can meet in person. The opportunity to meet and benefit membership in-person makes this website and concept different to most other purely online communities that can easily be found on social media platforms yet do not involve members meeting face-to-face with their pets for mutual benefit and free peer-support.   
 
+### **[Back to top button](#back-to-top-button)**
+
+  - Due to the way each new page opens lower down the screen, a 'Back to top button' was introduced for the user to more easily navigate across the website. 
+
+    ![Back-to-top-button]()
+
 ### **[Footer](#footer)** 
 
   ![Footer](assets/README.md-images/README.md-footer.jpg) 
@@ -148,7 +155,6 @@ Every page also has a navigation bar and footer
 
    - The icons for the footer were taken from [Font Awesome](https://fontawesome.com/) and styled to match the color scheme across all pages. 
 
-  
 
 
 ## **[Deployment](#deployment)**
