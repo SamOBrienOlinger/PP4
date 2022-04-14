@@ -141,9 +141,9 @@ Every page also has a navigation bar and footer
 
 ### **[Back to top button](#back-to-top-button)**
 
-  - Due to the way each new page opens lower down the screen, a 'Back to top button' was introduced for the user to more easily navigate across the website. 
+  - When the user clicks on an option to open a new page opens they are brought lower down the screen to enhance their experience and meet their expectations of arriving on the page they chose. Due to this a 'Back to top' button was introduced for the user to navigate across the website more easily. 
 
-    ![Back-to-top-button]()
+    ![Back-to-top-button](assets/README.md-images/README.md-Back-to-top-button.jpg)
 
 ### **[Footer](#footer)** 
 
