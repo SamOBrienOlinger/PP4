@@ -107,6 +107,20 @@ a:hover {
 	}
 }
 
+.sign-in {
+	line-height: 2vw;
+	color: white;
+	font-weight: 900;
+	font-size: 1em;
+	position: relative;
+	width: 20vh;
+	height: 20vh;
+	background-color: #7112ee;
+	border-radius: 50%;
+	top: 60%;
+	right: 10%;	
+}
+
 #cover-text {
 	width: 20vh;
 	height: 20vh;
@@ -129,6 +143,8 @@ a:hover {
 	width: 100%;
 	color: white
 }
+
+
 
 .homepage-container {
 	display: grid;
