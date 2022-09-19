@@ -206,17 +206,24 @@ Alternatively, once you have found the project repository in Github, you can cli
 
 - Ideas for future features include: 
 
-  - A way for users who would join Cockapoo Club to upload their photographs of their pets. 
-
-  - A commercial page with branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.  
-
-  - A live social media platform feed in the Furry Fun Foto Gallery page where members only would comment on other members photographs and be able to share more information in real-time with each other. 
-
-  - A training video gallery for members to post their videos of progress they are making in training their pets. 
+	- A way for users who would like to join Cockapoo Club and become a new member of this unique community. This would involve a way for users to create a username and password, and to receive a verification email with a link that brings the new member to an area where they can set up their new persona profile.
+	
+	- Creating their own profile or account and becoming a Cockapoo Club member could give them access to special areas of the website and features for members only.
+	
+	- Another potential member only feature would be the ability to upload their photographs of their pets.
+	
+	- An online shop or commercial section of the page could also be built for users to purchase various Cockapoo Club branded merchandise, such as dog toys, clothes and what you would generally find in a giftshop.
+	
+	- A live social media platform feed in the Furry Fun Foto Gallery page would build the community and strengthen relationships, with members only being able to comment on other members photographs and be able to share more information in real-time with each other.
+	
+	- A training video gallery for members to post their videos of progress they are making in training their pets would also add value for users and members.
+	
+	- A future feature I would like to implement if given the opportunity is a way for members to book dates and times for dog-sitters, kennels and training sessions in their local community. These and other features mentioned above would require other languages such as JavaScript and Python.
+	
+	- This website works on screens sizes of minimum width 320px. To make sure it works for smaller screen-sizes, such as smaller mobile devices, future media queries will need to be added for screens of maximum width 320px.
+	
+	- At screen-sizes smaller than 401px, the purple ball with the call to action 'JOIN COCKAPOO CLUB' located within the hero-image section was purposely removed via media query. This attractive feature was removed because on these much smaller screen sizes it covers the face of the dog in the hero image which may confuse users and take away from their experience of being on the website. In future, I will alter the code so this call to action can be viewed on the smaller screen sizes.
   
-  - This website works on screens sizes of minimum width 320px. To make sure it works for smaller screen-sizes, such as smaller mobile devices, future media queries will need to be added for screens of maximum width 320px.
-
-  - At screen-sizes smaller than 401px, the purple ball with the call to action 'JOIN COCKAPOO CLUB' located within the hero-image section was purposely removed via media query. This attractive feature was removed because on these much smaller screen sizes it covers the face of the dog in the hero image which may confuse users and take away from their experience of being on the website. In future, I will alter the code so this call to action can be viewed on the smaller screen sizes.  
 
 ## **[Testing](#testing)**
    
