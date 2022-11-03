@@ -1,8 +1,15 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render 
+
+""" 
 from .models import Movie
-from .forms import MovieForm
+from .forms import MovieForm 
+""" 
+
+ def get_book_session(request):
+    return render(request, 'book_session/templates/book_session/book_session.html')
 
 
+"""
 def index(request):
     movies = Movie.objects.all()
 
@@ -58,3 +65,8 @@ def delete_movie(request, id):
     movie.delete()
 
     return redirect("index")
+    */ """
+
+
+
+
