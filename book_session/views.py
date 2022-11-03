@@ -6,7 +6,7 @@ from .forms import MovieForm
 """ 
 
  def get_book_session(request):
-    return render(request, 'book_session/templates/book_session/book_session.html')
+    return render(request, 'book_session/book_session.html')
 
 
 """
@@ -65,7 +65,7 @@ def delete_movie(request, id):
     movie.delete()
 
     return redirect("index")
-    */ """
+"""
 
 
 
