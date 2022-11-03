@@ -1,5 +1,5 @@
 """
-WSGI config for PROJ_NAME project.
+WSGI config for django_book_session project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PROJ_NAME.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_book_session.settings')
 
 application = get_wsgi_application()

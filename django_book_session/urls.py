@@ -1,4 +1,4 @@
-"""PROJ_NAME URL Configuration
+"""django_book_session URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -19,6 +19,6 @@ from book_session.views import get_book_session
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_book_session name= 'book_session') 
+    path('', get_book_session, name= 'get_book_session') 
  ]
 

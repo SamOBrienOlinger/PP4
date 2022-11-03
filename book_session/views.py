@@ -5,10 +5,8 @@ from .models import Movie
 from .forms import MovieForm 
 """ 
 
- def get_book_session(request):
+def get_book_session(request):
     return render(request, 'book_session/book_session.html')
-
-
 """
 def index(request):
     movies = Movie.objects.all()
