@@ -19,6 +19,7 @@ from book_session.views import get_book_session
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_book_session, name= 'get_book_session') 
+    path('', get_book_session, name= 'get_book_session'),
+    url(r'^booking/', include('booking.urls')), 
  ]
 
