@@ -20,6 +20,14 @@ from book_session.views import get_book_session
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', get_book_session, name= 'get_book_session'),
-    url(r'^booking/', include('booking.urls')), 
+    #path('', views.book_session.html, name='index'),
+    path('booking', views.booking, name='booking'),
+    path('booking-submit', views.bookingSubmit, name='bookingSubmit'),
+    path('user-panel', views.userPanel, name='userPanel'),
+    path('user-update/<int:id>', views.userUpdate, name='userUpdate'),
+    path('user-update-submit/<int:id>', views.userUpdateSubmit, name='userUpdateSubmit'),
+    path('staff-panel', views.staffPanel, name='staffPanel'),
+    #path(index.html)
+    #url(r'^booking/', include('book_session.urls')), 
  ]
 
