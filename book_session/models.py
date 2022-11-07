@@ -12,6 +12,7 @@ SERVICE_CHOICES = (
     ("Medical social services", "Medical social services"),
     ("Homemaker or basic assistance care", "Homemaker or basic assistance care"),
     )
+
 TIME_CHOICES = (
     ("3 PM", "3 PM"),
     ("3:30 PM", "3:30 PM"),
